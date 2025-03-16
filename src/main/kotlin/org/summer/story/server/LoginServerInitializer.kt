@@ -10,7 +10,8 @@ class LoginServerInitializer : ChannelInitializer<SocketChannel>() {
     }
 
     override fun initChannel(ch: SocketChannel) {
-        logger.info("Initializing login server channel")
+        val clientIp: String = ch.remoteAddress().hostString
+        logger.debug("Client connected to login server from $clientIp")
         ch.close()
     }
 } 
