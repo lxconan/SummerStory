@@ -1,9 +1,10 @@
 package org.summer.story.net.packet
 
-import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.assertThrows
+import kotlin.test.assertEquals
+import kotlin.test.assertContentEquals
+import kotlin.test.assertFailsWith
 import java.awt.Point
 import java.nio.charset.StandardCharsets
 
@@ -18,32 +19,32 @@ class ByteBufOutPacketTest {
     @Test
     fun `should write byte value`() {
         packet.writeByte(0x12.toByte())
-        assertArrayEquals(byteArrayOf(0x12), packet.getBytes())
+        assertContentEquals(byteArrayOf(0x12), packet.getBytes())
     }
 
     @Test
     fun `should write least significant 8-bit of integer`() {
         packet.writeByte(0x1234)
-        assertArrayEquals(byteArrayOf(0x34), packet.getBytes())
+        assertContentEquals(byteArrayOf(0x34), packet.getBytes())
     }
 
     @Test
     fun `should write byte array`() {
         val bytes = byteArrayOf(1, 2, 3, 4)
         packet.writeBytes(bytes)
-        assertArrayEquals(bytes, packet.getBytes())
+        assertContentEquals(bytes, packet.getBytes())
     }
 
     @Test
     fun `should write short in little-endian format`() {
         packet.writeShort(0x1234)
-        assertArrayEquals(byteArrayOf(0x34, 0x12), packet.getBytes()) // Little-endian
+        assertContentEquals(byteArrayOf(0x34, 0x12), packet.getBytes()) // Little-endian
     }
 
     @Test
     fun `should write int in little-endian format`() {
         packet.writeInt(0x12345678)
-        assertArrayEquals(
+        assertContentEquals(
             byteArrayOf(0x78, 0x56, 0x34, 0x12), // Little-endian
             packet.getBytes()
         )
@@ -52,7 +53,7 @@ class ByteBufOutPacketTest {
     @Test
     fun `should write long in little-endian format`() {
         packet.writeLong(0x1234567890ABCDEF)
-        assertArrayEquals(
+        assertContentEquals(
             byteArrayOf(0xEF.toByte(), 0xCD.toByte(), 0xAB.toByte(), 0x90.toByte(),
                        0x78, 0x56, 0x34, 0x12), // Little-endian
             packet.getBytes()
@@ -63,7 +64,7 @@ class ByteBufOutPacketTest {
     fun `should write boolean values as 1 or 0`() {
         packet.writeBool(true)
         packet.writeBool(false)
-        assertArrayEquals(byteArrayOf(1, 0), packet.getBytes())
+        assertContentEquals(byteArrayOf(1, 0), packet.getBytes())
     }
 
     @Test
@@ -76,13 +77,13 @@ class ByteBufOutPacketTest {
         expected[1] = 0
         System.arraycopy(testString.toByteArray(StandardCharsets.UTF_8), 0, expected, 2, 5)
         
-        assertArrayEquals(expected, packet.getBytes())
+        assertContentEquals(expected, packet.getBytes())
     }
 
     @Test
     fun `should throw exception when string is too long for writeString`() {
         val longString = "a".repeat(Short.MAX_VALUE + 1)
-        assertThrows<IllegalArgumentException> {
+        assertFailsWith<IllegalArgumentException> {
             packet.writeString(longString, StandardCharsets.UTF_8)
         }
     }
@@ -91,13 +92,13 @@ class ByteBufOutPacketTest {
     fun `should write fixed string without length prefix`() {
         val testString = "Hello"
         packet.writeFixedString(testString, StandardCharsets.UTF_8)
-        assertArrayEquals(testString.toByteArray(StandardCharsets.UTF_8), packet.getBytes())
+        assertContentEquals(testString.toByteArray(StandardCharsets.UTF_8), packet.getBytes())
     }
 
     @Test
     fun `should throw exception when string is too long for writeFixedString`() {
         val longString = "a".repeat(Short.MAX_VALUE + 1)
-        assertThrows<IllegalArgumentException> {
+        assertFailsWith<IllegalArgumentException> {
             packet.writeFixedString(longString, StandardCharsets.UTF_8)
         }
     }
@@ -106,7 +107,7 @@ class ByteBufOutPacketTest {
     fun `should write point coordinates as little-endian shorts`() {
         val point = Point(300, 400)
         packet.writePos(point)
-        assertArrayEquals(
+        assertContentEquals(
             byteArrayOf(0x2C, 0x01, 0x90.toByte(), 0x01), // 300, 400 in little-endian shorts
             packet.getBytes()
         )
@@ -115,7 +116,7 @@ class ByteBufOutPacketTest {
     @Test
     fun `should add specified number of zero bytes`() {
         packet.skip(3)
-        assertArrayEquals(ByteArray(3), packet.getBytes())
+        assertContentEquals(ByteArray(3), packet.getBytes())
     }
 
     @Test
@@ -131,7 +132,7 @@ class ByteBufOutPacketTest {
             3, 0, 0, 0, // int (little-endian)
             1           // bool (true)
         )
-        assertArrayEquals(expected, packet.getBytes())
+        assertContentEquals(expected, packet.getBytes())
     }
 
     @Test
