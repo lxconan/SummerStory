@@ -14,7 +14,7 @@ class LoginServerInitializer : ChannelInitializer<SocketChannel>() {
 
     override fun initChannel(ch: SocketChannel) {
         val clientIp: String = ch.remoteAddress().hostString
-        logger.debug("Client connected to login server from $clientIp")
+        logger.info("Client connected to login server from $clientIp")
         val iv = IvPair()
         writeInitialUnencryptedHelloPacket(ch, iv)
     }
