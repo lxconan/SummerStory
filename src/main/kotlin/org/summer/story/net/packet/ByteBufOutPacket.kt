@@ -6,8 +6,15 @@ import io.netty.buffer.Unpooled
 import java.awt.Point
 import java.nio.charset.Charset
 
-class ByteBufOutPacket : OutPacket {
-    private val byteBuf: ByteBuf = Unpooled.buffer()
+/**
+ * Implementation of OutPacket that writes data to a ByteBuf with little-endian encoding.
+ * This class provides methods to write various data types to a Netty ByteBuf.
+ * 
+ * Note: This class implements AutoCloseable to ensure proper cleanup of the underlying ByteBuf.
+ * The caller should use try-with-resources or explicitly call close() when done with the packet.
+ */
+class ByteBufOutPacket : OutPacket, AutoCloseable {
+    private val byteBuf: ByteBuf = Unpooled.buffer(128) // Initial capacity of 256 bytes
 
     override fun writeByte(value: Byte) {
         byteBuf.writeByte(value.toInt())
@@ -19,6 +26,7 @@ class ByteBufOutPacket : OutPacket {
     }
 
     override fun writeBytes(value: ByteArray) {
+        require(value.isNotEmpty()) { "Byte array cannot be empty" }
         byteBuf.writeBytes(value)
     }
 
@@ -39,30 +47,30 @@ class ByteBufOutPacket : OutPacket {
     }
 
     override fun writeString(value: String, charset: Charset) {
+        require(value.isNotEmpty()) { "String cannot be empty" }
         val bytes: ByteArray = value.toByteArray(charset)
-        if (bytes.size > Short.MAX_VALUE) {
-            throw IllegalArgumentException("String is too long to write: ${bytes.size}")
-        }
+        require(bytes.size <= Short.MAX_VALUE) { "String is too long to write: ${bytes.size}" }
 
         writeShort(bytes.size)
         writeBytes(bytes)
     }
 
     override fun writeFixedString(value: String, charset: Charset) {
+        require(value.isNotEmpty()) { "String cannot be empty" }
         val bytes: ByteArray = value.toByteArray(charset)
-        if (bytes.size > Short.MAX_VALUE) {
-            throw IllegalArgumentException("String is too long to write: ${bytes.size}")
-        }
+        require(bytes.size <= Short.MAX_VALUE) { "String is too long to write: ${bytes.size}" }
 
         writeBytes(bytes)
     }
 
     override fun writePos(value: Point) {
+        requireNotNull(value) { "Point cannot be null" }
         writeShort(value.x)
         writeShort(value.y)
     }
 
     override fun skip(numberOfBytes: Int) {
+        require(numberOfBytes >= 0) { "Number of bytes cannot be negative: $numberOfBytes" }
         writeBytes(ByteArray(numberOfBytes))
     }
 
@@ -75,11 +83,17 @@ class ByteBufOutPacket : OutPacket {
         if (javaClass != other?.javaClass) return false
 
         other as ByteBufOutPacket
+
+        // This is really expensive, we have to check if we really need this.
         return byteBuf == other.byteBuf
     }
 
     override fun hashCode(): Int {
         return byteBuf.hashCode()
+    }
+
+    override fun close() {
+        byteBuf.release()
     }
 }
 
