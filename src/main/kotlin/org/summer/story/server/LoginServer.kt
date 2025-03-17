@@ -10,9 +10,9 @@ import org.slf4j.LoggerFactory
  * This is the login server for the MapleStory server. It is responsible for handling the login process for the client.
  * There will be only one login server for the entire service.
  * 
- * @param port the port to listen on. Typically, 8484.
+ * @param configuration The configuration for the login server.
  */
-class LoginServer(port: Int) : AbstractServer(port) {
+class LoginServer(private val configuration: LoginServerConfiguration) : AbstractServer(configuration.port) {
     companion object {
         private val logger = LoggerFactory.getLogger(LoginServer::class.java)
     }

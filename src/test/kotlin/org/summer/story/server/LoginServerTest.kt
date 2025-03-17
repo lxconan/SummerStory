@@ -14,7 +14,7 @@ class LoginServerTest {
 
     @BeforeEach
     fun setup() {
-        loginServer = LoginServer(testPort)
+        loginServer = LoginServer(LoginServerConfiguration(port = testPort))
     }
 
     @AfterEach

@@ -10,10 +10,15 @@ repositories {
 }
 
 dependencies {
+    // for networking
     implementation("io.netty:netty-all:4.1.119.Final")
     
+    // for logging
     implementation("org.slf4j:slf4j-api:2.0.17")
     implementation("ch.qos.logback:logback-classic:1.5.17")
+
+    // for IoC
+    implementation("io.insert-koin:koin-core:4.0.2")
 
     testImplementation(kotlin("test"))
 }
