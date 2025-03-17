@@ -3,10 +3,10 @@ package org.summer.story.server
 import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
-import kotlin.test.assertTrue
-import kotlin.test.assertEquals
 import org.summer.story.net.packet.PacketValidator
 import java.net.Socket
+import kotlin.test.assertEquals
+import kotlin.test.assertTrue
 
 class LoginServerTest {
     private lateinit var loginServer: LoginServer
@@ -14,7 +14,8 @@ class LoginServerTest {
 
     @BeforeEach
     fun setup() {
-        loginServer = LoginServer(LoginServerConfiguration(port = testPort))
+        val config = LoginServerConfiguration()
+        loginServer = LoginServer(config, LoginServerInitializerFactory(config))
     }
 
     @AfterEach

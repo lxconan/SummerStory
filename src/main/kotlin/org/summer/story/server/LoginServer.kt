@@ -12,7 +12,10 @@ import org.slf4j.LoggerFactory
  * 
  * @param configuration The configuration for the login server.
  */
-class LoginServer(private val configuration: LoginServerConfiguration) : AbstractServer(configuration.port) {
+class LoginServer(
+    private val configuration: LoginServerConfiguration,
+    private val loginServerInitializerFactory: LoginServerInitializerFactory
+) : AbstractServer(configuration.port) {
     companion object {
         private val logger = LoggerFactory.getLogger(LoginServer::class.java)
     }
@@ -26,7 +29,7 @@ class LoginServer(private val configuration: LoginServerConfiguration) : Abstrac
         val bootstrap = ServerBootstrap()
             .group(parentGroup, childGroup)
             .channel(NioServerSocketChannel::class.java)
-            .childHandler(LoginServerInitializer())
+            .childHandler(loginServerInitializerFactory.createLoginServerInitializer())
 
         this.channel = bootstrap.bind(port).syncUninterruptibly().channel()
         logger.info("Login server started on port $port")
