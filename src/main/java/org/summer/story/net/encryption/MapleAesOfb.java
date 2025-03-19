@@ -132,12 +132,6 @@ public class MapleAesOfb {
         return ret;
     }
 
-    public static int getPacketLength(int packetHeader) {
-        int packetLength = ((packetHeader >>> 16) ^ (packetHeader & 0xFFFF));
-        packetLength = ((packetLength << 8) & 0xFF00) | ((packetLength >>> 8) & 0xFF);
-        return packetLength;
-    }
-
     private boolean checkPacket(byte[] packet) {
         return ((((packet[0] ^ iv[2]) & 0xFF) == ((mapleVersion >> 8) & 0xFF)) &&
             (((packet[1] ^ iv[3]) & 0xFF) == (mapleVersion & 0xFF)));
@@ -165,16 +159,16 @@ public class MapleAesOfb {
         in[0] += moritz;
         moritz = in[2];
         moritz ^= funnyBytes[(int) inputByte & 0xFF];
-        elina -= (int) moritz & 0xFF;
+        elina -= (byte)((int) moritz & 0xFF);
         in[1] = elina;
         elina = in[3];
         moritz = elina;
-        elina -= (int) in[0] & 0xFF;
+        elina -= (byte)((int) in[0] & 0xFF);
         moritz = funnyBytes[(int) moritz & 0xFF];
         moritz += inputByte;
         moritz ^= in[2];
         in[2] = moritz;
-        elina += (int) funnyBytes[(int) inputByte & 0xFF] & 0xFF;
+        elina += (byte)((int) funnyBytes[(int) inputByte & 0xFF] & 0xFF);
         in[3] = elina;
         int merry = ((int) in[0]) & 0xFF;
         merry |= (in[1] << 8) & 0xFF00;

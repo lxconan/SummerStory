@@ -11,10 +11,6 @@ import org.summer.story.net.packet.ByteBufInPacket
 import org.summer.story.net.packet.InvalidPacketException
 
 class PacketDecoder(private val receiveCypher: MapleAesOfb) : ReplayingDecoder<Void>() {
-    companion object {
-        private val logger = LoggerFactory.getLogger(PacketDecoder::class.java)
-    }
-
     override fun decode(ctx: ChannelHandlerContext?, msg: ByteBuf?, out: MutableList<Any>?) {
         requireNotNull(msg) { "ByteBuf cannot be null" }
         requireNotNull(out) { "List cannot be null" }
