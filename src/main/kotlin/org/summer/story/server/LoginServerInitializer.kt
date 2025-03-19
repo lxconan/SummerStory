@@ -38,7 +38,7 @@ class LoginServerInitializer(private val loginServerConfiguration: LoginServerCo
     private fun writeInitialUnencryptedHelloPacket(ch: SocketChannel, iv: IvPair) {
         val buffer = Unpooled.wrappedBuffer(
             PacketFactory.createHello(
-                ServerMetadata.ServerVersion,
+                ServerMetadata.SERVER_VERSION,
                 iv.send,
                 iv.receive
             ).getBytes()

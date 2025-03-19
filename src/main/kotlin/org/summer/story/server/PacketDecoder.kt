@@ -24,7 +24,7 @@ class PacketDecoder(private val receiveCypher: MapleAesOfb) : ReplayingDecoder<V
             throw InvalidPacketException(header)
         }
 
-        val packetLength: Int = decodePacketLength(header);
+        val packetLength: Int = decodePacketLength(header)
         val raw = ByteArray(packetLength)
         msg.readBytes(raw)
 

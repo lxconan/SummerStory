@@ -18,9 +18,9 @@ object PacketValidator {
             // Maple version validation
             val mapleVersion = (this[2].toUByte().toInt()) or (this[3].toUByte().toInt() shl 8)
             assertEquals(
-                ServerMetadata.ServerVersion,
+                ServerMetadata.SERVER_VERSION,
                 mapleVersion,
-                "Invalid maple version: expected ${ServerMetadata.ServerVersion}, but was $mapleVersion"
+                "Invalid maple version: expected ${ServerMetadata.SERVER_VERSION}, but was $mapleVersion"
             )
             
             // Protocol data validation

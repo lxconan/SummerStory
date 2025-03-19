@@ -1,6 +1,6 @@
 package org.summer.story.net.encryption
 
-class IvPair {
+class IvPair(private val enableDebugMode: Boolean = false) {
     val send: ByteArray = generateSend()
     val receive: ByteArray = generateReceive()
 
@@ -13,7 +13,6 @@ class IvPair {
     }
 
     private fun getRandomByte(): Byte {
-        // return (Math.random() * 255).toInt().toByte()
-        return 0x23
+        return if (enableDebugMode) 0x23 else (Math.random() * 255).toInt().toByte()
     }
 }

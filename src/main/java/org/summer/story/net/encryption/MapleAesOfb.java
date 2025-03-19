@@ -70,6 +70,7 @@ public class MapleAesOfb {
         this.mapleVersion = (short) (((mapleVersion >> 8) & 0xFF) | ((mapleVersion << 8) & 0xFF00));
     }
 
+    @SuppressWarnings("SameParameterValue")
     private static byte[] multiplyBytes(byte[] in, int count, int mul) {
         final int size = count * mul;
         byte[] ret = new byte[size];
@@ -157,7 +158,7 @@ public class MapleAesOfb {
         return in;
     }
 
-    private static byte[] funnyShit(byte inputByte, byte[] in) {
+    private static void funnyShit(byte inputByte, byte[] in) {
         byte elina = in[1];
         byte moritz = funnyBytes[(int) elina & 0xFF];
         moritz -= inputByte;
@@ -187,6 +188,5 @@ public class MapleAesOfb {
         in[1] = (byte) ((ret_value >> 8) & 0xFF);
         in[2] = (byte) ((ret_value >> 16) & 0xFF);
         in[3] = (byte) ((ret_value >> 24) & 0xFF);
-        return in;
     }
 }
