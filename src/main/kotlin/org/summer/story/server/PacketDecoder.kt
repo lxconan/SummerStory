@@ -4,7 +4,6 @@ import io.netty.buffer.ByteBuf
 import io.netty.buffer.Unpooled
 import io.netty.channel.ChannelHandlerContext
 import io.netty.handler.codec.ReplayingDecoder
-import org.slf4j.LoggerFactory
 import org.summer.story.net.encryption.MapleAesOfb
 import org.summer.story.net.encryption.MapleCustomEncryption
 import org.summer.story.net.packet.ByteBufInPacket
