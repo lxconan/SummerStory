@@ -6,6 +6,7 @@ import io.netty.channel.ChannelPipeline
 import io.netty.channel.socket.SocketChannel
 import io.netty.handler.timeout.IdleStateHandler
 import org.slf4j.LoggerFactory
+import org.summer.story.config.LoginServerConfiguration
 import org.summer.story.net.encryption.ClientCyphers
 import org.summer.story.net.encryption.IvPair
 import org.summer.story.net.packet.PacketFactory

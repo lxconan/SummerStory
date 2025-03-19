@@ -5,6 +5,7 @@ import io.netty.channel.Channel
 import io.netty.channel.nio.NioEventLoopGroup
 import io.netty.channel.socket.nio.NioServerSocketChannel
 import org.slf4j.LoggerFactory
+import org.summer.story.config.LoginServerConfiguration
 
 /**
  * This is the login server for the MapleStory server. It is responsible for handling the login process for the client.

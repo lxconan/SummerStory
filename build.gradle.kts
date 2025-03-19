@@ -1,5 +1,6 @@
 plugins {
     kotlin("jvm") version "2.0.10"
+    kotlin("plugin.serialization") version "2.0.10"
 }
 
 group = "org.summer.story"
@@ -19,6 +20,10 @@ dependencies {
 
     // for IoC
     implementation("io.insert-koin:koin-core:4.0.2")
+
+    // for configuration
+    implementation("com.charleskorn.kaml:kaml:0.72.0")
+
 
     testImplementation(kotlin("test"))
 }
