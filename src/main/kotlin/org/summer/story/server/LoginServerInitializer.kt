@@ -6,6 +6,7 @@ import io.netty.channel.ChannelPipeline
 import io.netty.channel.socket.SocketChannel
 import io.netty.handler.timeout.IdleStateHandler
 import org.slf4j.LoggerFactory
+import org.summer.story.net.encryption.ClientCyphers
 import org.summer.story.net.encryption.IvPair
 import org.summer.story.net.packet.PacketFactory
 
@@ -31,6 +32,7 @@ class LoginServerInitializer(private val loginServerConfiguration: LoginServerCo
         pipeline.addLast(
             "IdleStateHandler",
             IdleStateHandler(0, 0, loginServerConfiguration.idleTimeSeconds))
+        pipeline.addLast("PacketCodec", PacketCodec(ClientCyphers.create(iv)))
     }
 
     private fun writeInitialUnencryptedHelloPacket(ch: SocketChannel, iv: IvPair) {

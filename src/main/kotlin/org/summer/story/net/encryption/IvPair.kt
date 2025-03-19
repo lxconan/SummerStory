@@ -13,6 +13,7 @@ class IvPair {
     }
 
     private fun getRandomByte(): Byte {
-        return (Math.random() * 255).toInt().toByte()
+        // return (Math.random() * 255).toInt().toByte()
+        return 0x23
     }
 }
