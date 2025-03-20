@@ -1,3 +1,6 @@
 loginServer:
-  port: 8485
+  port: 8484
   idleTimeSeconds: 30
+
+debug:
+  recordPacket: true

@@ -1,9 +1,9 @@
 package org.summer.story.server
 
-import org.summer.story.config.LoginServerConfiguration
+import org.summer.story.config.GlobalConfiguration
 
-class LoginServerInitializerFactory(private val loginServerConfiguration: LoginServerConfiguration) {
-    fun createLoginServerInitializer(): LoginServerInitializer {
-        return LoginServerInitializer(loginServerConfiguration)
+class LoginServerInitializerFactory {
+    fun createLoginServerInitializer(configuration: GlobalConfiguration): LoginServerInitializer {
+        return LoginServerInitializer(configuration)
     }
 }

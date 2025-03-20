@@ -1,13 +1,13 @@
 package org.summer.story
 
-import org.koin.core.context.startKoin
-import org.koin.java.KoinJavaComponent.getKoin
+import org.koin.dsl.koinApplication
 import org.summer.story.server.LoginServer
 
 fun main() {
-    startKoin { modules(ModuleFactory.createServerModule()) }
-    val rootContainer = getKoin()
+    val koinApp = koinApplication {
+        modules(ModuleFactory.createServerModule())
+    }
 
-    val loginServer: LoginServer = rootContainer.get()
+    val loginServer: LoginServer = koinApp.koin.get()
     loginServer.start()
 }

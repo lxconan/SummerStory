@@ -3,6 +3,11 @@ package org.summer.story.server
 import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
+import org.koin.core.KoinApplication
+import org.koin.dsl.koinApplication
+import org.koin.dsl.module
+import org.summer.story.ModuleFactory
+import org.summer.story.config.GlobalConfiguration
 import org.summer.story.config.LoginServerConfiguration
 import org.summer.story.net.packet.PacketValidator
 import java.net.Socket
@@ -10,18 +15,25 @@ import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
 class LoginServerTest {
+    private lateinit var koinApp: KoinApplication
     private lateinit var loginServer: LoginServer
     private val testPort = 8484
 
     @BeforeEach
     fun setup() {
-        val config = LoginServerConfiguration()
-        loginServer = LoginServer(config, LoginServerInitializerFactory(config))
+        koinApp = koinApplication {
+            modules(
+                ModuleFactory.createServerModule(),
+                module { single { GlobalConfiguration( loginServer = LoginServerConfiguration(port = testPort)) } }
+            )
+        }
+        loginServer = koinApp.koin.get<LoginServer>()
     }
 
     @AfterEach
     fun tearDown() {
         loginServer.stop()
+        koinApp.close()
     }
 
     @Test

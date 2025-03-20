@@ -6,7 +6,13 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class GlobalConfiguration(
-    val loginServer: LoginServerConfiguration = LoginServerConfiguration()
+    val loginServer: LoginServerConfiguration = LoginServerConfiguration(),
+    val debug: DebugConfiguration = DebugConfiguration()
+)
+
+@Serializable
+data class DebugConfiguration(
+    val recordPacket: Boolean = false
 )
 
 @Serializable
