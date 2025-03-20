@@ -34,6 +34,7 @@ class LoginServerInitializer(private val configuration: GlobalConfiguration) : C
             "IdleStateHandler",
             IdleStateHandler(0, 0, configuration.loginServer.idleTimeSeconds))
         pipeline.addLast("PacketCodec", PacketCodec(ClientCyphers.create(iv), configuration))
+        pipeline.addLast("LoginHandler", LoginHandler())
     }
 
     private fun writeInitialUnencryptedHelloPacket(ch: SocketChannel, iv: IvPair) {

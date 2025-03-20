@@ -1,13 +1,7 @@
 package org.summer.story
 
-import org.koin.dsl.koinApplication
-import org.summer.story.server.LoginServer
+import org.summer.story.server.GlobalService
 
 fun main() {
-    val koinApp = koinApplication {
-        modules(ModuleFactory.createServerModule())
-    }
-
-    val loginServer: LoginServer = koinApp.koin.get()
-    loginServer.start()
+    GlobalService.start()
 }
