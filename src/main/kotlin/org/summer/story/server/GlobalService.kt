@@ -25,6 +25,16 @@ object GlobalService {
         updateServiceState(MapleServerState.RUNNING)
     }
 
+    fun stop() {
+        updateServiceState(MapleServerState.SHUTTING_DOWN)
+
+        val loginServer: LoginServer = globalScope.get()
+        loginServer.stop()
+
+        updateServiceState(MapleServerState.SHUTDOWN)
+        logger.info("Global service stopped")
+    }
+
     private fun updateServiceState(newState: MapleServerState) {
         val globalState = globalScope.get<GlobalState>()
         globalState.serverState = newState
