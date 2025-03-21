@@ -28,6 +28,7 @@ class LoginServerTest {
             )
         }
         loginServer = koinApp.koin.get<LoginServer>()
+
     }
 
     @AfterEach

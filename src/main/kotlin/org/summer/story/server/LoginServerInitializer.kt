@@ -11,7 +11,10 @@ import org.summer.story.net.encryption.ClientCyphers
 import org.summer.story.net.encryption.IvPair
 import org.summer.story.net.packet.PacketFactory
 
-class LoginServerInitializer(private val configuration: GlobalConfiguration) : ChannelInitializer<SocketChannel>() {
+class LoginServerInitializer(
+    private val configuration: GlobalConfiguration,
+    private val serverState: GlobalState,
+) : ChannelInitializer<SocketChannel>() {
     companion object {
         private val logger = LoggerFactory.getLogger(LoginServerInitializer::class.java)
     }
@@ -34,7 +37,7 @@ class LoginServerInitializer(private val configuration: GlobalConfiguration) : C
             "IdleStateHandler",
             IdleStateHandler(0, 0, configuration.loginServer.idleTimeSeconds))
         pipeline.addLast("PacketCodec", PacketCodec(ClientCyphers.create(iv), configuration))
-        pipeline.addLast("LoginHandler", LoginHandler())
+        pipeline.addLast("LoginHandler", LoginHandler(serverState))
     }
 
     private fun writeInitialUnencryptedHelloPacket(ch: SocketChannel, iv: IvPair) {

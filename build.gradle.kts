@@ -24,12 +24,17 @@ dependencies {
     // for configuration
     implementation("com.charleskorn.kaml:kaml:0.72.0")
 
-
     testImplementation(kotlin("test"))
+    testImplementation("io.mockk:mockk:1.13.17")
 }
 
 tasks.test {
     useJUnitPlatform()
+    jvmArgs(
+        "-XX:+EnableDynamicAgentLoading", // to avoid the "Java 9+ is required to enable dynamic agent loading" warning when using mockk
+        "-Djdk.instrument.traceUsage=false", // to avoid showing the internal injection logic when using mockk
+        "-Xshare:off" // to avoid the annoying "shared archive is not supported" warning when using mockk
+    )
 }
 
 kotlin {

@@ -13,7 +13,7 @@ object ModuleFactory {
             single { GlobalState() }
             single { loadConfiguration() }
             single { LoginServerInitializerFactory() }
-            single { LoginServer(get(), get()) }
+            single { LoginServer(get(), get(), get()) }
         }
     }
 }
