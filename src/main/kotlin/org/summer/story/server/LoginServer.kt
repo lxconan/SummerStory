@@ -13,7 +13,7 @@ import org.summer.story.config.GlobalConfiguration
  */
 class LoginServer(
     private val configuration: GlobalConfiguration,
-    private val loginServerInitializerFactory: LoginServerInitializerFactory
+    private val loginServerInitializer: LoginServerInitializer
 ) {
     companion object {
         private val logger = LoggerFactory.getLogger(LoginServer::class.java)
@@ -30,7 +30,7 @@ class LoginServer(
         val bootstrap = ServerBootstrap()
             .group(parentGroup, childGroup)
             .channel(NioServerSocketChannel::class.java)
-            .childHandler(loginServerInitializerFactory.createLoginServerInitializer())
+            .childHandler(loginServerInitializer)
 
         this.channel = bootstrap.bind(port).syncUninterruptibly().channel()
         logger.info("Login server started on port $port")

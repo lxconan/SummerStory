@@ -11,7 +11,7 @@ object ModuleFactory {
         return module {
             single { GlobalState() }
             single { loadConfiguration() }
-            single { LoginServerInitializerFactory(get(), get(), get(), get(), get()) }
+            single { LoginServerInitializer(get(), get(), get(), get(), get()) }
             single { LoginServer(get(), get()) }
             single<TimeService> { TimeServiceImpl() }
             single<SendPacketService> { SendPacketServiceImpl() }
