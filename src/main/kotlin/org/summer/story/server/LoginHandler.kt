@@ -11,7 +11,8 @@ class LoginHandler(
     private val serverState: GlobalState,
     private val timeService: TimeService,
     private val sendPacketService: SendPacketService,
-    private val scheduler: KtScheduler
+    private val scheduler: KtScheduler,
+    private val packetFactory: PacketFactory
 ) : ChannelInboundHandlerAdapter() {
     companion object {
         private val logger = LoggerFactory.getLogger(LoginHandler::class.java)
@@ -40,7 +41,7 @@ class LoginHandler(
     private fun pingClientToCheckIdle() {
         val pingedAt: Long = timeService.currentTimeMillis()
         val pingPongMaxDelaySeconds: Long = 15
-        sendPacketService.sendPacket(ioChannel, PacketFactory.createPing())
+        sendPacketService.sendPacket(ioChannel, packetFactory.createPing())
 
         scheduler.runOnce(runAt = ZonedDateTime.now().plusSeconds(pingPongMaxDelaySeconds)) {
             if (!ioChannel.isActive) { return@runOnce }

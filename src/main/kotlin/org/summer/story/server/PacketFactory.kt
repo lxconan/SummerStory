@@ -3,7 +3,7 @@ package org.summer.story.server
 import org.summer.story.net.packet.ByteBufOutPacket
 import org.summer.story.net.packet.Packet
 
-object PacketFactory {
+class PacketFactory {
     fun createHello(mapleVersion: Int, sendIv: ByteArray, receiveIv: ByteArray): Packet {
         /*
          * Creates a handshake packet with the following structure:

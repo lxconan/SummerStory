@@ -16,7 +16,8 @@ class LoginServerInitializer(
     private val serverState: GlobalState,
     private val timeService: TimeService,
     private val sendPacketService: SendPacketService,
-    private val scheduler: KtScheduler
+    private val scheduler: KtScheduler,
+    private val packetFactory: PacketFactory
 ) : ChannelInitializer<SocketChannel>() {
     companion object {
         private val logger = LoggerFactory.getLogger(LoginServerInitializer::class.java)
@@ -46,13 +47,14 @@ class LoginServerInitializer(
                 serverState,
                 timeService,
                 sendPacketService,
-                scheduler
+                scheduler,
+                packetFactory
             ))
     }
 
     private fun writeInitialUnencryptedHelloPacket(ch: SocketChannel, iv: IvPair) {
         val buffer = Unpooled.wrappedBuffer(
-            PacketFactory.createHello(
+            packetFactory.createHello(
                 ServerMetadata.SERVER_VERSION,
                 iv.send,
                 iv.receive
