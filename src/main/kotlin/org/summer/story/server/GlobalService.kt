@@ -1,5 +1,6 @@
 package org.summer.story.server
 
+import dev.starry.ktscheduler.scheduler.KtScheduler
 import org.koin.core.Koin
 import org.koin.core.KoinApplication
 import org.koin.dsl.koinApplication
@@ -9,7 +10,7 @@ import org.summer.story.ModuleFactory
 
 object GlobalService {
     private val logger: Logger = LoggerFactory.getLogger(GlobalService::class.java)
-    private val koinApp: KoinApplication = koinApplication{
+    private val koinApp: KoinApplication = koinApplication {
         modules(ModuleFactory.createServerModule())
     }
     private lateinit var globalScope: Koin
@@ -18,21 +19,34 @@ object GlobalService {
         logger.info("Initializing global service")
         globalScope = koinApp.koin
         updateServiceState(MapleServerState.STARTING)
-
-        val loginServer: LoginServer = globalScope.get()
-        loginServer.start()
-
+        globalScope.get<LoginServer>().start()
+        globalScope.get<KtScheduler>().start()
         updateServiceState(MapleServerState.RUNNING)
     }
 
     fun stop() {
         updateServiceState(MapleServerState.SHUTTING_DOWN)
-
-        val loginServer: LoginServer = globalScope.get()
-        loginServer.stop()
-
+        stopScheduler()
+        extracted()
         updateServiceState(MapleServerState.SHUTDOWN)
+        globalScope.close()
         logger.info("Global service stopped")
+    }
+
+    private fun extracted() {
+        try {
+            globalScope.get<LoginServer>().stop()
+        } catch (e: Exception) {
+            logger.error("Error while stopping login server", e)
+        }
+    }
+
+    private fun stopScheduler() {
+        try {
+            globalScope.get<KtScheduler>().shutdown()
+        } catch (e: Exception) {
+            logger.error("Error while stopping scheduler", e)
+        }
     }
 
     private fun updateServiceState(newState: MapleServerState) {

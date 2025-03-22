@@ -8,6 +8,7 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
+    maven("https://jitpack.io")
 }
 
 dependencies {
@@ -23,6 +24,10 @@ dependencies {
 
     // for configuration
     implementation("com.charleskorn.kaml:kaml:0.72.0")
+
+    // for job scheduling
+    implementation("com.github.Pool-Of-Tears:KtScheduler:1.1.6")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1")
 
     testImplementation(kotlin("test"))
     testImplementation("io.mockk:mockk:1.13.17")

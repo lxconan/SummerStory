@@ -1,10 +1,13 @@
-package org.summer.story.net.packet
+package org.summer.story.server
+
+import org.summer.story.net.packet.ByteBufOutPacket
+import org.summer.story.net.packet.Packet
 
 object PacketFactory {
     fun createHello(mapleVersion: Int, sendIv: ByteArray, receiveIv: ByteArray): Packet {
         /*
          * Creates a handshake packet with the following structure:
-         * 
+         *
          * | Offset | Length | Description     |
          * |--------|--------|-----------------|
          * | 0x00   | 2      | Header (0x0E)   |
@@ -25,5 +28,20 @@ object PacketFactory {
         p.writeBytes(sendIv)
         p.writeByte(8)
         return p
+    }
+
+    fun createPing(): Packet {
+        /*
+         * Creates a ping packet with the following structure:
+         *
+         * | Offset | Length | Description         |
+         * |--------|--------|---------------------|
+         * | 0x00   | 2      | Header (0x11)       |
+         * Total Length: 2 bytes
+         */
+
+        val packet = ByteBufOutPacket()
+        packet.writeShort(SendOpcode.PING.value)
+        return packet
     }
 }

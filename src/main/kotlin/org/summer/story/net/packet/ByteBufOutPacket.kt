@@ -14,7 +14,7 @@ import java.nio.charset.Charset
  * The caller should use try-with-resources or explicitly call close() when done with the packet.
  */
 class ByteBufOutPacket : OutPacket, AutoCloseable {
-    private val byteBuf: ByteBuf = Unpooled.buffer(128) // Initial capacity of 256 bytes
+    private val byteBuf: ByteBuf = Unpooled.buffer(64)
 
     override fun writeByte(value: Byte) {
         byteBuf.writeByte(value.toInt())
