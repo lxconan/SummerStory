@@ -6,7 +6,9 @@ import io.netty.channel.ChannelInboundHandlerAdapter
 import org.slf4j.LoggerFactory
 
 class LoginHandler(
-    private val serverState: GlobalState
+    private val serverState: GlobalState,
+    private val timeService: TimeService,
+    private val sendPacketService: SendPacketService
 ) : ChannelInboundHandlerAdapter() {
     companion object {
         private val logger = LoggerFactory.getLogger(LoginHandler::class.java)
@@ -24,5 +26,9 @@ class LoginHandler(
         }
 
         ioChannel = channel
+    }
+
+    override fun userEventTriggered(ctx: ChannelHandlerContext?, evt: Any?) {
+        val pingedAt: Long = timeService.currentTimeMillis()
     }
 }

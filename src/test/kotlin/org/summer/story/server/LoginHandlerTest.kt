@@ -8,21 +8,20 @@ import org.junit.jupiter.api.Test
 
 class LoginHandlerTest {
     private lateinit var handler: LoginHandler
-    private lateinit var globalState: GlobalState
-    private lateinit var ctx: ChannelHandlerContext
-    private lateinit var channel: Channel
+    private val globalState: GlobalState = GlobalState()
+    private val ctx: ChannelHandlerContext = mockk(relaxed = true)
+    private val channel: Channel = mockk(relaxed = true)
+    private val timeService: TimeService = mockk(relaxed = true)
+    private val sendPacketService: SendPacketService = mockk(relaxed = true)
 
     @BeforeEach
     fun setup() {
-        globalState = GlobalState()
-        handler = LoginHandler(globalState)
+        handler = LoginHandler(globalState, timeService, sendPacketService)
     }
 
     @Test
     fun `should allow connection when server is running`() {
         // Suppose
-        ctx = mockk<ChannelHandlerContext>()
-        channel = mockk<Channel>()
         every { channel.close() } returns null
         every { ctx.channel() } returns channel
 
@@ -39,8 +38,6 @@ class LoginHandlerTest {
     @Test
     fun `should close connection when server is not running`() {
         // Suppose
-        ctx = mockk<ChannelHandlerContext>()
-        channel = mockk<Channel>(relaxed = true)
         every { ctx.channel() } returns channel
 
         // Given
