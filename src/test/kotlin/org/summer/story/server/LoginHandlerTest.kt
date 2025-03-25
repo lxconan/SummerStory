@@ -7,6 +7,7 @@ import io.netty.channel.Channel
 import io.netty.channel.ChannelHandlerContext
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
+import org.summer.story.server.dtos.OutDto
 
 class LoginHandlerTest {
     private lateinit var handler: LoginHandler
@@ -18,7 +19,7 @@ class LoginHandlerTest {
 
     @BeforeEach
     fun setup() {
-        handler = LoginHandler(globalState, timeService, sendPacketService, mockk(relaxed = true), PacketFactory())
+        handler = LoginHandler(globalState, timeService, sendPacketService, mockk(relaxed = true))
     }
 
     @Test
@@ -68,7 +69,7 @@ class LoginHandlerTest {
         handler.userEventTriggered(ctx, Any())
 
         // Then
-        verify { sendPacketService.sendPacket(channel, match { it.getBytes()[0] == SendOpcode.PING.value.toByte() }) }
+        verify { sendPacketService.sendPacket(channel, match<OutDto> { it.toPacket().getBytes()[0] == SendOpcode.PING.value.toByte() }) }
     }
 
     @Test

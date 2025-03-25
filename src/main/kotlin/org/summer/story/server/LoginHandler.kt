@@ -5,14 +5,14 @@ import io.netty.channel.Channel
 import io.netty.channel.ChannelHandlerContext
 import io.netty.channel.ChannelInboundHandlerAdapter
 import org.slf4j.LoggerFactory
+import org.summer.story.server.dtos.PingOutDto
 import java.time.ZonedDateTime
 
 class LoginHandler(
     private val serverState: GlobalState,
     private val timeService: TimeService,
     private val sendPacketService: SendPacketService,
-    private val scheduler: KtScheduler,
-    private val packetFactory: PacketFactory
+    private val scheduler: KtScheduler
 ) : ChannelInboundHandlerAdapter() {
     companion object {
         private val logger = LoggerFactory.getLogger(LoginHandler::class.java)
@@ -41,7 +41,7 @@ class LoginHandler(
     private fun pingClientToCheckIdle() {
         val pingedAt: Long = timeService.currentTimeMillis()
         val pingPongMaxDelaySeconds: Long = 15
-        sendPacketService.sendPacket(ioChannel, packetFactory.createPing())
+        sendPacketService.sendPacket(ioChannel, PingOutDto())
 
         scheduler.runOnce(runAt = ZonedDateTime.now().plusSeconds(pingPongMaxDelaySeconds)) {
             if (!ioChannel.isActive) { return@runOnce }

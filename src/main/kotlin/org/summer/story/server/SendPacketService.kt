@@ -4,10 +4,10 @@ import io.netty.channel.Channel
 import io.netty.channel.ChannelFuture
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
-import org.summer.story.net.packet.Packet
+import org.summer.story.server.dtos.OutDto
 
 interface SendPacketService {
-    fun sendPacket(channel: Channel, packet: Packet): ChannelFuture
+    fun sendPacket(channel: Channel, dto: OutDto): ChannelFuture
 }
 
 class SendPacketServiceImpl : SendPacketService {
@@ -15,8 +15,7 @@ class SendPacketServiceImpl : SendPacketService {
         private val logger: Logger = LoggerFactory.getLogger(SendPacketServiceImpl::class.java)
     }
 
-    override fun sendPacket(channel: Channel, packet: Packet): ChannelFuture {
-        // The writeAndFlush method is thread-safe per channel so there is no need to add any synchronization.
-        return channel.writeAndFlush(packet)
+    override fun sendPacket(channel: Channel, dto: OutDto): ChannelFuture {
+        return channel.writeAndFlush(dto.toPacket())
     }
 }

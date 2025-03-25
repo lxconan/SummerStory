@@ -64,7 +64,6 @@ class ByteBufOutPacket : OutPacket, AutoCloseable {
     }
 
     override fun writePos(value: Point) {
-        requireNotNull(value) { "Point cannot be null" }
         writeShort(value.x)
         writeShort(value.y)
     }

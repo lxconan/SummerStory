@@ -18,7 +18,7 @@ object ModuleFactory {
             singleOf(::LoginServer)
             singleOf(::TimeServiceImpl) { bind<TimeService>() }
             singleOf(::SendPacketServiceImpl) { bind<SendPacketService>() }
-            singleOf(::PacketFactory)
+            singleOf(::RawPacketFactory)
         }
     }
 }
