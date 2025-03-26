@@ -5,49 +5,85 @@ import io.netty.channel.Channel
 import io.netty.channel.ChannelHandlerContext
 import io.netty.channel.ChannelInboundHandlerAdapter
 import org.slf4j.LoggerFactory
+import org.summer.story.net.packet.InPacket
 import org.summer.story.server.dtos.PingOutDto
+import org.summer.story.server.game.GameProcessor
+import org.summer.story.server.game.GameProcessorFactory
+import org.summer.story.server.players.Player
 import java.time.ZonedDateTime
 
 class LoginHandler(
     private val serverState: GlobalState,
     private val timeService: TimeService,
     private val sendPacketService: SendPacketService,
-    private val scheduler: KtScheduler
+    private val scheduler: KtScheduler,
+    private val gameProcessorFactory: GameProcessorFactory
 ) : ChannelInboundHandlerAdapter() {
     companion object {
         private val logger = LoggerFactory.getLogger(LoginHandler::class.java)
     }
 
-    private lateinit var ioChannel: Channel
-    private val loginHandlerContext = LoginHandlerContext()
+    private var ioChannel: Channel? = null
+    private var player: Player? = null
 
     override fun channelActive(ctx: ChannelHandlerContext) {
-        val currentServerState = serverState.serverState
         val channel: Channel = ctx.channel()
+
+        val currentServerState = serverState.serverState
         if (currentServerState != MapleServerState.RUNNING) {
             logger.error("Client connected to login server while server is: {}. The channel will be closed", currentServerState)
             channel.close()
             return
         }
 
-        ioChannel = channel
+        synchronized(this) {
+            if (player == null) {
+                val thePlayer = Player(timeService)
+                thePlayer.updateChannel(channel)
+                player = thePlayer
+            }
+
+            ioChannel = channel
+        }
     }
 
     override fun userEventTriggered(ctx: ChannelHandlerContext?, evt: Any?) {
-        if (!ioChannel.isActive) { return }
-        pingClientToCheckIdle()
+        val theIoChannel = synchronized(this) { ioChannel }
+        if (theIoChannel == null) { return }
+        if (!theIoChannel.isActive) { return }
+        pingClientToCheckIdle(theIoChannel)
     }
 
-    private fun pingClientToCheckIdle() {
+    override fun channelRead(ctx: ChannelHandlerContext, msg: Any) {
+        if (msg !is InPacket) {
+            logger.error("Received a message that is not an InPacket. Cancel reading.")
+            return
+        }
+
+        val opcode: Short = msg.readShort()
+        val gameProcessor: GameProcessor = gameProcessorFactory.getGameProcessor(opcode) ?: return
+
+        try {
+            gameProcessor.process(player!!, msg)
+        } catch (e: Exception) {
+            logger.warn("Error while processing packet with opcode: {}", opcode, e)
+        }
+    }
+
+    private fun pingClientToCheckIdle(theIoChannel: Channel) {
+        val thePlayer: Player = synchronized(this) { player } ?: return
+
         val pingedAt: Long = timeService.currentTimeMillis()
         val pingPongMaxDelaySeconds: Long = 15
-        sendPacketService.sendPacket(ioChannel, PingOutDto())
+
+        sendPacketService.sendPacket(theIoChannel, PingOutDto())
 
         scheduler.runOnce(runAt = ZonedDateTime.now().plusSeconds(pingPongMaxDelaySeconds)) {
-            if (!ioChannel.isActive) { return@runOnce }
-            if (!loginHandlerContext.pongReceived(pingedAt)) {
+            if (!theIoChannel.isActive) { return@runOnce }
+            if (thePlayer.isDisconnected()) { return@runOnce }
+            if (!thePlayer.isPongReceivedAfter(pingedAt)) {
                 logger.warn("Client did not respond to ping. Closing channel.")
-                ioChannel.disconnect()
+                theIoChannel.disconnect()
             }
         }
     }

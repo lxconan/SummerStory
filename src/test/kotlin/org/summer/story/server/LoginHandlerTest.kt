@@ -8,6 +8,7 @@ import io.netty.channel.ChannelHandlerContext
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import org.summer.story.server.dtos.OutDto
+import org.summer.story.server.game.GameProcessorFactory
 
 class LoginHandlerTest {
     private lateinit var handler: LoginHandler
@@ -19,7 +20,8 @@ class LoginHandlerTest {
 
     @BeforeEach
     fun setup() {
-        handler = LoginHandler(globalState, timeService, sendPacketService, mockk(relaxed = true))
+        handler = LoginHandler(
+            globalState, timeService, sendPacketService, mockk(relaxed = true), GameProcessorFactory())
     }
 
     @Test
