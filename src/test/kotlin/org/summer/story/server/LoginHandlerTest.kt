@@ -21,7 +21,7 @@ class LoginHandlerTest {
     @BeforeEach
     fun setup() {
         handler = LoginHandler(
-            globalState, timeService, sendPacketService, mockk(relaxed = true), GameProcessorFactory())
+            globalState, timeService, sendPacketService, mockk(relaxed = true), GameProcessorFactory(emptyList()))
     }
 
     @Test

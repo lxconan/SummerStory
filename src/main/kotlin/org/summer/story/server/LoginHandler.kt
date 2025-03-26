@@ -80,10 +80,10 @@ class LoginHandler(
 
         scheduler.runOnce(runAt = ZonedDateTime.now().plusSeconds(pingPongMaxDelaySeconds)) {
             if (!theIoChannel.isActive) { return@runOnce }
-            if (thePlayer.isDisconnected()) { return@runOnce }
+            if (thePlayer.isClosed()) { return@runOnce }
             if (!thePlayer.isPongReceivedAfter(pingedAt)) {
                 logger.warn("Client did not respond to ping. Closing channel.")
-                theIoChannel.disconnect()
+                thePlayer.close()
             }
         }
     }

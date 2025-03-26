@@ -4,10 +4,9 @@ import org.summer.story.net.packet.InPacket
 import org.summer.story.server.ReceiveOpcode
 import org.summer.story.server.players.Player
 
-class KeepAliveProcessor : GameProcessor {
-    override fun getOpcode(): ReceiveOpcode = ReceiveOpcode.PONG
+class LoginPasswordProcessor : GameProcessor {
+    override fun getOpcode(): ReceiveOpcode = ReceiveOpcode.LOGIN_PASSWORD
 
     override fun process(player: Player, msg: InPacket) {
-        player.pongReceived()
     }
 }

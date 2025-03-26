@@ -3,13 +3,16 @@ package org.summer.story.server.game
 import org.slf4j.LoggerFactory
 import org.summer.story.server.ReceiveOpcode
 
-class GameProcessorFactory {
-    private val processors: Map<Short, GameProcessor>
+class GameProcessorFactory(processors: List<GameProcessor>) {
+    private val processorMap: Map<Short, GameProcessor>
 
     init {
         val internalProcessors = mutableMapOf<Short, GameProcessor>()
-        registerHandler(internalProcessors, ReceiveOpcode.PONG, KeepAliveProcessor())
-        processors = internalProcessors.toMap()
+        processors.forEach { processor ->
+            registerHandler(internalProcessors, processor.getOpcode(), processor)
+        }
+
+        processorMap = internalProcessors.toMap()
     }
 
     companion object {
@@ -30,8 +33,12 @@ class GameProcessorFactory {
     }
 
     fun getGameProcessor(opcode: Short): GameProcessor? {
-        return if (processors.containsKey(opcode)) {
-            processors[opcode]
-        } else null
+        val gameProcessor: GameProcessor? = processorMap[opcode]
+
+        if (gameProcessor == null) {
+            logger.warn("No processor found for opcode {}", opcode)
+        }
+
+        return gameProcessor
     }
 }

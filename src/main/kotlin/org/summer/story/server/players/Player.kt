@@ -6,7 +6,6 @@ import org.summer.story.server.TimeService
 class Player(private val timeService: TimeService) {
     private var _ioChannel: Channel? = null
     private var _lastPongAt: Long = 0
-    private var _state: PlayerState = PlayerState.DISCONNECTED
 
     fun updateChannel(channel: Channel) {
         synchronized(this) {
@@ -22,8 +21,12 @@ class Player(private val timeService: TimeService) {
         }
     }
 
-    fun isDisconnected(): Boolean {
-        val state = synchronized(this) { _state }
-        return state == PlayerState.DISCONNECTED
+    fun isClosed(): Boolean {
+        val channel:Channel? = synchronized(this) { _ioChannel }
+        return channel == null || !channel.isActive
+    }
+
+    fun close() {
+        synchronized(this) { _ioChannel }?.close()
     }
 }
