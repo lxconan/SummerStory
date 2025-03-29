@@ -26,14 +26,21 @@ class LoginServerInitializer(
     }
 
     override fun initChannel(ch: SocketChannel) {
-        val clientIp: String = ch.remoteAddress().hostString
-        logger.info("Client connected to login server from $clientIp")
+        val networkContext = NetworkContext(ch)
+
+        if (!networkContext.isValid()) {
+            logger.error("Client connected to login server with null IP. The channel will be closed.")
+            ch.close()
+            return
+        }
+
+        logger.info("Client connected to login server from ${networkContext.clientIp}")
         val iv = IvPair()
         writeInitialUnencryptedHelloPacket(ch, iv)
-        setupHandlers(ch.pipeline(), iv)
+        setupHandlers(ch.pipeline(), iv, networkContext)
     }
 
-    private fun setupHandlers(pipeline: ChannelPipeline, iv: IvPair) {
+    private fun setupHandlers(pipeline: ChannelPipeline, iv: IvPair, networkContext: NetworkContext) {
         /**
          * Adds an IdleStateHandler to the pipeline to detect idle connections if there is no activity for a certain period of time.
          * This is useful for detecting dead connections and closing them. A custom handler can be added to the pipeline to handle
@@ -50,7 +57,8 @@ class LoginServerInitializer(
                 timeService,
                 sendPacketService,
                 scheduler,
-                gameProcessorFactory
+                gameProcessorFactory,
+                networkContext
             ))
     }
 

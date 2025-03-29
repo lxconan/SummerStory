@@ -29,6 +29,12 @@ dependencies {
     implementation("com.github.Pool-Of-Tears:KtScheduler:1.1.6")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1")
 
+    // for database
+    implementation("org.postgresql:postgresql:42.7.3")
+    implementation("com.zaxxer:HikariCP:5.1.0")
+    implementation("org.flywaydb:flyway-core:11.5.0")
+    runtimeOnly("org.flywaydb:flyway-database-postgresql:11.5.0")
+
     testImplementation(kotlin("test"))
     testImplementation("io.mockk:mockk:1.13.17")
 }

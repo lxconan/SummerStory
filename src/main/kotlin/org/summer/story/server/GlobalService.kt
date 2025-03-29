@@ -1,12 +1,15 @@
 package org.summer.story.server
 
 import dev.starry.ktscheduler.scheduler.KtScheduler
+import org.flywaydb.core.Flyway
 import org.koin.core.Koin
 import org.koin.core.KoinApplication
 import org.koin.dsl.koinApplication
+import org.postgresql.ds.PGSimpleDataSource
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import org.summer.story.ModuleFactory
+import org.summer.story.config.GlobalConfiguration
 
 object GlobalService {
     private val logger: Logger = LoggerFactory.getLogger(GlobalService::class.java)
@@ -18,6 +21,7 @@ object GlobalService {
     fun start() {
         logger.info("Initializing global service")
         globalScope = koinApp.koin
+        runDatabaseMigration()
         updateServiceState(MapleServerState.STARTING)
         globalScope.get<LoginServer>().start()
         globalScope.get<KtScheduler>().start()
@@ -27,13 +31,24 @@ object GlobalService {
     fun stop() {
         updateServiceState(MapleServerState.SHUTTING_DOWN)
         stopScheduler()
-        extracted()
+        stopLoginServer()
         updateServiceState(MapleServerState.SHUTDOWN)
         globalScope.close()
         logger.info("Global service stopped")
     }
 
-    private fun extracted() {
+    private fun runDatabaseMigration() {
+        val configuration = globalScope.get<GlobalConfiguration>()
+        val dataSource = PGSimpleDataSource()
+        dataSource.setUrl("${configuration.database.jdbcUrl}?user=${configuration.database.username}&password=${configuration.database.password}")
+        Flyway.configure()
+            .dataSource(dataSource)
+            .locations("classpath:db/migration")
+            .load()
+            .migrate()
+    }
+
+    private fun stopLoginServer() {
         try {
             globalScope.get<LoginServer>().stop()
         } catch (e: Exception) {

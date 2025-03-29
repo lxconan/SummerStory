@@ -17,7 +17,8 @@ class LoginHandler(
     private val timeService: TimeService,
     private val sendPacketService: SendPacketService,
     private val scheduler: KtScheduler,
-    private val gameProcessorFactory: GameProcessorFactory
+    private val gameProcessorFactory: GameProcessorFactory,
+    private val networkContext: NetworkContext
 ) : ChannelInboundHandlerAdapter() {
     companion object {
         private val logger = LoggerFactory.getLogger(LoginHandler::class.java)
@@ -38,7 +39,7 @@ class LoginHandler(
 
         synchronized(this) {
             if (player == null) {
-                val thePlayer = Player(timeService)
+                val thePlayer = Player(timeService, sendPacketService, networkContext)
                 thePlayer.updateChannel(channel)
                 player = thePlayer
             }
@@ -61,11 +62,7 @@ class LoginHandler(
         }
 
         val opcode: Short = msg.readShort()
-        val gameProcessor: GameProcessor? = gameProcessorFactory.getGameProcessor(opcode)
-        if (gameProcessor == null) {
-            logger.warn("No game processor found for opcode: {}", opcode)
-            return
-        }
+        val gameProcessor: GameProcessor = gameProcessorFactory.getGameProcessor(opcode) ?: return
 
         try {
             gameProcessor.process(player!!, msg)

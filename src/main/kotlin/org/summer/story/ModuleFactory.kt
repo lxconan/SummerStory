@@ -5,6 +5,8 @@ import org.koin.core.module.Module
 import org.koin.core.module.dsl.*
 import org.koin.dsl.module
 import org.summer.story.config.loadConfiguration
+import org.summer.story.data.MapleDataSource
+import org.summer.story.data.MapleDataSourceImpl
 import org.summer.story.server.*
 import org.summer.story.server.game.GameProcessor
 import org.summer.story.server.game.GameProcessorFactory
@@ -26,6 +28,7 @@ object ModuleFactory {
 
             singleOf(::KeepAliveProcessor) { bind<GameProcessor>() }
             singleOf(::LoginPasswordProcessor) { bind<GameProcessor>() }
+            singleOf(::MapleDataSourceImpl) { bind<MapleDataSource>() }
 
             single { GameProcessorFactory(getAll()) }
         }

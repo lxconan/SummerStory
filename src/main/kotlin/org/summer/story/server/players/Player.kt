@@ -2,17 +2,29 @@ package org.summer.story.server.players
 
 import io.netty.channel.Channel
 import org.slf4j.LoggerFactory
-import org.summer.story.net.packet.OutPacket
+import org.summer.story.server.NetworkContext
+import org.summer.story.server.SendPacketService
 import org.summer.story.server.TimeService
-import org.summer.story.server.dtos.LoginFailedOutDto
+import org.summer.story.server.dtos.OutDto
 
-class Player(private val timeService: TimeService) {
+class Player(
+    private val timeService: TimeService,
+    private val sendPacketService: SendPacketService,
+    networkContext: NetworkContext
+) {
     companion object {
         private val logger = LoggerFactory.getLogger(Player::class.java)
     }
 
     private var _ioChannel: Channel? = null
     private var _lastPongAt: Long = 0
+
+    val clientIp: String
+
+    init {
+        require(networkContext.isValid()) { "Network context is invalid" }
+        clientIp = networkContext.clientIp!!
+    }
 
     fun updateChannel(channel: Channel) {
         synchronized(this) {
@@ -30,10 +42,6 @@ class Player(private val timeService: TimeService) {
 
     fun isClosed(): Boolean = safelyGetChannel() == null
 
-    fun declareLoginFailed(dto: LoginFailedOutDto) {
-        internalSendPacket(dto.toPacket())
-    }
-
     fun close() {
         synchronized(this) { _ioChannel }?.close()
     }
@@ -47,13 +55,13 @@ class Player(private val timeService: TimeService) {
         return theChannel
     }
 
-    private fun internalSendPacket(packet: OutPacket) {
+    fun respond(dto: OutDto) {
         val theChannel: Channel? = safelyGetChannel()
         if (theChannel == null) {
-            logger.warn("Channel is null or inactive, cannot send packet: {}", packet.toString())
+            logger.warn("Channel is null or inactive, cannot send packet: {}", dto.toString())
             return
         }
 
-        theChannel.writeAndFlush(packet)
+        sendPacketService.sendPacket(theChannel, dto)
     }
 }

@@ -5,10 +5,12 @@ import io.mockk.mockk
 import io.mockk.verify
 import io.netty.channel.Channel
 import io.netty.channel.ChannelHandlerContext
+import io.netty.channel.socket.SocketChannel
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import org.summer.story.server.dtos.OutDto
 import org.summer.story.server.game.GameProcessorFactory
+import java.net.InetSocketAddress
 
 class LoginHandlerTest {
     private lateinit var handler: LoginHandler
@@ -17,11 +19,20 @@ class LoginHandlerTest {
     private val channel: Channel = mockk(relaxed = true)
     private val timeService: TimeService = mockk(relaxed = true)
     private val sendPacketService: SendPacketService = mockk(relaxed = true)
+    private val socketChannel: SocketChannel = mockk(relaxed = true)
 
     @BeforeEach
     fun setup() {
+        every {socketChannel.remoteAddress()} returns InetSocketAddress("127.0.0.1", 1234)
+
         handler = LoginHandler(
-            globalState, timeService, sendPacketService, mockk(relaxed = true), GameProcessorFactory(emptyList()))
+            globalState,
+            timeService,
+            sendPacketService,
+            mockk(relaxed = true),
+            GameProcessorFactory(emptyList()),
+            NetworkContext(socketChannel)
+        )
     }
 
     @Test
