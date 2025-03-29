@@ -61,7 +61,11 @@ class LoginHandler(
         }
 
         val opcode: Short = msg.readShort()
-        val gameProcessor: GameProcessor = gameProcessorFactory.getGameProcessor(opcode) ?: return
+        val gameProcessor: GameProcessor? = gameProcessorFactory.getGameProcessor(opcode)
+        if (gameProcessor == null) {
+            logger.warn("No game processor found for opcode: {}", opcode)
+            return
+        }
 
         try {
             gameProcessor.process(player!!, msg)
