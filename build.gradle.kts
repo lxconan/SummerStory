@@ -34,6 +34,8 @@ dependencies {
     implementation("com.zaxxer:HikariCP:5.1.0")
     implementation("org.flywaydb:flyway-core:11.5.0")
     runtimeOnly("org.flywaydb:flyway-database-postgresql:11.5.0")
+    implementation("org.ktorm:ktorm-core:4.1.1")
+    implementation("org.ktorm:ktorm-support-postgresql:4.1.1")
 
     testImplementation(kotlin("test"))
     testImplementation("io.mockk:mockk:1.13.17")

@@ -20,6 +20,7 @@ class Player(
     private var _lastPongAt: Long = 0
 
     val clientIp: String
+    var accountContext: AccountContext? = null
 
     init {
         require(networkContext.isValid()) { "Network context is invalid" }
@@ -34,17 +35,13 @@ class Player(
 
     fun isPongReceivedAfter(pingedAt: Long): Boolean = synchronized(this) { _lastPongAt >= pingedAt }
 
-    fun pongReceived() {
-        synchronized(this) {
-            _lastPongAt = timeService.currentTimeMillis()
-        }
+    fun pongReceived() = synchronized(this) {
+        _lastPongAt = timeService.currentTimeMillis()
     }
 
     fun isClosed(): Boolean = safelyGetChannel() == null
 
-    fun close() {
-        synchronized(this) { _ioChannel }?.close()
-    }
+    fun close() { synchronized(this) { _ioChannel }?.close() }
 
     private fun safelyGetChannel(): Channel? {
         val theChannel: Channel? = synchronized(this) { _ioChannel }

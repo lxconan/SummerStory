@@ -7,6 +7,14 @@ object HexFormater {
         bytes { byteSeparator = " " }
     }
 
+    private val compactFormat = HexFormat {
+        upperCase = true
+    }
+
+    fun toCompactHexString(bytes: ByteArray): String {
+        return bytes.toHexString(compactFormat)
+    }
+
     fun toHexString(bytes: ByteArray): String {
         return bytes.toHexString(format)
     }

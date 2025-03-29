@@ -2,16 +2,17 @@ package org.summer.story.data
 
 import com.zaxxer.hikari.HikariConfig
 import com.zaxxer.hikari.HikariDataSource
+import org.ktorm.database.Database
 import org.summer.story.config.GlobalConfiguration
-import java.sql.Connection
 import javax.sql.DataSource
 
 interface MapleDataSource {
-    fun getConnection(): Connection
+    val database: Database
 }
 
 class MapleDataSourceImpl(private val configuration: GlobalConfiguration) : MapleDataSource {
     private val dataSource: DataSource
+    override val database: Database
 
     init {
         val dataSourceConfig = HikariConfig().apply {
@@ -22,9 +23,6 @@ class MapleDataSourceImpl(private val configuration: GlobalConfiguration) : Mapl
         }
 
         dataSource = HikariDataSource(dataSourceConfig)
-    }
-
-    override fun getConnection(): Connection {
-        return dataSource.connection
+        database = Database.connect(dataSource)
     }
 }
