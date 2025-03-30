@@ -35,7 +35,7 @@ class PingOutDto : OutDto() {
     }
 }
 
-class LoginFailedOutDto(private val reason: Byte) : OutDto() {
+class LoginFailedOutDto(val reason: Byte) : OutDto() {
     enum class WellKnownLoginFailedReason(val reason: Byte) {
         PLAYER_DELETED_OR_BLOCKED(3),
         INCORRECT_PASSWORD(4),
@@ -72,8 +72,8 @@ class LoginFailedOutDto(private val reason: Byte) : OutDto() {
 }
 
 class LoginSuccessOutDto(
-    private val accountId: Int,
-    private val accountName: String,
+    val accountId: Int,
+    val accountName: String,
     private val charset: Charset
 ) : OutDto() {
     override fun toString(): String {

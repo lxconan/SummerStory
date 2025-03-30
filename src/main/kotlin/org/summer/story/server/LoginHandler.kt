@@ -10,6 +10,7 @@ import org.summer.story.server.dtos.PingOutDto
 import org.summer.story.server.game.GameProcessor
 import org.summer.story.server.game.GameProcessorFactory
 import org.summer.story.server.players.Player
+import org.summer.story.server.players.PlayerImpl
 import java.time.ZonedDateTime
 
 class LoginHandler(
@@ -39,7 +40,7 @@ class LoginHandler(
 
         synchronized(this) {
             if (player == null) {
-                val thePlayer = Player(timeService, sendPacketService, networkContext)
+                val thePlayer: Player = PlayerImpl(timeService, sendPacketService, networkContext)
                 thePlayer.updateChannel(channel)
                 player = thePlayer
             }

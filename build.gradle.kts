@@ -37,8 +37,10 @@ dependencies {
     implementation("org.ktorm:ktorm-core:4.1.1")
     implementation("org.ktorm:ktorm-support-postgresql:4.1.1")
 
+    // for testing
     testImplementation(kotlin("test"))
     testImplementation("io.mockk:mockk:1.13.17")
+    testImplementation("com.h2database:h2:2.3.232")
 }
 
 tasks.test {

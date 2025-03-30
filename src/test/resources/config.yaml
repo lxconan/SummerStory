@@ -1,0 +1,15 @@
+packet:
+  charset: "US_ASCII"
+
+database:
+  jdbcUrl: "jdbc:h2:mem:testdb;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DB_CLOSE_DELAY=-1"
+  username: "sa"
+  password: ""
+  maximumPoolSize: 10
+
+loginServer:
+  port: 8484
+  idleTimeSeconds: 30
+
+debug:
+  recordPacket: true

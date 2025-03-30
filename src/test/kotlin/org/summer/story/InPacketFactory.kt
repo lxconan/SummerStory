@@ -1,0 +1,19 @@
+package org.summer.story
+
+import io.netty.buffer.Unpooled
+import org.summer.story.net.packet.ByteBufInPacket
+import org.summer.story.net.packet.ByteBufOutPacket
+import org.summer.story.net.packet.InPacket
+import java.nio.charset.Charset
+
+object InPacketFactory {
+    fun createLoginPasswordWithoutOpcode(accountName: String, password: String, hardwareId: Int, charset: Charset): InPacket {
+        val bytes = ByteBufOutPacket().apply {
+            writeString(accountName, charset)
+            writeString(password, charset)
+            writeBytes(byteArrayOf(0, 0, 0, 0, 0, 0)) // network address masks
+            writeInt(hardwareId)
+        }.getBytes()
+        return ByteBufInPacket(Unpooled.wrappedBuffer(bytes))
+    }
+}
