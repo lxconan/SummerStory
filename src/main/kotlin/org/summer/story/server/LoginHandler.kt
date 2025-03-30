@@ -4,6 +4,7 @@ import dev.starry.ktscheduler.scheduler.KtScheduler
 import io.netty.channel.Channel
 import io.netty.channel.ChannelHandlerContext
 import io.netty.channel.ChannelInboundHandlerAdapter
+import kotlinx.coroutines.Dispatchers
 import org.slf4j.LoggerFactory
 import org.summer.story.net.packet.InPacket
 import org.summer.story.server.dtos.PingOutDto
@@ -80,7 +81,7 @@ class LoginHandler(
 
         sendPacketService.sendPacket(theIoChannel, PingOutDto())
 
-        scheduler.runOnce(runAt = ZonedDateTime.now().plusSeconds(pingPongMaxDelaySeconds)) {
+        scheduler.runOnce(runAt = ZonedDateTime.now().plusSeconds(pingPongMaxDelaySeconds), dispatcher = Dispatchers.IO) {
             if (!theIoChannel.isActive) { return@runOnce }
             if (thePlayer.isClosed()) { return@runOnce }
             if (!thePlayer.isPongReceivedAfter(pingedAt)) {
