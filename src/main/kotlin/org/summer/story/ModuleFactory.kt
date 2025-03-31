@@ -10,10 +10,7 @@ import org.summer.story.data.MapleDataSource
 import org.summer.story.data.MapleDataSourceImpl
 import org.summer.story.net.encryption.HashAlgorithm
 import org.summer.story.server.*
-import org.summer.story.server.game.GameProcessor
-import org.summer.story.server.game.GameProcessorFactory
-import org.summer.story.server.game.KeepAliveProcessor
-import org.summer.story.server.game.LoginPasswordProcessor
+import org.summer.story.server.game.*
 
 object ModuleFactory {
     fun createServerModule() : Module {
@@ -28,9 +25,11 @@ object ModuleFactory {
             singleOf(::SendPacketServiceImpl) { bind<SendPacketService>() }
             singleOf(::RawPacketFactory)
 
+            singleOf(::MapleDataSourceImpl) { bind<MapleDataSource>() }
+
             singleOf(::KeepAliveProcessor) { bind<GameProcessor>() }
             singleOf(::LoginPasswordProcessor) { bind<GameProcessor>() }
-            singleOf(::MapleDataSourceImpl) { bind<MapleDataSource>() }
+            singleOf(::ServerListRequestProcessor) { bind<GameProcessor>() }
 
             single { GameProcessorFactory(getAll()) }
 

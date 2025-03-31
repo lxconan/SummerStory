@@ -7,15 +7,21 @@ import kotlinx.serialization.Transient
 import java.nio.charset.Charset
 
 @Serializable
-data class GlobalConfiguration(
+class GlobalConfiguration(
     val loginServer: LoginServerConfiguration = LoginServerConfiguration(),
     val debug: DebugConfiguration = DebugConfiguration(),
     val database: DatabaseConfiguration = DatabaseConfiguration(),
-    val packet: PacketConfiguration = PacketConfiguration()
+    val packet: PacketConfiguration = PacketConfiguration(),
+    val world: WorldConfiguration = WorldConfiguration()
 )
 
 @Serializable
-data class PacketConfiguration(
+class WorldConfiguration(
+    val channelCount: Int = 2
+)
+
+@Serializable
+class PacketConfiguration(
     val charset: String = "US_ASCII"
 ) {
     companion object {
@@ -32,7 +38,8 @@ data class PacketConfiguration(
     val charsetObject: Charset = getCharset(charset)
 }
 
-@Serializable data class DatabaseConfiguration(
+@Serializable
+class DatabaseConfiguration(
     val jdbcUrl: String = "jdbc:postgresql://localhost:5432/maplestory",
     val username: String = "postgres",
     val password: String = "",
@@ -40,12 +47,12 @@ data class PacketConfiguration(
 )
 
 @Serializable
-data class DebugConfiguration(
+class DebugConfiguration(
     val recordPacket: Boolean = false
 )
 
 @Serializable
-data class LoginServerConfiguration(
+class LoginServerConfiguration(
     val port: Int = 8484,
     val idleTimeSeconds: Int = 30
 )

@@ -1,7 +1,10 @@
 package org.summer.story.server.dtos
 
+import org.summer.story.config.GlobalConfiguration
 import org.summer.story.net.packet.ByteBufOutPacket
 import org.summer.story.server.SendOpcode
+import org.summer.story.server.game.GameChannelMetadata
+import org.summer.story.server.game.WorldMetadata
 import java.nio.charset.Charset
 
 abstract class OutDto {
@@ -128,5 +131,66 @@ class LoginSuccessOutDto(
 
         packet.writeByte(1) // disable pin-system
         packet.writeByte(2) // disable pic-system
+    }
+}
+
+class WorldInformationOutDto(
+    val worldMetadata: WorldMetadata,
+    val gameChannelsMetadata: List<GameChannelMetadata>,
+    val configuration: GlobalConfiguration
+) : OutDto() {
+    override fun toString(): String = "[World Information]"
+
+    override fun writePacket(packet: ByteBufOutPacket) {
+        packet.writeShort(SendOpcode.SERVER_LIST.value)
+        packet.writeByte(worldMetadata.worldId)
+        packet.writeString(worldMetadata.worldName, configuration.packet.charsetObject)
+        packet.writeByte(worldMetadata.worldFlag)
+        packet.writeString(worldMetadata.eventMessage, configuration.packet.charsetObject)
+        packet.writeByte(100) // rate modifier, don't know why
+        packet.writeByte(0) // event experience, don't know why
+        packet.writeByte(100) // rate modifier, don't know why
+        packet.writeByte(0) // event drop, don't know why
+        packet.writeByte(0) // don't know what it is
+        packet.writeByte(gameChannelsMetadata.size)
+        for (gameChannelMetadata in gameChannelsMetadata) {
+            packet.writeString(
+                worldMetadata.worldName + "-" + gameChannelMetadata.channelId,
+                configuration.packet.charsetObject
+            )
+            packet.writeInt(gameChannelMetadata.channelCapacity)
+
+            packet.writeByte(1) // world id, not sure why
+            packet.writeByte(gameChannelMetadata.channelId - 1) // channel id
+            packet.writeBool(false) // adult channel
+        }
+        packet.writeShort(0) // packet end
+    }
+}
+
+class WorldInformationCompleteOutDto : OutDto() {
+    override fun toString(): String = "[World Information Complete]"
+
+    override fun writePacket(packet: ByteBufOutPacket) {
+        packet.writeShort(SendOpcode.SERVER_LIST.value)
+        packet.writeByte(0xFF)
+    }
+}
+
+class LastConnectedWorldOutDto: OutDto() {
+    override fun toString(): String = "[Select World]"
+
+    override fun writePacket(packet: ByteBufOutPacket) {
+        packet.writeShort(SendOpcode.LAST_CONNECTED_WORLD.value)
+        packet.writeInt(0)
+    }
+}
+
+class RecommendedWorldOutDto: OutDto() {
+    override fun toString(): String = "[Recommended World]"
+
+    override fun writePacket(packet: ByteBufOutPacket) {
+        packet.writeShort(SendOpcode.RECOMMENDED_WORLD_MESSAGE.value)
+        packet.writeByte(0) // recommended world size, no recommended world XD!
     }
 }

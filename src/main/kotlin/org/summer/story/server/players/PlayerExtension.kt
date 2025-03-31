@@ -1,8 +1,10 @@
 package org.summer.story.server.players
 
+import org.summer.story.config.GlobalConfiguration
 import org.summer.story.data.AccountEntity
-import org.summer.story.server.dtos.LoginFailedOutDto
-import org.summer.story.server.dtos.LoginSuccessOutDto
+import org.summer.story.server.dtos.*
+import org.summer.story.server.game.GameChannelMetadata
+import org.summer.story.server.game.WorldMetadata
 import java.nio.charset.Charset
 
 fun Player.declareLoginFailedForIncorrectPassword() {
@@ -21,6 +23,26 @@ fun Player.declareAuthenticated(charset: Charset) {
     this.respond(
         LoginSuccessOutDto(this.accountContext!!.accountId, this.accountContext!!.accountName, charset)
     )
+}
+
+fun Player.sendWorldInformation(
+    worldMetadata: WorldMetadata,
+    channelMetadata: List<GameChannelMetadata>,
+    configuration: GlobalConfiguration
+) {
+    this.respond(WorldInformationOutDto(worldMetadata, channelMetadata, configuration))
+}
+
+fun Player.sendWorldInformationComplete() {
+    this.respond(WorldInformationCompleteOutDto())
+}
+
+fun Player.selectLastConnectedWorld() {
+    this.respond(LastConnectedWorldOutDto())
+}
+
+fun Player.selectRecommendedWorld() {
+    this.respond(RecommendedWorldOutDto())
 }
 
 fun Player.setupAccountContext(accountEntity: AccountEntity) {

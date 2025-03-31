@@ -20,7 +20,7 @@ class AccountRepository(private val dataSource: MapleDataSource) {
     }
 }
 
-data class AccountEntity(
+class AccountEntity(
     val id: Int,
     val name: String,
     val password: String,

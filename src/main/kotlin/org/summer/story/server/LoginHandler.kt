@@ -73,6 +73,13 @@ class LoginHandler(
         }
     }
 
+    override fun channelInactive(ctx: ChannelHandlerContext) {
+        logger.info("Channel inactive: {}", networkContext.clientIp)
+
+        val thePlayer: Player = synchronized(this) { player } ?: return
+        thePlayer.close()
+    }
+
     private fun pingClientToCheckIdle(theIoChannel: Channel) {
         val thePlayer: Player = synchronized(this) { player } ?: return
 

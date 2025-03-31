@@ -10,6 +10,7 @@ import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import org.summer.story.ModuleFactory
 import org.summer.story.config.GlobalConfiguration
+import org.summer.story.server.worlds.WorldDefinitions
 
 object GlobalService {
     private val logger: Logger = LoggerFactory.getLogger(GlobalService::class.java)
@@ -23,9 +24,17 @@ object GlobalService {
         globalScope = koinApp.koin
         runDatabaseMigration()
         updateServiceState(MapleServerState.STARTING)
+        validateConfiguration()
         globalScope.get<LoginServer>().start()
         globalScope.get<KtScheduler>().start()
         updateServiceState(MapleServerState.RUNNING)
+    }
+
+    private fun validateConfiguration() {
+        val configuration = globalScope.get<GlobalConfiguration>()
+        require(configuration.world.channelCount > 0 && configuration.world.channelCount <= WorldDefinitions.maximumChannels) {
+            "Invalid channel count: ${configuration.world.channelCount}"
+        }
     }
 
     fun stop() {

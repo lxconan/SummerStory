@@ -16,4 +16,8 @@ object InPacketFactory {
         }.getBytes()
         return ByteBufInPacket(Unpooled.wrappedBuffer(bytes))
     }
+
+    fun createServerListRequestWithoutOpcode(): InPacket {
+        return ByteBufInPacket(Unpooled.EMPTY_BUFFER)
+    }
 }
