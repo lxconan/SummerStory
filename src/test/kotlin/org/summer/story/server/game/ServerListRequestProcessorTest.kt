@@ -40,16 +40,16 @@ class ServerListRequestProcessorTest : DatabaseEnabledTest() {
         // Then
         player.responds[0].let {
             val dto = it as WorldInformationOutDto
-            assertEquals(WorldDefinitions.worldName, dto.worldMetadata.worldName)
-            assertEquals(1, dto.worldMetadata.worldId)
-            assertEquals(0, dto.worldMetadata.worldFlag)
-            assertEquals("Welcome to SummerStory!", dto.worldMetadata.eventMessage)
-            assertEquals(configuration.world.channelCount, dto.gameChannelsMetadata.size)
+            assertEquals(WorldDefinitions.worldName, dto.world.name)
+            assertEquals(1, dto.world.id)
+            assertEquals(0, dto.world.flag)
+            assertEquals("Welcome to SummerStory!", dto.world.eventMessage)
+            assertEquals(1, dto.world.channels.size)
 
-            (1..configuration.world.channelCount).forEach { index ->
-                val channel = dto.gameChannelsMetadata[index - 1]
-                assertEquals(index, channel.channelId)
-                assertEquals(WorldDefinitions.maxPlayerPerChannel, channel.channelCapacity)
+            (1..dto.world.channels.size).forEach { index ->
+                val channel = dto.world.channels[index - 1]
+                assertEquals(index, channel.id)
+                assertEquals(WorldDefinitions.maxPlayerPerChannel, channel.playerCapacity)
             }
         }
 

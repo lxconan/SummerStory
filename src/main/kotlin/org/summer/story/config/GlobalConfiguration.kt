@@ -11,13 +11,7 @@ class GlobalConfiguration(
     val loginServer: LoginServerConfiguration = LoginServerConfiguration(),
     val debug: DebugConfiguration = DebugConfiguration(),
     val database: DatabaseConfiguration = DatabaseConfiguration(),
-    val packet: PacketConfiguration = PacketConfiguration(),
-    val world: WorldConfiguration = WorldConfiguration()
-)
-
-@Serializable
-class WorldConfiguration(
-    val channelCount: Int = 2
+    val packet: PacketConfiguration = PacketConfiguration()
 )
 
 @Serializable

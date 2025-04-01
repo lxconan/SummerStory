@@ -11,8 +11,5 @@ loginServer:
   port: 8484
   idleTimeSeconds: 30
 
-world:
-  channelCount: 2
-
 debug:
   recordPacket: true

@@ -11,6 +11,7 @@ import org.summer.story.data.MapleDataSourceImpl
 import org.summer.story.net.encryption.HashAlgorithm
 import org.summer.story.server.*
 import org.summer.story.server.game.*
+import org.summer.story.server.worlds.WorldManager
 
 object ModuleFactory {
     fun createServerModule() : Module {
@@ -19,11 +20,13 @@ object ModuleFactory {
             single { KtScheduler() }
 
             singleOf(::GlobalState)
+
             singleOf(::LoginServerInitializer)
             singleOf(::LoginServer)
             singleOf(::TimeServiceImpl) { bind<TimeService>() }
             singleOf(::SendPacketServiceImpl) { bind<SendPacketService>() }
             singleOf(::RawPacketFactory)
+            singleOf(::WorldManager)
 
             singleOf(::MapleDataSourceImpl) { bind<MapleDataSource>() }
 
