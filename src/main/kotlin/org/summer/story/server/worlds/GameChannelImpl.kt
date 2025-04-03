@@ -5,10 +5,21 @@ import java.util.concurrent.atomic.AtomicInteger
 class GameChannelImpl(
     private val world: World,
     override val id: Int,
-    private val maxPlayers: Int = 100,
+    override val maxPlayers: Int = 100,
 ) : GameChannel {
-    private var players: AtomicInteger = AtomicInteger(0)
-
+    private var onlinePlayersAtomic: AtomicInteger = AtomicInteger(0)
     override val playerCapacity: Int
-        get() = maxPlayers - players.get()
+        get() = maxPlayers - onlinePlayersAtomic.get()
+    override val onlinePlayers: Int
+        get() = onlinePlayersAtomic.get()
+
+    fun increasePlayerOrFail(): Boolean {
+        // this is just a temporary solution. May be change later.
+        val currentPlayerCount = onlinePlayersAtomic.get()
+        if (currentPlayerCount >= maxPlayers) {
+            return false
+        }
+
+        return onlinePlayersAtomic.compareAndSet(currentPlayerCount, currentPlayerCount + 1)
+    }
 }

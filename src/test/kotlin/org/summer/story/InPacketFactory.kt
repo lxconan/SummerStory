@@ -20,4 +20,11 @@ object InPacketFactory {
     fun createServerListRequestWithoutOpcode(): InPacket {
         return ByteBufInPacket(Unpooled.EMPTY_BUFFER)
     }
+
+    fun createServerStatusRequestWithoutOpcode(worldIndex: Int): InPacket {
+        val bytes = ByteBufOutPacket().apply {
+            writeShort(worldIndex)
+        }.getBytes()
+        return ByteBufInPacket(Unpooled.wrappedBuffer(bytes))
+    }
 }

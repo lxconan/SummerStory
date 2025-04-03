@@ -21,4 +21,3 @@ class ServerListRequestProcessor(
         player.selectRecommendedWorld()
     }
 }
-

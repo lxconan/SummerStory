@@ -33,6 +33,7 @@ object ModuleFactory {
             singleOf(::KeepAliveProcessor) { bind<GameProcessor>() }
             singleOf(::LoginPasswordProcessor) { bind<GameProcessor>() }
             singleOf(::ServerListRequestProcessor) { bind<GameProcessor>() }
+            singleOf(::ServerStatusRequestProcessor) { bind<GameProcessor>() }
 
             single { GameProcessorFactory(getAll()) }
 

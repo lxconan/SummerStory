@@ -3,6 +3,7 @@ package org.summer.story.server.dtos
 import org.summer.story.config.GlobalConfiguration
 import org.summer.story.net.packet.ByteBufOutPacket
 import org.summer.story.server.SendOpcode
+import org.summer.story.server.game.WorldServerStatus
 import org.summer.story.server.worlds.World
 
 class WorldInformationOutDto(
@@ -35,5 +36,16 @@ class WorldInformationOutDto(
             packet.writeBool(false) // adult channel
         }
         packet.writeShort(0) // packet end
+    }
+}
+
+class ServerStatusOutDto(
+    val worldServerStatus: WorldServerStatus
+) : OutDto() {
+    override fun toString(): String = "[Server Status]"
+
+    override fun writePacket(packet: ByteBufOutPacket) {
+        packet.writeShort(SendOpcode.SERVER_STATUS.value)
+        packet.writeShort(worldServerStatus.value)
     }
 }

@@ -6,4 +6,6 @@ interface World {
     val eventMessage: String
     val channels: List<GameChannel>
     val flag: Int
+    val maxPlayers: Int
+    val onlinePlayers: Int
 }

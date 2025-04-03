@@ -3,6 +3,7 @@ package org.summer.story.server.players
 import org.summer.story.config.GlobalConfiguration
 import org.summer.story.data.AccountEntity
 import org.summer.story.server.dtos.*
+import org.summer.story.server.game.WorldServerStatus
 import org.summer.story.server.worlds.World
 import java.nio.charset.Charset
 
@@ -49,4 +50,8 @@ fun Player.setupAccountContext(accountEntity: AccountEntity) {
         accountEntity.name,
         accountEntity.hardwareId
     )
+}
+
+fun Player.sendServerStatus(worldServerStatus: WorldServerStatus) {
+    this.respond(ServerStatusOutDto(worldServerStatus))
 }
