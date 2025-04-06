@@ -1,6 +1,7 @@
 package org.summer.story
 
 import org.flywaydb.core.Flyway
+import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.BeforeEach
 import org.koin.core.Koin
 import org.koin.core.KoinApplication
@@ -53,5 +54,10 @@ abstract class DatabaseEnabledTest {
         } as Int
     }
 
-    protected fun updateKoinModules(koinApplication: KoinApplication) { }
+    protected open fun updateKoinModules(koinApplication: KoinApplication) { }
+
+    @AfterEach
+    fun databaseTearDown() {
+        koin.close()
+    }
 }

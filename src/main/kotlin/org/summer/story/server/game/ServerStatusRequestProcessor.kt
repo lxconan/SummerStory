@@ -7,9 +7,7 @@ import org.summer.story.server.players.sendServerStatus
 import org.summer.story.server.worlds.WorldManager
 
 class ServerStatusRequestProcessor(private val worldManager: WorldManager) : GameProcessor {
-    override fun getOpcode(): ReceiveOpcode {
-        return ReceiveOpcode.SERVER_STATUS_REQUEST
-    }
+    override fun getOpcode(): ReceiveOpcode = ReceiveOpcode.SERVER_STATUS_REQUEST
 
     override fun process(player: Player, msg: InPacket) {
         val worldIndex = msg.readShort()

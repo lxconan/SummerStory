@@ -55,3 +55,7 @@ fun Player.setupAccountContext(accountEntity: AccountEntity) {
 fun Player.sendServerStatus(worldServerStatus: WorldServerStatus) {
     this.respond(ServerStatusOutDto(worldServerStatus))
 }
+
+fun Player.sendCannotFindAnyCharacters() {
+    this.respond(CannotFindAnyCharactersOutDto())
+}
