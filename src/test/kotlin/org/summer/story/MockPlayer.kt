@@ -4,6 +4,7 @@ import io.netty.channel.Channel
 import org.summer.story.server.dtos.OutDto
 import org.summer.story.server.players.AccountContext
 import org.summer.story.server.players.Player
+import org.summer.story.server.worlds.GameChannel
 
 class MockPlayer(private val player: Player) : Player {
     val responds: MutableList<OutDto> = mutableListOf()
@@ -13,6 +14,9 @@ class MockPlayer(private val player: Player) : Player {
     override var accountContext: AccountContext?
         get() = player.accountContext
         set(value) { player.accountContext = value }
+    override var gameChannel: GameChannel?
+        get() = player.gameChannel
+        set(value) { player.gameChannel = value }
 
     override fun updateChannel(channel: Channel) = player.updateChannel(channel)
 
@@ -26,5 +30,9 @@ class MockPlayer(private val player: Player) : Player {
 
     override fun respond(dto: OutDto) {
         responds.add(dto)
+    }
+
+    override fun queryAvailableCharacterSlots(): Int {
+        return player.queryAvailableCharacterSlots()
     }
 }

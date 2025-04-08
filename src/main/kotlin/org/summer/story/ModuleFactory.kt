@@ -35,6 +35,7 @@ object ModuleFactory {
             singleOf(::ServerListRequestProcessor) { bind<GameProcessor>() }
             singleOf(::ServerStatusRequestProcessor) { bind<GameProcessor>() }
             singleOf(::ViewAllCharactersRequestProcessor) { bind<GameProcessor>() }
+            singleOf(::CharacterListRequestProcessor) { bind<GameProcessor>() }
 
             single { GameProcessorFactory(getAll()) }
 

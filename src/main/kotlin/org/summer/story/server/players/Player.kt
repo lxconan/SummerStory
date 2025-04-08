@@ -6,6 +6,7 @@ import org.summer.story.server.NetworkContext
 import org.summer.story.server.SendPacketService
 import org.summer.story.server.TimeService
 import org.summer.story.server.dtos.OutDto
+import org.summer.story.server.worlds.GameChannel
 import java.util.concurrent.atomic.AtomicBoolean
 
 // Please note that the player can be accessed from netty's event loop thread and from player's thread. So all the
@@ -13,6 +14,7 @@ import java.util.concurrent.atomic.AtomicBoolean
 interface Player {
     val clientIp: String
     var accountContext: AccountContext?
+    var gameChannel: GameChannel?
 
     fun updateChannel(channel: Channel)
     fun isPongReceivedAfter(pingedAt: Long): Boolean
@@ -20,6 +22,7 @@ interface Player {
     fun isClosed(): Boolean
     fun close()
     fun respond(dto: OutDto)
+    fun queryAvailableCharacterSlots(): Int
 }
 
 class PlayerImpl(
@@ -33,9 +36,16 @@ class PlayerImpl(
 
     private var _ioChannel: Channel? = null
     private var _lastPongAt: Long = 0
+    private var _accountContext: AccountContext? = null
+    private var _gameChannel: GameChannel? = null
 
     override val clientIp: String
-    override var accountContext: AccountContext? = null
+    override var accountContext: AccountContext?
+        get() { synchronized(this){ return _accountContext } }
+        set(value) { synchronized(this){ _accountContext = value } }
+    override var gameChannel: GameChannel?
+        get() { synchronized(this){ return _gameChannel } }
+        set(value) { synchronized(this){ _gameChannel = value } }
 
     private val _isClosed: AtomicBoolean = AtomicBoolean(false)
 
@@ -88,6 +98,11 @@ class PlayerImpl(
         // The channel.writeAndFlush() method in Netty is thread-safe. It can be safely called from any thread without
         // additional synchronization.
         sendPacketService.sendPacket(theChannel, dto)
+    }
+
+    override fun queryAvailableCharacterSlots(): Int {
+        // TODO: will implement later
+        return 3
     }
 
     private fun safelyGetChannel(): Channel? {

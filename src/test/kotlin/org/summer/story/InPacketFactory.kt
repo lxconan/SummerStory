@@ -27,4 +27,13 @@ object InPacketFactory {
         }.getBytes()
         return ByteBufInPacket(Unpooled.wrappedBuffer(bytes))
     }
+
+    fun createCharacterListRequestWithoutOpcode(worldId: Int, channelId: Int): InPacket {
+        val bytes = ByteBufOutPacket().apply {
+            writeByte(0) // should be skipped
+            writeByte(worldId)
+            writeByte(channelId)
+        }.getBytes()
+        return ByteBufInPacket(Unpooled.wrappedBuffer(bytes))
+    }
 }

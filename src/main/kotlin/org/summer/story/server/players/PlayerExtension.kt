@@ -59,3 +59,7 @@ fun Player.sendServerStatus(worldServerStatus: WorldServerStatus) {
 fun Player.sendCannotFindAnyCharacters() {
     this.respond(CannotFindAnyCharactersOutDto())
 }
+
+fun Player.sendEmptyCharacterList() {
+    this.respond(CharacterListOutDto(this.queryAvailableCharacterSlots()))
+}

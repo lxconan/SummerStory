@@ -21,3 +21,4 @@ class PingOutDto : OutDto() {
         packet.writeShort(SendOpcode.PING.value)
     }
 }
+
