@@ -27,7 +27,7 @@ public class MapleCustomEncryption {
                     remember = cur;
                     cur = rollRight(cur, (int) dataLength & 0xFF);
                     cur = ((byte) ((~cur) & 0xFF));
-                    cur += 0x48;
+                    cur = (byte) (cur + 0x48);
                     dataLength--;
                     data[i] = cur;
                 }
@@ -56,7 +56,7 @@ public class MapleCustomEncryption {
             if (j % 2 == 0) {
                 for (int i = 0; i < data.length; i++) {
                     byte cur = data[i];
-                    cur -= 0x48;
+                    cur = (byte) (cur - 0x48);
                     cur = ((byte) ((~cur) & 0xFF));
                     cur = rollLeft(cur, (int) dataLength & 0xFF);
                     nextRemember = cur;
