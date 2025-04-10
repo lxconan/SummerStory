@@ -13,7 +13,7 @@ class LoginPasswordProcessor(
     private val configuration: GlobalConfiguration,
     private val accountRepository: AccountRepository,
     private val hashAlgorithm: HashAlgorithm
-) : GameProcessor {
+) : LoginServerGameProcessor {
     companion object {
         private val logger = LoggerFactory.getLogger(LoginPasswordProcessor::class.java)
     }

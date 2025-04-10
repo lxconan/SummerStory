@@ -9,7 +9,7 @@ import org.summer.story.server.worlds.WorldManager
 class ServerListRequestProcessor(
     private val configuration: GlobalConfiguration,
     private val worldManager: WorldManager
-) : GameProcessor {
+) : LoginServerGameProcessor {
     override fun getOpcode(): ReceiveOpcode {
         return ReceiveOpcode.SERVER_LIST_REQUEST
     }

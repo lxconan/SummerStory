@@ -8,3 +8,5 @@ interface GameProcessor {
     fun getOpcode(): ReceiveOpcode
     fun process(player: Player, msg: InPacket)
 }
+
+interface LoginServerGameProcessor : GameProcessor

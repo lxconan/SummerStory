@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory
 import org.summer.story.net.packet.InPacket
 import org.summer.story.server.dtos.PingOutDto
 import org.summer.story.server.game.GameProcessor
-import org.summer.story.server.game.GameProcessorFactory
+import org.summer.story.server.game.LoginGameProcessorFactory
 import org.summer.story.server.players.Player
 import org.summer.story.server.players.PlayerImpl
 import java.time.ZonedDateTime
@@ -19,7 +19,7 @@ class LoginHandler(
     private val timeService: TimeService,
     private val sendPacketService: SendPacketService,
     private val scheduler: KtScheduler,
-    private val gameProcessorFactory: GameProcessorFactory,
+    private val gameProcessorFactory: LoginGameProcessorFactory,
     private val networkContext: NetworkContext
 ) : ChannelInboundHandlerAdapter() {
     companion object {

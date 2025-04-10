@@ -4,7 +4,7 @@ import org.summer.story.net.packet.InPacket
 import org.summer.story.server.ReceiveOpcode
 import org.summer.story.server.players.Player
 
-class KeepAliveProcessor : GameProcessor {
+class KeepAliveProcessor : LoginServerGameProcessor {
     override fun getOpcode(): ReceiveOpcode = ReceiveOpcode.PONG
 
     override fun process(player: Player, msg: InPacket) {

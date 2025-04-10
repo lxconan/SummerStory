@@ -6,7 +6,7 @@ import org.summer.story.server.players.Player
 import org.summer.story.server.players.sendServerStatus
 import org.summer.story.server.worlds.WorldManager
 
-class ServerStatusRequestProcessor(private val worldManager: WorldManager) : GameProcessor {
+class ServerStatusRequestProcessor(private val worldManager: WorldManager) : LoginServerGameProcessor {
     override fun getOpcode(): ReceiveOpcode = ReceiveOpcode.SERVER_STATUS_REQUEST
 
     override fun process(player: Player, msg: InPacket) {

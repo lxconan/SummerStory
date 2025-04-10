@@ -10,7 +10,7 @@ import org.summer.story.server.worlds.WorldManager
 
 class CharacterListRequestProcessor(
     private val worldManager: WorldManager
-) : GameProcessor {
+) : LoginServerGameProcessor {
     companion object {
         private val logger = LoggerFactory.getLogger(CharacterListRequestProcessor::class.java)
     }

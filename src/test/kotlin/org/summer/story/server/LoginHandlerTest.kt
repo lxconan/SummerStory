@@ -9,7 +9,7 @@ import io.netty.channel.socket.SocketChannel
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import org.summer.story.server.dtos.OutDto
-import org.summer.story.server.game.GameProcessorFactory
+import org.summer.story.server.game.LoginGameProcessorFactory
 import java.net.InetSocketAddress
 
 class LoginHandlerTest {
@@ -30,7 +30,7 @@ class LoginHandlerTest {
             timeService,
             sendPacketService,
             mockk(relaxed = true),
-            GameProcessorFactory(emptyList()),
+            LoginGameProcessorFactory(emptyList()),
             NetworkContext(socketChannel)
         )
     }

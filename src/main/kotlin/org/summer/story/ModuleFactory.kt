@@ -32,15 +32,15 @@ object ModuleFactory {
 
             singleOf(::MapleDataSourceImpl) { bind<MapleDataSource>() }
 
-            singleOf(::KeepAliveProcessor) { bind<GameProcessor>() }
-            singleOf(::LoginPasswordProcessor) { bind<GameProcessor>() }
-            singleOf(::ServerListRequestProcessor) { bind<GameProcessor>() }
-            singleOf(::ServerStatusRequestProcessor) { bind<GameProcessor>() }
-            singleOf(::ViewAllCharactersRequestProcessor) { bind<GameProcessor>() }
-            singleOf(::CharacterListRequestProcessor) { bind<GameProcessor>() }
-            singleOf(::CheckCharacterNameRequestProcessor) { bind<GameProcessor>() }
+            singleOf(::KeepAliveProcessor) { bind<LoginServerGameProcessor>() }
+            singleOf(::LoginPasswordProcessor) { bind<LoginServerGameProcessor>() }
+            singleOf(::ServerListRequestProcessor) { bind<LoginServerGameProcessor>() }
+            singleOf(::ServerStatusRequestProcessor) { bind<LoginServerGameProcessor>() }
+            singleOf(::ViewAllCharactersRequestProcessor) { bind<LoginServerGameProcessor>() }
+            singleOf(::CharacterListRequestProcessor) { bind<LoginServerGameProcessor>() }
+            singleOf(::CheckCharacterNameRequestProcessor) { bind<LoginServerGameProcessor>() }
 
-            single { GameProcessorFactory(getAll()) }
+            single { LoginGameProcessorFactory(getAll()) }
 
             singleOf(::CharacterNameValidationService)
 

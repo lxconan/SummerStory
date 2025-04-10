@@ -11,7 +11,7 @@ import java.nio.charset.Charset
 class CheckCharacterNameRequestProcessor(
     private val configuration: GlobalConfiguration,
     private val characterNameValidationService: CharacterNameValidationService
-) : GameProcessor {
+) : LoginServerGameProcessor {
     override fun getOpcode(): ReceiveOpcode = ReceiveOpcode.CHECK_CHARACTER_NAME
 
     override fun process(player: Player, msg: InPacket) {

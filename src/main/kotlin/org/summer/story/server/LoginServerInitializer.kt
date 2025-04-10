@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory
 import org.summer.story.config.GlobalConfiguration
 import org.summer.story.net.encryption.ClientCyphers
 import org.summer.story.net.encryption.IvPair
-import org.summer.story.server.game.GameProcessorFactory
+import org.summer.story.server.game.LoginGameProcessorFactory
 
 class LoginServerInitializer(
     private val configuration: GlobalConfiguration,
@@ -19,7 +19,7 @@ class LoginServerInitializer(
     private val sendPacketService: SendPacketService,
     private val scheduler: KtScheduler,
     private val rawPacketFactory: RawPacketFactory,
-    private val gameProcessorFactory: GameProcessorFactory
+    private val gameProcessorFactory: LoginGameProcessorFactory
 ) : ChannelInitializer<SocketChannel>() {
     companion object {
         private val logger = LoggerFactory.getLogger(LoginServerInitializer::class.java)

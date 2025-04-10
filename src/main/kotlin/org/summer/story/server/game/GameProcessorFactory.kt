@@ -3,7 +3,7 @@ package org.summer.story.server.game
 import org.slf4j.LoggerFactory
 import org.summer.story.server.ReceiveOpcode
 
-class GameProcessorFactory(processors: List<GameProcessor>) {
+abstract class GameProcessorFactory(processors: List<GameProcessor>) {
     private val processorMap: Map<Short, GameProcessor>
 
     init {
@@ -42,3 +42,5 @@ class GameProcessorFactory(processors: List<GameProcessor>) {
         return gameProcessor
     }
 }
+
+class LoginGameProcessorFactory(processors: List<LoginServerGameProcessor>) : GameProcessorFactory(processors)

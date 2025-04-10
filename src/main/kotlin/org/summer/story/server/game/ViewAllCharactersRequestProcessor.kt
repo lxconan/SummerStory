@@ -5,7 +5,7 @@ import org.summer.story.server.ReceiveOpcode
 import org.summer.story.server.players.Player
 import org.summer.story.server.players.sendCannotFindAnyCharacters
 
-class ViewAllCharactersRequestProcessor : GameProcessor {
+class ViewAllCharactersRequestProcessor : LoginServerGameProcessor {
     override fun getOpcode(): ReceiveOpcode = ReceiveOpcode.VIEW_ALL_CHARACTERS_REQUEST
 
     override fun process(player: Player, msg: InPacket) {
