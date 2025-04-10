@@ -36,4 +36,11 @@ object InPacketFactory {
         }.getBytes()
         return ByteBufInPacket(Unpooled.wrappedBuffer(bytes))
     }
+
+    fun createCharacterNameRequestWithoutOpCode(validName: String, charset: Charset): InPacket {
+        val bytes = ByteBufOutPacket().apply {
+            writeString(validName, charset)
+        }.getBytes()
+        return ByteBufInPacket(Unpooled.wrappedBuffer(bytes))
+    }
 }

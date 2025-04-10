@@ -63,3 +63,7 @@ fun Player.sendCannotFindAnyCharacters() {
 fun Player.sendEmptyCharacterList() {
     this.respond(CharacterListOutDto(this.queryAvailableCharacterSlots()))
 }
+
+fun Player.sendCanCreateCharacter(name: String, forbidden: Boolean, charset: Charset) {
+    this.respond(CharacterNameResponseOutDto(name, forbidden, charset))
+}

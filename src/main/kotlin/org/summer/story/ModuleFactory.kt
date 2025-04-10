@@ -6,11 +6,13 @@ import org.koin.core.module.dsl.*
 import org.koin.dsl.module
 import org.summer.story.config.loadConfiguration
 import org.summer.story.data.AccountRepository
+import org.summer.story.data.CharacterRepository
 import org.summer.story.data.MapleDataSource
 import org.summer.story.data.MapleDataSourceImpl
 import org.summer.story.net.encryption.HashAlgorithm
 import org.summer.story.server.*
 import org.summer.story.server.game.*
+import org.summer.story.server.game.service.CharacterNameValidationService
 import org.summer.story.server.worlds.WorldManager
 
 object ModuleFactory {
@@ -36,10 +38,14 @@ object ModuleFactory {
             singleOf(::ServerStatusRequestProcessor) { bind<GameProcessor>() }
             singleOf(::ViewAllCharactersRequestProcessor) { bind<GameProcessor>() }
             singleOf(::CharacterListRequestProcessor) { bind<GameProcessor>() }
+            singleOf(::CheckCharacterNameRequestProcessor) { bind<GameProcessor>() }
 
             single { GameProcessorFactory(getAll()) }
 
+            singleOf(::CharacterNameValidationService)
+
             singleOf(::AccountRepository)
+            singleOf(::CharacterRepository)
             singleOf(::HashAlgorithm)
         }
     }

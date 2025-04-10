@@ -6,5 +6,6 @@ enum class ReceiveOpcode(val value: Int = -2) {
     SERVER_STATUS_REQUEST(0x06),
     SERVER_LIST_REQUEST(0x0B),
     VIEW_ALL_CHARACTERS_REQUEST(0x0D),
+    CHECK_CHARACTER_NAME(0x15),
     PONG(0x18),
 }
