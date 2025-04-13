@@ -8,8 +8,9 @@ import org.summer.story.DatabaseEnabledTest
 import org.summer.story.InPacketFactory
 import org.summer.story.MockPlayer
 import org.summer.story.server.NetworkContext
-import org.summer.story.server.dtos.LoginFailedOutDto
-import org.summer.story.server.dtos.LoginSuccessOutDto
+import org.summer.story.server.login.dtos.LoginFailedOutDto
+import org.summer.story.server.login.dtos.LoginSuccessOutDto
+import org.summer.story.server.login.game.LoginPasswordProcessor
 import org.summer.story.server.players.PlayerImpl
 import java.net.Inet4Address
 import java.net.InetSocketAddress

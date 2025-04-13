@@ -1,7 +1,7 @@
 package org.summer.story
 
 import io.netty.channel.Channel
-import org.summer.story.server.dtos.OutDto
+import org.summer.story.server.login.dtos.OutDto
 import org.summer.story.server.players.AccountContext
 import org.summer.story.server.players.Player
 import org.summer.story.server.worlds.GameChannel

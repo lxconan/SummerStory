@@ -1,0 +1,1080 @@
+- code: 20000
+  name: Motivated Look (Black)
+- code: 20001
+  name: Perplexed Stare (Black)
+- code: 20002
+  name: Leisure Look (Black)
+- code: 20003
+  name: Dramatic Face (Black)
+- code: 20004
+  name: Rebel's Fire (Black)
+- code: 20005
+  name: Alert Face (Black)
+- code: 20006
+  name: Babyface Pout (Black)
+- code: 20007
+  name: Sad Innocence (Black)
+- code: 20008
+  name: Worrisome Glare (Black)
+- code: 20009
+  name: Smart Aleck (Black)
+- code: 20010
+  name: Anger's Blaze (Black)
+- code: 20011
+  name: Cool Guy Gaze (Black)
+- code: 20012
+  name: Curious Dog (Black)
+- code: 20013
+  name: Insomniac Daze (Black)
+- code: 20014
+  name: Look of Wonder (Black)
+- code: 20015
+  name: Eye of the Lion (Black)
+- code: 20016
+  name: Ghostface Stare (Black)
+- code: 20017
+  name: Demure Poise (Black)
+- code: 20018
+  name: Champion Focus (Black)
+- code: 20019
+  name: Irritable Face (Black)
+- code: 20020
+  name: Fierce Edge (Black)
+- code: 20021
+  name: Overjoyed Smile (Black)
+- code: 20022
+  name: Child's Play (Black)
+- code: 20023
+  name: Hypnotized Look (Black)
+- code: 20024
+  name: Intense Stare (Black)
+- code: 20025
+  name: Edge of Emotion (Black)
+- code: 20026
+  name: Shuteye (Black)
+- code: 20027
+  name: Pensive Look (Black)
+- code: 20028
+  name: Sarcastic Face (Black)
+- code: 20029
+  name: Shade of Cool (Black)
+- code: 20031
+  name: Fearful Glance (Black)
+- code: 20032
+  name: Undecided Face (Black)
+- code: 20100
+  name: Motivated Look (Blue)
+- code: 20101
+  name: Perplexed Stare (Blue)
+- code: 20102
+  name: Leisure Look (Blue)
+- code: 20103
+  name: Dramatic Face (Blue)
+- code: 20104
+  name: Rebel's Fire (Blue)
+- code: 20105
+  name: Alert Face (Blue)
+- code: 20106
+  name: Babyface Pout (Blue)
+- code: 20107
+  name: Sad Innocence (Blue)
+- code: 20108
+  name: Worrisome Glare (Blue)
+- code: 20109
+  name: Smart Aleck (Blue)
+- code: 20110
+  name: Anger's Blaze (Blue)
+- code: 20111
+  name: Cool Guy Gaze (Blue)
+- code: 20112
+  name: Curious Dog (Blue)
+- code: 20113
+  name: Insomniac Daze (Blue)
+- code: 20114
+  name: Look of Wonder (Blue)
+- code: 20115
+  name: Eye of the Lion (Blue)
+- code: 20116
+  name: Ghostface Stare (Blue)
+- code: 20117
+  name: Demure Poise (Blue)
+- code: 20118
+  name: Champion Focus (Blue)
+- code: 20119
+  name: Irritable Face (Blue)
+- code: 20120
+  name: Fierce Edge (Blue)
+- code: 20121
+  name: Overjoyed Smile (Blue)
+- code: 20122
+  name: Child's Play (Blue)
+- code: 20123
+  name: Hypnotized Look (Blue)
+- code: 20124
+  name: Intense Stare (Blue)
+- code: 20125
+  name: Edge of Emotion (Blue)
+- code: 20126
+  name: Shuteye (Blue)
+- code: 20127
+  name: Pensive Look (Blue)
+- code: 20128
+  name: Sarcastic Face (Blue)
+- code: 20129
+  name: Shade of Cool (Blue)
+- code: 20131
+  name: Fearful Glance (Blue)
+- code: 20132
+  name: Undecided Face (Blue)
+- code: 20200
+  name: Motivated Look (Red)
+- code: 20201
+  name: Perplexed Stare (Red)
+- code: 20202
+  name: Leisure Look (Red)
+- code: 20203
+  name: Dramatic Face (Red)
+- code: 20204
+  name: Rebel's Fire (Red)
+- code: 20205
+  name: Alert Face (Red)
+- code: 20206
+  name: Babyface Pout (Red)
+- code: 20207
+  name: Sad Innocence (Red)
+- code: 20208
+  name: Worrisome Glare (Red)
+- code: 20209
+  name: Smart Aleck (Red)
+- code: 20210
+  name: Anger's Blaze (Red)
+- code: 20211
+  name: Cool Guy Gaze (Red)
+- code: 20212
+  name: Curious Dog (Red)
+- code: 20213
+  name: Insomniac Daze (Red)
+- code: 20214
+  name: Look of Wonder (Red)
+- code: 20215
+  name: Eye of the Lion (Red)
+- code: 20216
+  name: Ghostface Stare (Red)
+- code: 20217
+  name: Demure Poise (Red)
+- code: 20218
+  name: Champion Focus (Red)
+- code: 20219
+  name: Irritable Face (Red)
+- code: 20220
+  name: Fierce Edge (Red)
+- code: 20221
+  name: Overjoyed Smile (Red)
+- code: 20222
+  name: Child's Play (Red)
+- code: 20223
+  name: Hypnotized Look (Red)
+- code: 20224
+  name: Intense Stare (Red)
+- code: 20225
+  name: Edge of Emotion (Red)
+- code: 20226
+  name: Shuteye (Red)
+- code: 20227
+  name: Pensive Look (Red)
+- code: 20228
+  name: Sarcastic Face (Red)
+- code: 20229
+  name: Shade of Cool (Red)
+- code: 20231
+  name: Fearful Glance (Red)
+- code: 20232
+  name: Undecided Face (Red)
+- code: 20300
+  name: Motivated Look (Green)
+- code: 20301
+  name: Perplexed Stare (Green)
+- code: 20302
+  name: Leisure Look (Green)
+- code: 20303
+  name: Dramatic Face (Green)
+- code: 20304
+  name: Rebel's Fire (Green)
+- code: 20305
+  name: Alert Face (Green)
+- code: 20306
+  name: Babyface Pout (Green)
+- code: 20307
+  name: Sad Innocence (Green)
+- code: 20308
+  name: Worrisome Glare (Green)
+- code: 20309
+  name: Smart Aleck (Green)
+- code: 20310
+  name: Anger's Blaze (Green)
+- code: 20311
+  name: Cool Guy Gaze (Green)
+- code: 20312
+  name: Curious Dog (Green)
+- code: 20313
+  name: Insomniac Daze (Green)
+- code: 20314
+  name: Look of Wonder (Green)
+- code: 20315
+  name: Eye of the Lion (Green)
+- code: 20316
+  name: Ghostface Stare (Green)
+- code: 20317
+  name: Demure Poise (Green)
+- code: 20318
+  name: Champion Focus (Green)
+- code: 20319
+  name: Irritable Face (Green)
+- code: 20320
+  name: Fierce Edge (Green)
+- code: 20321
+  name: Overjoyed Smile (Green)
+- code: 20322
+  name: Child's Play (Green)
+- code: 20323
+  name: Hypnotized Look (Green)
+- code: 20324
+  name: Intense Stare (Green)
+- code: 20325
+  name: Edge of Emotion (Green)
+- code: 20326
+  name: Shuteye (Green)
+- code: 20327
+  name: Pensive Look (Green)
+- code: 20328
+  name: Sarcastic Face (Green)
+- code: 20329
+  name: Shade of Cool (Green)
+- code: 20331
+  name: Fearful Glance (Green)
+- code: 20332
+  name: Undecided Face (Green)
+- code: 20400
+  name: Motivated Look (Hazel)
+- code: 20401
+  name: Perplexed Stare (Hazel)
+- code: 20402
+  name: Leisure Look (Hazel)
+- code: 20403
+  name: Dramatic Face (Hazel)
+- code: 20404
+  name: Rebel's Fire (Hazel)
+- code: 20405
+  name: Alert Face (Hazel)
+- code: 20406
+  name: Babyface Pout (Hazel)
+- code: 20407
+  name: Sad Innocence (Hazel)
+- code: 20408
+  name: Worrisome Glare (Hazel)
+- code: 20409
+  name: Smart Aleck (Hazel)
+- code: 20410
+  name: Anger's Blaze (Hazel)
+- code: 20411
+  name: Cool Guy Gaze (Hazel)
+- code: 20412
+  name: Curious Dog (Hazel)
+- code: 20413
+  name: Insomniac Daze (Hazel)
+- code: 20414
+  name: Look of Wonder (Hazel)
+- code: 20415
+  name: Eye of the Lion (Hazel)
+- code: 20416
+  name: Ghostface Stare (Hazel)
+- code: 20417
+  name: Demure Poise (Hazel)
+- code: 20418
+  name: Champion Focus (Hazel)
+- code: 20419
+  name: Irritable Face (Hazel)
+- code: 20420
+  name: Fierce Edge (Hazel)
+- code: 20421
+  name: Overjoyed Smile (Hazel)
+- code: 20422
+  name: Child's Play (Hazel)
+- code: 20423
+  name: Hypnotized Look (Hazel)
+- code: 20424
+  name: Intense Stare (Hazel)
+- code: 20425
+  name: Edge of Emotion (Hazel)
+- code: 20426
+  name: Shuteye (Hazel)
+- code: 20427
+  name: Pensive Look (Hazel)
+- code: 20428
+  name: Sarcastic Face (Hazel)
+- code: 20429
+  name: Shade of Cool (Hazel)
+- code: 20431
+  name: Fearful Glance (Hazel)
+- code: 20432
+  name: Undecided Face (Hazel)
+- code: 20500
+  name: Motivated Look (Sapphire)
+- code: 20501
+  name: Perplexed Stare (Sapphire)
+- code: 20502
+  name: Leisure Look (Sapphire)
+- code: 20503
+  name: Dramatic Face (Sapphire)
+- code: 20504
+  name: Rebel's Fire (Sapphire)
+- code: 20505
+  name: Alert Face (Sapphire)
+- code: 20506
+  name: Babyface Pout (Sapphire)
+- code: 20507
+  name: Sad Innocence (Sapphire)
+- code: 20508
+  name: Worrisome Glare (Sapphire)
+- code: 20509
+  name: Smart Aleck (Sapphire)
+- code: 20510
+  name: Anger's Blaze (Sapphire)
+- code: 20511
+  name: Cool Guy Gaze (Sapphire)
+- code: 20512
+  name: Curious Dog (Sapphire)
+- code: 20513
+  name: Insomniac Daze (Sapphire)
+- code: 20514
+  name: Look of Wonder (Sapphire)
+- code: 20515
+  name: Eye of the Lion (Sapphire)
+- code: 20516
+  name: Ghostface Stare (Sapphire)
+- code: 20517
+  name: Demure Poise (Sapphire)
+- code: 20518
+  name: Champion Focus (Sapphire)
+- code: 20519
+  name: Irritable Face (Sapphire)
+- code: 20520
+  name: Fierce Edge (Sapphire)
+- code: 20521
+  name: Overjoyed Smile (Sapphire)
+- code: 20522
+  name: Child's Play (Sapphire)
+- code: 20523
+  name: Hypnotized Look (Sapphire)
+- code: 20524
+  name: Intense Stare (Sapphire)
+- code: 20525
+  name: Edge of Emotion (Sapphire)
+- code: 20526
+  name: Shuteye (Sapphire)
+- code: 20527
+  name: Pensive Look (Sapphire)
+- code: 20528
+  name: Sarcastic Face (Sapphire)
+- code: 20529
+  name: Shade of Cool (Sapphire)
+- code: 20531
+  name: Fearful Glance (Sapphire)
+- code: 20532
+  name: Undecided Face (Sapphire)
+- code: 20600
+  name: Motivated Look (Violet)
+- code: 20601
+  name: Perplexed Stare (Violet)
+- code: 20602
+  name: Leisure Look (Violet)
+- code: 20603
+  name: Dramatic Face (Violet)
+- code: 20604
+  name: Rebel's Fire (Violet)
+- code: 20605
+  name: Alert Face (Violet)
+- code: 20606
+  name: Babyface Pout (Violet)
+- code: 20607
+  name: Sad Innocence (Violet)
+- code: 20608
+  name: Worrisome Glare (Violet)
+- code: 20609
+  name: Smart Aleck (Violet)
+- code: 20610
+  name: Anger's Blaze (Violet)
+- code: 20611
+  name: Cool Guy Gaze (Violet)
+- code: 20612
+  name: Curious Dog (Violet)
+- code: 20613
+  name: Insomniac Daze (Violet)
+- code: 20614
+  name: Look of Wonder (Violet)
+- code: 20615
+  name: Eye of the Lion (Violet)
+- code: 20616
+  name: Ghostface Stare (Violet)
+- code: 20617
+  name: Demure Poise (Violet)
+- code: 20618
+  name: Champion Focus (Violet)
+- code: 20619
+  name: Irritable Face (Violet)
+- code: 20620
+  name: Fierce Edge (Violet)
+- code: 20621
+  name: Overjoyed Smile (Violet)
+- code: 20622
+  name: Child's Play (Violet)
+- code: 20623
+  name: Hypnotized Look (Violet)
+- code: 20624
+  name: Intense Stare (Violet)
+- code: 20625
+  name: Edge of Emotion (Violet)
+- code: 20626
+  name: Shuteye (Violet)
+- code: 20627
+  name: Pensive Look (Violet)
+- code: 20628
+  name: Sarcastic Face (Violet)
+- code: 20629
+  name: Shade of Cool (Violet)
+- code: 20631
+  name: Fearful Glance (Violet)
+- code: 20632
+  name: Undecided Face (Violet)
+- code: 20700
+  name: Motivated Look (Amethyst)
+- code: 20701
+  name: Perplexed Stare (Amethyst)
+- code: 20702
+  name: Leisure Look (Amethyst)
+- code: 20703
+  name: Dramatic Face (Amethyst)
+- code: 20704
+  name: Rebel's Fire (Amethyst)
+- code: 20705
+  name: Alert Face (Amethyst)
+- code: 20706
+  name: Babyface Pout (Amethyst)
+- code: 20707
+  name: Sad Innocence (Amethyst)
+- code: 20708
+  name: Worrisome Glare (Amethyst)
+- code: 20709
+  name: Smart Aleck (Amethyst)
+- code: 20710
+  name: Anger's Blaze (Amethyst)
+- code: 20711
+  name: Cool Guy Gaze (Amethyst)
+- code: 20712
+  name: Curious Dog (Amethyst)
+- code: 20713
+  name: Insomniac Daze (Amethyst)
+- code: 20714
+  name: Look of Wonder (Amethyst)
+- code: 20715
+  name: Eye of the Lion (Amethyst)
+- code: 20716
+  name: Ghostface Stare (Amethyst)
+- code: 20717
+  name: Demure Poise (Amethyst)
+- code: 20718
+  name: Champion Focus (Amethyst)
+- code: 20719
+  name: Irritable Face (Amethyst)
+- code: 20720
+  name: Fierce Edge (Amethyst)
+- code: 20721
+  name: Overjoyed Smile (Amethyst)
+- code: 20722
+  name: Child's Play (Amethyst)
+- code: 20723
+  name: Hypnotized Look (Amethyst)
+- code: 20724
+  name: Intense Stare (Amethyst)
+- code: 20725
+  name: Edge of Emotion (Amethyst)
+- code: 20726
+  name: Shuteye (Amethyst)
+- code: 20727
+  name: Pensive Look (Amethyst)
+- code: 20728
+  name: Sarcastic Face (Amethyst)
+- code: 20729
+  name: Shade of Cool (Amethyst)
+- code: 20731
+  name: Fearful Glance (Amethyst)
+- code: 20732
+  name: Undecided Face (Amethyst)
+- code: 20800
+  name: Motivated Look (White)
+- code: 20801
+  name: Perplexed Stare (White)
+- code: 20802
+  name: Leisure Look (White)
+- code: 20803
+  name: Dramatic Face (White)
+- code: 20804
+  name: Rebel's Fire (White)
+- code: 20805
+  name: Alert Face (White)
+- code: 20806
+  name: Babyface Pout (White)
+- code: 20807
+  name: Sad Innocence (White)
+- code: 20808
+  name: Worrisome Glare (White)
+- code: 20809
+  name: Smart Aleck (White)
+- code: 20810
+  name: Anger's Blaze (White)
+- code: 20811
+  name: Cool Guy Gaze (White)
+- code: 20812
+  name: Curious Dog (White)
+- code: 20813
+  name: Insomniac Daze (White)
+- code: 20814
+  name: Look of Wonder (White)
+- code: 20816
+  name: Ghostface Stare (White)
+- code: 20817
+  name: Demure Poise (White)
+- code: 20818
+  name: Champion Focus (White)
+- code: 20819
+  name: Irritable Face (White)
+- code: 20820
+  name: Fierce Edge (White)
+- code: 20821
+  name: Overjoyed Smile (White)
+- code: 20822
+  name: Child's Play (White)
+- code: 20823
+  name: Hypnotized Look (White)
+- code: 20824
+  name: Intense Stare (White)
+- code: 20826
+  name: Shuteye (White)
+- code: 20828
+  name: Sarcastic Face (White)
+- code: 21000
+  name: Motivated Look (Black)
+- code: 21001
+  name: Fearful Stare (Black)
+- code: 21002
+  name: Leisure Look (Black)
+- code: 21003
+  name: Strong Stare (Black)
+- code: 21004
+  name: Angel Glow (Black)
+- code: 21005
+  name: Babyface Pout (Black)
+- code: 21006
+  name: Pucker Up Face (Black)
+- code: 21007
+  name: Dollface Look (Black)
+- code: 21008
+  name: Hopeless Gaze (Black)
+- code: 21009
+  name: Look of Death (Black)
+- code: 21010
+  name: Wisdom Glance (Black)
+- code: 21011
+  name: Hypnotized Look (Black)
+- code: 21012
+  name: Soul's Window (Black)
+- code: 21013
+  name: Wide-eyed Girl (Black)
+- code: 21014
+  name: Curious Look (Black)
+- code: 21016
+  name: Beauty Stare (Black)
+- code: 21017
+  name: Demure Poise Eyes (Black)
+- code: 21018
+  name: Athena's Grace (Black)
+- code: 21019
+  name: Hera's Radiance (Black)
+- code: 21020
+  name: Gentle Glow (Black)
+- code: 21021
+  name: Compassion Look (Black)
+- code: 21022
+  name: Glitzy Face (Black)
+- code: 21023
+  name: Innocent Look (Black)
+- code: 21024
+  name: Keen Look (Black)
+- code: 21025
+  name: Shuteye (Black)
+- code: 21026
+  name: Tender Love (Black)
+- code: 21027
+  name: Glamorous Edge (Black)
+- code: 21029
+  name: Kitty Cat (Black)
+- code: 21030
+  name: Poker Face (Black)
+- code: 21100
+  name: Motivated Look (Blue)
+- code: 21101
+  name: Fearful Stare (Blue)
+- code: 21102
+  name: Leisure Look (Blue)
+- code: 21103
+  name: Strong Stare (Blue)
+- code: 21104
+  name: Angel Glow (Blue)
+- code: 21105
+  name: Babyface Pout (Blue)
+- code: 21106
+  name: Pucker Up Face (Blue)
+- code: 21107
+  name: Dollface Look (Blue)
+- code: 21108
+  name: Hopeless Gaze (Blue)
+- code: 21109
+  name: Look of Death (Blue)
+- code: 21110
+  name: Wisdom Glance (Blue)
+- code: 21111
+  name: Hypnotized Look (Blue)
+- code: 21112
+  name: Soul's Window (Blue)
+- code: 21113
+  name: Wide-eyed Girl (Blue)
+- code: 21114
+  name: Curious Look (Blue)
+- code: 21116
+  name: Beauty Stare (Blue)
+- code: 21117
+  name: Demure Poise Eyes (Blue)
+- code: 21118
+  name: Athena's Grace (Blue)
+- code: 21119
+  name: Hera's Radiance (Blue)
+- code: 21120
+  name: Gentle Glow (Blue)
+- code: 21121
+  name: Compassion Look (Blue)
+- code: 21122
+  name: Glitzy Face (Blue)
+- code: 21123
+  name: Innocent Look (Blue)
+- code: 21124
+  name: Keen Look (Blue)
+- code: 21125
+  name: Shuteye (Blue)
+- code: 21126
+  name: Tender Love (Blue)
+- code: 21127
+  name: Glamorous Edge (Blue)
+- code: 21129
+  name: Kitty Cat (Blue)
+- code: 21130
+  name: Poker Face (Blue)
+- code: 21200
+  name: Motivated Look (Red)
+- code: 21201
+  name: Fearful Stare (Red)
+- code: 21202
+  name: Leisure Look (Red)
+- code: 21203
+  name: Strong Stare (Red)
+- code: 21204
+  name: Angel Glow (Red)
+- code: 21205
+  name: Babyface Pout (Red)
+- code: 21206
+  name: Pucker Up Face (Red)
+- code: 21207
+  name: Dollface Look (Red)
+- code: 21208
+  name: Hopeless Gaze (Red)
+- code: 21209
+  name: Look of Death (Red)
+- code: 21210
+  name: Wisdom Glance (Red)
+- code: 21211
+  name: Hypnotized Look (Red)
+- code: 21212
+  name: Soul's Window (Red)
+- code: 21213
+  name: Wide-eyed Girl (Red)
+- code: 21214
+  name: Curious Look (Red)
+- code: 21216
+  name: Beauty Stare (Red)
+- code: 21217
+  name: Demure Poise Eyes (Red)
+- code: 21218
+  name: Athena's Grace (Red)
+- code: 21219
+  name: Hera's Radiance (Red)
+- code: 21220
+  name: Gentle Glow (Red)
+- code: 21221
+  name: Compassion Look (Red)
+- code: 21222
+  name: Glitzy Face (Red)
+- code: 21223
+  name: Innocent Look (Red)
+- code: 21224
+  name: Keen Look (Red)
+- code: 21225
+  name: Shuteye (Red)
+- code: 21226
+  name: Tender Love (Red)
+- code: 21227
+  name: Glamorous Edge (Red)
+- code: 21229
+  name: Kitty Cat (Red)
+- code: 21230
+  name: Poker Face (Red)
+- code: 21300
+  name: Motivated Look (Green)
+- code: 21301
+  name: Fearful Stare (Green)
+- code: 21302
+  name: Leisure Look (Green)
+- code: 21303
+  name: Strong Stare (Green)
+- code: 21304
+  name: Angel Glow (Green)
+- code: 21305
+  name: Babyface Pout (Green)
+- code: 21306
+  name: Pucker Up Face (Green)
+- code: 21307
+  name: Dollface Look (Green)
+- code: 21308
+  name: Hopeless Gaze (Green)
+- code: 21309
+  name: Look of Death (Green)
+- code: 21310
+  name: Wisdom Glance (Green)
+- code: 21311
+  name: Hypnotized Look (Green)
+- code: 21312
+  name: Soul's Window (Green)
+- code: 21313
+  name: Wide-eyed Girl (Green)
+- code: 21314
+  name: Curious Look (Green)
+- code: 21316
+  name: Beauty Stare (Green)
+- code: 21317
+  name: Demure Poise Eyes (Green)
+- code: 21318
+  name: Athena's Grace (Green)
+- code: 21319
+  name: Hera's Radiance (Green)
+- code: 21320
+  name: Gentle Glow (Green)
+- code: 21321
+  name: Compassion Look (Green)
+- code: 21322
+  name: Glitzy Face (Green)
+- code: 21323
+  name: Innocent Look (Green)
+- code: 21324
+  name: Keen Look (Green)
+- code: 21325
+  name: Shuteye (Green)
+- code: 21326
+  name: Tender Love (Green)
+- code: 21327
+  name: Glamorous Edge (Green)
+- code: 21329
+  name: Kitty Cat (Green)
+- code: 21330
+  name: Poker Face (Green)
+- code: 21400
+  name: Motivated Look (Hazel)
+- code: 21401
+  name: Fearful Stare (Hazel)
+- code: 21402
+  name: Leisure Look (Hazel)
+- code: 21403
+  name: Strong Stare (Hazel)
+- code: 21404
+  name: Angel Glow (Hazel)
+- code: 21405
+  name: Babyface Pout (Hazel)
+- code: 21406
+  name: Pucker Up Face (Hazel)
+- code: 21407
+  name: Dollface Look (Hazel)
+- code: 21408
+  name: Hopeless Gaze (Hazel)
+- code: 21409
+  name: Look of Death (Hazel)
+- code: 21410
+  name: Wisdom Glance (Hazel)
+- code: 21411
+  name: Hypnotized Look (Hazel)
+- code: 21412
+  name: Soul's Window (Hazel)
+- code: 21413
+  name: Wide-eyed Girl (Hazel)
+- code: 21414
+  name: Curious Look (Hazel)
+- code: 21416
+  name: Beauty Stare (Hazel)
+- code: 21417
+  name: Demure Poise Eyes (Hazel)
+- code: 21418
+  name: Athena's Grace (Hazel)
+- code: 21419
+  name: Hera's Radiance (Hazel)
+- code: 21420
+  name: Gentle Glow (Hazel)
+- code: 21421
+  name: Compassion Look (Hazel)
+- code: 21422
+  name: Glitzy Face (Hazel)
+- code: 21423
+  name: Innocent Look (Hazel)
+- code: 21424
+  name: Keen Look (Hazel)
+- code: 21425
+  name: Shuteye (Hazel)
+- code: 21426
+  name: Tender Love (Hazel)
+- code: 21427
+  name: Glamorous Edge (Hazel)
+- code: 21429
+  name: Kitty Cat (Hazel)
+- code: 21430
+  name: Poker Face (Hazel)
+- code: 21500
+  name: Motivated Look (Sapphire)
+- code: 21501
+  name: Fearful Stare (Sapphire)
+- code: 21502
+  name: Leisure Look (Sapphire)
+- code: 21503
+  name: Strong Stare (Sapphire)
+- code: 21504
+  name: Angel Glow (Sapphire)
+- code: 21505
+  name: Babyface Pout (Sapphire)
+- code: 21506
+  name: Pucker Up Face (Sapphire)
+- code: 21507
+  name: Dollface Look (Sapphire)
+- code: 21508
+  name: Hopeless Gaze (Sapphire)
+- code: 21509
+  name: Look of Death (Sapphire)
+- code: 21510
+  name: Wisdom Glance (Sapphire)
+- code: 21511
+  name: Hypnotized Look (Sapphire)
+- code: 21512
+  name: Soul's Window (Sapphire)
+- code: 21513
+  name: Wide-eyed Girl (Sapphire)
+- code: 21514
+  name: Curious Look (Sapphire)
+- code: 21516
+  name: Beauty Stare (Sapphire)
+- code: 21517
+  name: Demure Poise Eyes (Sapphire)
+- code: 21518
+  name: Athena's Grace (Sapphire)
+- code: 21519
+  name: Hera's Radiance (Sapphire)
+- code: 21520
+  name: Gentle Glow (Sapphire)
+- code: 21521
+  name: Compassion Look (Sapphire)
+- code: 21522
+  name: Glitzy Face (Sapphire)
+- code: 21523
+  name: Innocent Look (Sapphire)
+- code: 21524
+  name: Keen Look (Sapphire)
+- code: 21525
+  name: Shuteye (Sapphire)
+- code: 21526
+  name: Tender Love (Sapphire)
+- code: 21527
+  name: Glamorous Edge (Sapphire)
+- code: 21529
+  name: Kitty Cat (Sapphire)
+- code: 21530
+  name: Poker Face (Sapphire)
+- code: 21600
+  name: Motivated Look (Violet)
+- code: 21601
+  name: Fearful Stare (Violet)
+- code: 21602
+  name: Leisure Look (Violet)
+- code: 21603
+  name: Strong Stare (Violet)
+- code: 21604
+  name: Angel Glow (Violet)
+- code: 21605
+  name: Babyface Pout (Violet)
+- code: 21606
+  name: Pucker Up Face (Violet)
+- code: 21607
+  name: Dollface Look (Violet)
+- code: 21608
+  name: Hopeless Gaze (Violet)
+- code: 21609
+  name: Look of Death (Violet)
+- code: 21610
+  name: Wisdom Glance (Violet)
+- code: 21611
+  name: Hypnotized Look (Violet)
+- code: 21612
+  name: Soul's Window (Violet)
+- code: 21613
+  name: Wide-eyed Girl (Violet)
+- code: 21614
+  name: Curious Look (Violet)
+- code: 21616
+  name: Beauty Stare (Violet)
+- code: 21617
+  name: Demure Poise Eyes (Violet)
+- code: 21618
+  name: Athena's Grace (Violet)
+- code: 21619
+  name: Hera's Radiance (Violet)
+- code: 21620
+  name: Gentle Glow (Violet)
+- code: 21621
+  name: Compassion Look (Violet)
+- code: 21622
+  name: Glitzy Face (Violet)
+- code: 21623
+  name: Innocent Look (Violet)
+- code: 21624
+  name: Keen Look (Violet)
+- code: 21625
+  name: Shuteye (Violet)
+- code: 21626
+  name: Tender Love (Violet)
+- code: 21627
+  name: Glamorous Edge (Violet)
+- code: 21629
+  name: Kitty Cat (Violet)
+- code: 21630
+  name: Poker Face (Violet)
+- code: 21700
+  name: Motivated Look (Amethyst)
+- code: 21701
+  name: Fearful Stare (Amethyst)
+- code: 21702
+  name: Leisure Look (Amethyst)
+- code: 21703
+  name: Strong Stare (Amethyst)
+- code: 21704
+  name: Angel Glow (Amethyst)
+- code: 21705
+  name: Babyface Pout (Amethyst)
+- code: 21706
+  name: Pucker Up Face (Amethyst)
+- code: 21707
+  name: Dollface Look (Amethyst)
+- code: 21708
+  name: Hopeless Gaze (Amethyst)
+- code: 21709
+  name: Look of Death (Amethyst)
+- code: 21710
+  name: Wisdom Glance (Amethyst)
+- code: 21711
+  name: Hypnotized Look (Amethyst)
+- code: 21712
+  name: Soul's Window (Amethyst)
+- code: 21713
+  name: Wide-eyed Girl (Amethyst)
+- code: 21714
+  name: Curious Look (Amethyst)
+- code: 21716
+  name: Beauty Stare (Amethyst)
+- code: 21717
+  name: Demure Poise Eyes (Amethyst)
+- code: 21718
+  name: Athena's Grace (Amethyst)
+- code: 21719
+  name: Hera's Radiance (Amethyst)
+- code: 21720
+  name: Gentle Glow (Amethyst)
+- code: 21721
+  name: Compassion Look (Amethyst)
+- code: 21722
+  name: Glitzy Face (Amethyst)
+- code: 21723
+  name: Innocent Look (Amethyst)
+- code: 21724
+  name: Keen Look (Amethyst)
+- code: 21725
+  name: Shuteye (Amethyst)
+- code: 21726
+  name: Tender Love (Amethyst)
+- code: 21727
+  name: Glamorous Edge (Amethyst)
+- code: 21729
+  name: Kitty Cat (Amethyst)
+- code: 21730
+  name: Poker Face (Amethyst)
+- code: 21800
+  name: Motivated Look (White)
+- code: 21801
+  name: Fearful Stare (White)
+- code: 21802
+  name: Leisure Look (White)
+- code: 21803
+  name: Strong Stare (White)
+- code: 21804
+  name: Angel Glow (White)
+- code: 21805
+  name: Babyface Pout (White)
+- code: 21806
+  name: Pucker Up Face (White)
+- code: 21807
+  name: Dollface Look (White)
+- code: 21808
+  name: Hopeless Gaze (White)
+- code: 21809
+  name: Look of Death (White)
+- code: 21810
+  name: Wisdom Glance (White)
+- code: 21811
+  name: Hypnotized Look (White)
+- code: 21812
+  name: Soul's Window (White)
+- code: 21813
+  name: Wide-eyed Girl (White)
+- code: 21814
+  name: Curious Look (White)
+- code: 21816
+  name: Beauty Stare (White)
+- code: 21817
+  name: Demure Poise Eyes (White)
+- code: 21818
+  name: Athena's Grace (White)
+- code: 21819
+  name: Hera's Radiance (White)
+- code: 21820
+  name: Gentle Glow (White)
+- code: 21821
+  name: Compassion Look (White)
+- code: 21822
+  name: Glitzy Face (White)
+- code: 21823
+  name: Innocent Look (White)
+- code: 21824
+  name: Keen Look (White)
+- code: 21825
+  name: Shuteye (White)
+- code: 21826
+  name: Tender Love (White)

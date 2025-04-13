@@ -11,8 +11,9 @@ import org.summer.story.DatabaseEnabledTest
 import org.summer.story.MockPlayer
 import org.summer.story.net.packet.InPacket
 import org.summer.story.server.NetworkContext
-import org.summer.story.server.ReceiveOpcode
-import org.summer.story.server.dtos.CannotFindAnyCharactersOutDto
+import org.summer.story.server.login.LoginReceiveOpcode
+import org.summer.story.server.login.dtos.CannotFindAnyCharactersOutDto
+import org.summer.story.server.login.game.ViewAllCharactersRequestProcessor
 import org.summer.story.server.players.PlayerImpl
 
 class ViewAllCharactersRequestProcessorTest : DatabaseEnabledTest() {
@@ -32,7 +33,7 @@ class ViewAllCharactersRequestProcessorTest : DatabaseEnabledTest() {
 
     @Test
     fun `should have the correct opcode`() {
-        assertEquals(ReceiveOpcode.VIEW_ALL_CHARACTERS_REQUEST, processor.getOpcode())
+        assertEquals(LoginReceiveOpcode.VIEW_ALL_CHARACTERS_REQUEST, processor.getOpcode())
     }
 
     @Test

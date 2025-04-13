@@ -10,9 +10,11 @@ import org.summer.story.DatabaseEnabledTest
 import org.summer.story.InPacketFactory
 import org.summer.story.MockPlayer
 import org.summer.story.server.NetworkContext
-import org.summer.story.server.ReceiveOpcode
-import org.summer.story.server.dtos.CharacterListOutDto
-import org.summer.story.server.dtos.ServerStatusOutDto
+import org.summer.story.server.login.LoginReceiveOpcode
+import org.summer.story.server.login.dtos.CharacterListOutDto
+import org.summer.story.server.login.dtos.ServerStatusOutDto
+import org.summer.story.server.login.game.CharacterListRequestProcessor
+import org.summer.story.server.login.game.WorldServerStatus
 import org.summer.story.server.players.PlayerImpl
 import org.summer.story.server.worlds.GameChannelImpl
 import org.summer.story.server.worlds.World
@@ -41,7 +43,7 @@ class CharacterListRequestProcessorTest : DatabaseEnabledTest() {
     fun `test getOpcode returns CHARACTER_LIST_REQUEST`() {
         // Assert
         val processor = koin.get<CharacterListRequestProcessor>()
-        assertEquals(ReceiveOpcode.CHARACTER_LIST_REQUEST, processor.getOpcode())
+        assertEquals(LoginReceiveOpcode.CHARACTER_LIST_REQUEST, processor.getOpcode())
     }
 
     @Test

@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory
 import org.summer.story.server.NetworkContext
 import org.summer.story.server.SendPacketService
 import org.summer.story.server.TimeService
-import org.summer.story.server.dtos.OutDto
+import org.summer.story.server.login.dtos.OutDto
 import org.summer.story.server.worlds.GameChannel
 import java.util.concurrent.atomic.AtomicBoolean
 

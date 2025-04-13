@@ -6,7 +6,8 @@ import io.mockk.verify
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import org.summer.story.net.packet.InPacket
-import org.summer.story.server.ReceiveOpcode
+import org.summer.story.server.login.LoginReceiveOpcode
+import org.summer.story.server.login.game.KeepAliveProcessor
 import org.summer.story.server.players.Player
 import kotlin.test.*
 
@@ -29,7 +30,7 @@ class KeepAliveProcessorTest {
         val opcode = processor.getOpcode()
 
         // Then
-        assertEquals(ReceiveOpcode.PONG, opcode, "Opcode should be PONG")
+        assertEquals(LoginReceiveOpcode.PONG, opcode, "Opcode should be PONG")
     }
 
     @Test

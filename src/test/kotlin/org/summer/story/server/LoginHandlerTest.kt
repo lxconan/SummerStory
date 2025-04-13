@@ -8,8 +8,10 @@ import io.netty.channel.ChannelHandlerContext
 import io.netty.channel.socket.SocketChannel
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
-import org.summer.story.server.dtos.OutDto
-import org.summer.story.server.game.LoginGameProcessorFactory
+import org.summer.story.server.login.dtos.OutDto
+import org.summer.story.server.login.game.LoginGameProcessorFactory
+import org.summer.story.server.login.LoginHandler
+import org.summer.story.server.login.LoginSendOpcode
 import java.net.InetSocketAddress
 
 class LoginHandlerTest {
@@ -82,7 +84,7 @@ class LoginHandlerTest {
         handler.userEventTriggered(ctx, Any())
 
         // Then
-        verify { sendPacketService.sendPacket(channel, match<OutDto> { it.toPacket().getBytes()[0] == SendOpcode.PING.value.toByte() }) }
+        verify { sendPacketService.sendPacket(channel, match<OutDto> { it.toPacket().getBytes()[0] == LoginSendOpcode.PING.value.toByte() }) }
     }
 
     @Test

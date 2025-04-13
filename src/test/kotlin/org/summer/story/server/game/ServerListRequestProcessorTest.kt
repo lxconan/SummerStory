@@ -8,10 +8,11 @@ import org.summer.story.DatabaseEnabledTest
 import org.summer.story.InPacketFactory
 import org.summer.story.MockPlayer
 import org.summer.story.server.NetworkContext
-import org.summer.story.server.dtos.WorldInformationOutDto
-import org.summer.story.server.dtos.WorldInformationCompleteOutDto
-import org.summer.story.server.dtos.RecommendedWorldOutDto
-import org.summer.story.server.dtos.LastConnectedWorldOutDto
+import org.summer.story.server.login.dtos.WorldInformationOutDto
+import org.summer.story.server.login.dtos.WorldInformationCompleteOutDto
+import org.summer.story.server.login.dtos.RecommendedWorldOutDto
+import org.summer.story.server.login.dtos.LastConnectedWorldOutDto
+import org.summer.story.server.login.game.ServerListRequestProcessor
 import org.summer.story.server.players.PlayerImpl
 import org.summer.story.server.worlds.WorldDefinitions
 import java.net.Inet4Address

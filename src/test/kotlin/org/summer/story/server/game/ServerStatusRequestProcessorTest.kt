@@ -9,7 +9,9 @@ import org.summer.story.DatabaseEnabledTest
 import org.summer.story.InPacketFactory
 import org.summer.story.MockPlayer
 import org.summer.story.server.NetworkContext
-import org.summer.story.server.dtos.ServerStatusOutDto
+import org.summer.story.server.login.dtos.ServerStatusOutDto
+import org.summer.story.server.login.game.ServerStatusRequestProcessor
+import org.summer.story.server.login.game.WorldServerStatus
 import org.summer.story.server.players.PlayerImpl
 import org.summer.story.server.worlds.GameChannelImpl
 import org.summer.story.server.worlds.WorldManager

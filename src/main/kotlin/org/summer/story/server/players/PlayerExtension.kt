@@ -2,19 +2,21 @@ package org.summer.story.server.players
 
 import org.summer.story.config.GlobalConfiguration
 import org.summer.story.data.AccountEntity
-import org.summer.story.server.dtos.*
-import org.summer.story.server.game.WorldServerStatus
+import org.summer.story.server.login.game.WorldServerStatus
+import org.summer.story.server.login.dtos.*
 import org.summer.story.server.worlds.World
 import java.nio.charset.Charset
 
 fun Player.declareLoginFailedForIncorrectPassword() {
     this.respond(
-        LoginFailedOutDto(LoginFailedOutDto.WellKnownLoginFailedReason.INCORRECT_PASSWORD.reason))
+        LoginFailedOutDto(LoginFailedOutDto.WellKnownLoginFailedReason.INCORRECT_PASSWORD.reason)
+    )
 }
 
 fun Player.declareLoginFailedForAccountNotFound() {
     this.respond(
-        LoginFailedOutDto(LoginFailedOutDto.WellKnownLoginFailedReason.ACCOUNT_NOT_FOUND.reason))
+        LoginFailedOutDto(LoginFailedOutDto.WellKnownLoginFailedReason.ACCOUNT_NOT_FOUND.reason)
+    )
 }
 
 fun Player.declareAuthenticated(charset: Charset) {

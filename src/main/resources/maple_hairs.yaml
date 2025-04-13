@@ -1,0 +1,3036 @@
+- code: 30000
+  name: Black Toben
+- code: 30001
+  name: Red Toben
+- code: 30002
+  name: Orange Toben
+- code: 30003
+  name: Blonde Toben
+- code: 30004
+  name: Green Toben
+- code: 30005
+  name: Blue Toben
+- code: 30006
+  name: Purple Toben
+- code: 30007
+  name: Brown Toben
+- code: 30010
+  name: Zeta
+- code: 30020
+  name: Black Rebel
+- code: 30021
+  name: Red Rebel
+- code: 30022
+  name: Orange Rebel
+- code: 30023
+  name: Blonde Rebel
+- code: 30024
+  name: Green Rebel
+- code: 30025
+  name: Blue Rebel
+- code: 30026
+  name: Purple Rebel
+- code: 30027
+  name: Brown Rebel
+- code: 30030
+  name: Black Buzz
+- code: 30031
+  name: Red Buzz
+- code: 30032
+  name: Orange Buzz
+- code: 30033
+  name: Blonde Buzz
+- code: 30034
+  name: Green Buzz
+- code: 30035
+  name: Blue Buzz
+- code: 30036
+  name: Purple Buzz
+- code: 30037
+  name: Brown Buzz
+- code: 30040
+  name: Black Rockstar
+- code: 30041
+  name: Red Rockstar
+- code: 30042
+  name: Orange Rockstar
+- code: 30043
+  name: Blonde Rockstar
+- code: 30044
+  name: Green Rockstar
+- code: 30045
+  name: Blue Rockstar
+- code: 30046
+  name: Purple Rockstar
+- code: 30047
+  name: Brown Rockstar
+- code: 30050
+  name: Black Metro
+- code: 30051
+  name: Red Metro
+- code: 30052
+  name: Orange Metro
+- code: 30053
+  name: Blonde Metro
+- code: 30054
+  name: Green Metro
+- code: 30055
+  name: Blue Metro
+- code: 30056
+  name: Purple Metro
+- code: 30057
+  name: Brown Metro
+- code: 30060
+  name: Black Catalyst
+- code: 30061
+  name: Red Catalyst
+- code: 30062
+  name: Orange Catalyst
+- code: 30063
+  name: Blonde Catalyst
+- code: 30064
+  name: Green Catalyst
+- code: 30065
+  name: Blue Catalyst
+- code: 30066
+  name: Purple Catalyst
+- code: 30067
+  name: Brown Catalyst
+- code: 30070
+  name: All Back
+- code: 30080
+  name: Military Buzzcut
+- code: 30090
+  name: Mohawk
+- code: 30100
+  name: Blue Fantasy
+- code: 30101
+  name: Maroon Fantasy
+- code: 30102
+  name: Brown Fantasy
+- code: 30103
+  name: Green Fantasy
+- code: 30104
+  name: Blue-Green Fantasy
+- code: 30105
+  name: Blue Fantasy
+- code: 30106
+  name: Maroon Fantasy
+- code: 30107
+  name: Brown Fantasy
+- code: 30110
+  name: Black Fireball
+- code: 30111
+  name: Red Fireball
+- code: 30112
+  name: Orange Fireball
+- code: 30113
+  name: Blonde Fireball
+- code: 30114
+  name: Green Fireball
+- code: 30115
+  name: Blue Fireball
+- code: 30116
+  name: Purple Fireball
+- code: 30117
+  name: Brown Fireball
+- code: 30120
+  name: Black Vincent
+- code: 30121
+  name: Red Vincent
+- code: 30122
+  name: Orange Vincent
+- code: 30123
+  name: Blonde Vincent
+- code: 30124
+  name: Green Vincent
+- code: 30125
+  name: Blue Vincent
+- code: 30126
+  name: Purple Vincent
+- code: 30127
+  name: Brown Vincent
+- code: 30130
+  name: Black Antagonist
+- code: 30131
+  name: Red Antagonist
+- code: 30132
+  name: Orange Antagonist
+- code: 30133
+  name: Blonde Antagonist
+- code: 30134
+  name: Green Antagonist
+- code: 30135
+  name: Blue Antagonist
+- code: 30136
+  name: Purple Antagonist
+- code: 30137
+  name: Brown Antagonist
+- code: 30140
+  name: Black Topknot
+- code: 30141
+  name: Red Topknot
+- code: 30142
+  name: Orange Topknot
+- code: 30143
+  name: Blonde Topknot
+- code: 30144
+  name: Green Topknot
+- code: 30145
+  name: Blue Topknot
+- code: 30146
+  name: Purple Topknot
+- code: 30147
+  name: Brown Topknot
+- code: 30150
+  name: Black Dreadlocks
+- code: 30151
+  name: Red Dreadlocks
+- code: 30152
+  name: Orange Dreadlocks
+- code: 30153
+  name: Blonde Dreadlocks
+- code: 30154
+  name: Green Dreadlocks
+- code: 30155
+  name: Blue Dreadlocks
+- code: 30156
+  name: Purple Dreadlocks
+- code: 30157
+  name: Brown Dreadlocks
+- code: 30160
+  name: Black Trip Scratch
+- code: 30161
+  name: Red Trip Scratch
+- code: 30162
+  name: Orange Trip Scratch
+- code: 30163
+  name: Blonde Trip Scratch
+- code: 30164
+  name: Green Trip Scratch
+- code: 30165
+  name: Blue Trip Scratch
+- code: 30166
+  name: Purple Trip Scratch
+- code: 30167
+  name: Brown Trip Scratch
+- code: 30170
+  name: Black Line Scratch
+- code: 30171
+  name: Red Line Scratch
+- code: 30172
+  name: Orange Line Scratch
+- code: 30173
+  name: Blonde Line Scratch
+- code: 30174
+  name: Green Line Scratch
+- code: 30175
+  name: Blue Line Scratch
+- code: 30176
+  name: Purple Line Scratch
+- code: 30177
+  name: Brown Line Scratch
+- code: 30180
+  name: Black Mane
+- code: 30181
+  name: Red Mane
+- code: 30182
+  name: Orange Mane
+- code: 30183
+  name: Blonde Mane
+- code: 30184
+  name: Green Mane
+- code: 30185
+  name: Blue Mane
+- code: 30186
+  name: Purple Mane
+- code: 30187
+  name: Brown Mane
+- code: 30190
+  name: Black Bowl Cut
+- code: 30191
+  name: Red Bowl Cut
+- code: 30192
+  name: Orange Bowl Cut
+- code: 30193
+  name: Blonde Bowl Cut
+- code: 30194
+  name: Green Bowl Cut
+- code: 30195
+  name: Blue Bowl Cut
+- code: 30196
+  name: Purple Bowl Cut
+- code: 30197
+  name: Brown Bowl Cut
+- code: 30200
+  name: Black Wind
+- code: 30201
+  name: Red Wind
+- code: 30202
+  name: Orange Wind
+- code: 30203
+  name: Blonde Wind
+- code: 30204
+  name: Green Wind
+- code: 30205
+  name: Blue Wind
+- code: 30206
+  name: Purple Wind
+- code: 30207
+  name: Brown Wind
+- code: 30210
+  name: Black Shaggy Wax
+- code: 30211
+  name: Red Shaggy Wax
+- code: 30212
+  name: Orange Shaggy Wax
+- code: 30213
+  name: Blonde Shaggy Wax
+- code: 30214
+  name: Green Shaggy Wax
+- code: 30215
+  name: Blue Shaggy Wax
+- code: 30216
+  name: Purple Shaggy Wax
+- code: 30217
+  name: Brown Shaggy Wax
+- code: 30220
+  name: Black Grooovy Do
+- code: 30221
+  name: Red Grooovy Do
+- code: 30222
+  name: Orange Grooovy Do
+- code: 30223
+  name: Blonde Grooovy Do
+- code: 30224
+  name: Green Grooovy Do
+- code: 30225
+  name: Blue Grooovy Do
+- code: 30226
+  name: Purple Grooovy Do
+- code: 30227
+  name: Brown Grooovy Do
+- code: 30230
+  name: Black Foil Perm
+- code: 30231
+  name: Red Foil Perm
+- code: 30232
+  name: Orange Foil Perm
+- code: 30233
+  name: Blonde Foil Perm
+- code: 30234
+  name: Green Foil Perm
+- code: 30235
+  name: Blue Foil Perm
+- code: 30236
+  name: Purple Foil Perm
+- code: 30237
+  name: Brown Foil Perm
+- code: 30240
+  name: Black Monkey
+- code: 30241
+  name: Red Monkey
+- code: 30242
+  name: Orange Monkey
+- code: 30243
+  name: Blonde Monkey
+- code: 30244
+  name: Green Monkey
+- code: 30245
+  name: Blue Monkey
+- code: 30246
+  name: Purple Monkey
+- code: 30247
+  name: Brown Monkey
+- code: 30250
+  name: Black Afro (big)
+- code: 30251
+  name: Red Afro (big)
+- code: 30252
+  name: Orange Afro (big)
+- code: 30253
+  name: Blonde Afro (big)
+- code: 30254
+  name: Green Afro (big)
+- code: 30255
+  name: Blue Afro (big)
+- code: 30256
+  name: Purple Afro (big)
+- code: 30257
+  name: Brown Afro (big)
+- code: 30260
+  name: Black Metrosexual
+- code: 30261
+  name: Red Metrosexual
+- code: 30262
+  name: Orange Metrosexual
+- code: 30263
+  name: Blonde Metrosexual
+- code: 30264
+  name: Green Metrosexual
+- code: 30265
+  name: Blue Metrosexual
+- code: 30266
+  name: Purple Metrosexual
+- code: 30267
+  name: Brown Metrosexual
+- code: 30270
+  name: Black w/ Bald Spot
+- code: 30271
+  name: Red w/ Bald Spot
+- code: 30272
+  name: Orange w/ Bald Spot
+- code: 30273
+  name: Blonde w/ Bald Spot
+- code: 30274
+  name: Green w/ Bald Spot
+- code: 30275
+  name: Blue w/ Bald Spot
+- code: 30276
+  name: Purple w/ Bald Spot
+- code: 30277
+  name: Brown w/ Bald Spot
+- code: 30280
+  name: Black Mohecan Shaggy Do
+- code: 30281
+  name: Red Mohecan Shaggy Do
+- code: 30282
+  name: Orange Mohecan Shaggy Do
+- code: 30283
+  name: Blonde Mohecan Shaggy Do
+- code: 30284
+  name: Green Mohecan Shaggy Do
+- code: 30285
+  name: Blue Mohecan Shaggy Do
+- code: 30286
+  name: Purple Mohecan Shaggy Do
+- code: 30287
+  name: Brown Mohecan Shaggy Do
+- code: 30290
+  name: Black Old Man 'Do
+- code: 30291
+  name: Red Old Man 'Do
+- code: 30292
+  name: Orange Old Man 'Do
+- code: 30293
+  name: Blonde Old Man 'Do
+- code: 30294
+  name: Green Old Man 'Do
+- code: 30295
+  name: Blue Old Man 'Do
+- code: 30296
+  name: Purple Old Man 'Do
+- code: 30297
+  name: Brown Old Man 'Do
+- code: 30300
+  name: Black Romance
+- code: 30301
+  name: Red Romance
+- code: 30302
+  name: Orange Romance
+- code: 30303
+  name: Blond Romance
+- code: 30304
+  name: Green Romance
+- code: 30305
+  name: Blue Romance
+- code: 30306
+  name: Purple Romance
+- code: 30307
+  name: Brown Romance
+- code: 30310
+  name: Black Acorn
+- code: 30311
+  name: Red Acorn
+- code: 30312
+  name: Orange Acorn
+- code: 30313
+  name: Blonde Acorn
+- code: 30314
+  name: Green Acorn
+- code: 30315
+  name: Blue Acorn
+- code: 30316
+  name: Purple Acorn
+- code: 30317
+  name: Brown Acorn
+- code: 30320
+  name: Black Afro (small)
+- code: 30321
+  name: Red Afro (small)
+- code: 30322
+  name: Orange Afro (small)
+- code: 30323
+  name: Blonde Afro (small)
+- code: 30324
+  name: Green Afro (small)
+- code: 30325
+  name: Blue Afro (small)
+- code: 30326
+  name: Purple Afro (small)
+- code: 30327
+  name: Brown Afro (small)
+- code: 30330
+  name: Black Cabana Boy
+- code: 30331
+  name: Red Cabana Boy
+- code: 30332
+  name: Orange Cabana Boy
+- code: 30333
+  name: Blonde Cabana Boy
+- code: 30334
+  name: Green Cabana Boy
+- code: 30335
+  name: Blue Cabana Boy
+- code: 30336
+  name: Purple Cabana Boy
+- code: 30337
+  name: Brown Cabana Boy
+- code: 30340
+  name: Black Tristan
+- code: 30341
+  name: Red Tristan
+- code: 30342
+  name: Orange Tristan
+- code: 30343
+  name: Blonde Tristan
+- code: 30344
+  name: Green Tristan
+- code: 30345
+  name: Blue Tristan
+- code: 30346
+  name: Purple Tristan
+- code: 30347
+  name: Brown Tristan
+- code: 30350
+  name: Black Astro
+- code: 30351
+  name: Red Astro
+- code: 30352
+  name: Orange Astro
+- code: 30353
+  name: Blonde Astro
+- code: 30354
+  name: Green Astro
+- code: 30355
+  name: Blue Astro
+- code: 30356
+  name: Purple Astro
+- code: 30357
+  name: Brown Astro
+- code: 30360
+  name: Black Spiky Tail
+- code: 30361
+  name: Red Spiky Tail
+- code: 30362
+  name: Orange Spiky Tail
+- code: 30363
+  name: Blonde Spiky Tail
+- code: 30364
+  name: Green Spiky Tail
+- code: 30365
+  name: Blue Spiky Tail
+- code: 30366
+  name: Purple Spiky Tail
+- code: 30367
+  name: Brown Spiky Tail
+- code: 30370
+  name: Black Shaggy Dragon
+- code: 30371
+  name: Red Shaggy Dragon
+- code: 30372
+  name: Orange Shaggy Dragon
+- code: 30373
+  name: Blond Shaggy Dragon
+- code: 30374
+  name: Green Shaggy Dragon
+- code: 30375
+  name: Blue Shaggy Dragon
+- code: 30376
+  name: Purple Shaggy Dragon
+- code: 30377
+  name: Brown Shaggy Dragon
+- code: 30400
+  name: Black Tribal Buzz
+- code: 30401
+  name: Red Tribal Buzz
+- code: 30402
+  name: Orange Tribal Buzz
+- code: 30403
+  name: Blond Tribal Buzz
+- code: 30404
+  name: Green Tribal Buzz
+- code: 30405
+  name: Blue Tribal Buzz
+- code: 30406
+  name: Purple Tribal Buzz
+- code: 30407
+  name: Brown Tribal Buzz
+- code: 30410
+  name: Black Natural
+- code: 30411
+  name: Red Natural
+- code: 30412
+  name: Orange Natural
+- code: 30413
+  name: Blond Natural
+- code: 30414
+  name: Green Natural
+- code: 30415
+  name: Blue Natural
+- code: 30416
+  name: Purple Natural
+- code: 30417
+  name: Brown Natural
+- code: 30420
+  name: Black Cozy Amber
+- code: 30421
+  name: Red Cozy Amber
+- code: 30422
+  name: Orange Cozy Amber
+- code: 30423
+  name: Blond Cozy Amber
+- code: 30424
+  name: Green Cozy Amber
+- code: 30425
+  name: Blue Cozy Amber
+- code: 30426
+  name: Purple Cozy Amber
+- code: 30427
+  name: Brown Cozy Amber
+- code: 30430
+  name: Skin Head
+- code: 30431
+  name: Skin Head
+- code: 30432
+  name: Skin Head
+- code: 30433
+  name: Skin Head
+- code: 30434
+  name: Skin Head
+- code: 30435
+  name: Skin Head
+- code: 30436
+  name: Skin Head
+- code: 30437
+  name: Skin Head
+- code: 30440
+  name: Black Fury
+- code: 30441
+  name: Red Fury
+- code: 30442
+  name: Orange Fury
+- code: 30443
+  name: Blonde Fury
+- code: 30444
+  name: Green Fury
+- code: 30445
+  name: Blue Fury
+- code: 30446
+  name: Purple Fury
+- code: 30447
+  name: Brown Fury
+- code: 30450
+  name: Black Casanova
+- code: 30451
+  name: Red Casanova
+- code: 30452
+  name: Orange Casanova
+- code: 30453
+  name: Blonde Casanova
+- code: 30454
+  name: Green Casanova
+- code: 30455
+  name: Blue Casanova
+- code: 30456
+  name: Purple Casanova
+- code: 30457
+  name: Brown Casanova
+- code: 30460
+  name: Black Tornade Hair
+- code: 30461
+  name: Red Tornade Hair
+- code: 30462
+  name: Orange Tornade Hair
+- code: 30463
+  name: Blond Tornade Hair
+- code: 30464
+  name: Green Tornade Hair
+- code: 30465
+  name: Blue Tornade Hair
+- code: 30466
+  name: Purple Tornade Hair
+- code: 30467
+  name: Brown Tornade Hair
+- code: 30470
+  name: Black Slick Dean
+- code: 30471
+  name: Red Slick Dean
+- code: 30472
+  name: Orange Slick Dean
+- code: 30473
+  name: Blonde Slick Dean
+- code: 30474
+  name: Green Slick Dean
+- code: 30475
+  name: Blue Slick Dean
+- code: 30476
+  name: Purple Slick Dean
+- code: 30477
+  name: Brown Slick Dean
+- code: 30480
+  name: Black Babby Cut
+- code: 30481
+  name: Red Babby Cut
+- code: 30482
+  name: Orange Babby Cut
+- code: 30483
+  name: Blonde Babby Cut
+- code: 30484
+  name: Green Babby Cut
+- code: 30485
+  name: Blue Babby Cut
+- code: 30486
+  name: Purple Babby Cut
+- code: 30487
+  name: Brown Babby Cut
+- code: 30490
+  name: Black Messy Spike
+- code: 30491
+  name: Red Messy Spike
+- code: 30492
+  name: Orange Messy Spike
+- code: 30493
+  name: Blonde Messy Spike
+- code: 30494
+  name: Green Messy Spike
+- code: 30495
+  name: Blue Messy Spike
+- code: 30496
+  name: Purple Messy Spike
+- code: 30497
+  name: Brown Messy Spike
+- code: 30510
+  name: Black Rockie
+- code: 30511
+  name: Red Rockie
+- code: 30512
+  name: Orange Rockie
+- code: 30513
+  name: Blonde Rockie
+- code: 30514
+  name: Green Rockie
+- code: 30515
+  name: Blue Rockie
+- code: 30516
+  name: Purple Rockie
+- code: 30517
+  name: Brown Rockie
+- code: 30520
+  name: Black Hontas
+- code: 30521
+  name: Red Hontas
+- code: 30522
+  name: Orange Hontas
+- code: 30523
+  name: Blonde Hontas
+- code: 30524
+  name: Green Hontas
+- code: 30525
+  name: Blue Hontas
+- code: 30526
+  name: Purple Hontas
+- code: 30527
+  name: Brown Hontas
+- code: 30530
+  name: Black Baldie
+- code: 30531
+  name: Red Baldie
+- code: 30532
+  name: Orange Baldie
+- code: 30533
+  name: Blonde Baldie
+- code: 30534
+  name: Green Baldie
+- code: 30535
+  name: Blue Baldie
+- code: 30536
+  name: Purple Baldie
+- code: 30537
+  name: Brown Baldie
+- code: 30540
+  name: Black Robot
+- code: 30541
+  name: Red Robot
+- code: 30542
+  name: Orange Robot
+- code: 30543
+  name: Blonde Robot
+- code: 30544
+  name: Green Robot
+- code: 30545
+  name: Blue Robot
+- code: 30546
+  name: Purple Robot
+- code: 30547
+  name: Brown Robot
+- code: 30550
+  name: Black Kongfu Braids
+- code: 30551
+  name: Red Kongfu Braids
+- code: 30552
+  name: Orange Kongfu Braids
+- code: 30553
+  name: Blonde Kongfu Braids
+- code: 30554
+  name: Green Kongfu Braids
+- code: 30555
+  name: Blue Kongfu Braids
+- code: 30556
+  name: Purple Kongfu Braids
+- code: 30557
+  name: Brown Kongfu Braids
+- code: 30560
+  name: Black Grand Lionman
+- code: 30561
+  name: Red Grand Lionman
+- code: 30562
+  name: Orange Grand Lionman
+- code: 30563
+  name: Blonde Grand Lionman
+- code: 30564
+  name: Green Grand Lionman
+- code: 30565
+  name: Blue Grand Lionman
+- code: 30566
+  name: Purple Grand Lionman
+- code: 30567
+  name: Brown Grand Lionman
+- code: 30570
+  name: Black Eternal Elegance
+- code: 30571
+  name: Red Eternal Elegance
+- code: 30572
+  name: Orange Eternal Elegance
+- code: 30573
+  name: Blonde Eternal Elegance
+- code: 30574
+  name: Green Eternal Elegance
+- code: 30575
+  name: Blue Eternal Elegance
+- code: 30576
+  name: Purple Eternal Elegance
+- code: 30577
+  name: Brown Eternal Elegance
+- code: 30580
+  name: Black Saturday Special
+- code: 30581
+  name: Red Saturday Special
+- code: 30582
+  name: Orange Saturday Special
+- code: 30583
+  name: Blonde Saturday Special
+- code: 30584
+  name: Green Saturday Special
+- code: 30585
+  name: Blue Saturday Special
+- code: 30586
+  name: Purple Saturday Special
+- code: 30587
+  name: Brown Saturday Special
+- code: 30590
+  name: Black Super Suave
+- code: 30591
+  name: Red Super Suave
+- code: 30592
+  name: Orange Super Suave
+- code: 30593
+  name: Blonde Super Suave
+- code: 30594
+  name: Green Super Suave
+- code: 30595
+  name: Blue Super Suave
+- code: 30596
+  name: Purple Super Suave
+- code: 30597
+  name: Brown Super Suave
+- code: 30600
+  name: Black The Curl
+- code: 30601
+  name: Red The Curl
+- code: 30602
+  name: Orange The Curl
+- code: 30603
+  name: Blonde The Curl
+- code: 30604
+  name: Green The Curl
+- code: 30605
+  name: Blue The Curl
+- code: 30606
+  name: Purple The Curl
+- code: 30607
+  name: Brown The Curl
+- code: 30610
+  name: Black The Mo Rawk
+- code: 30611
+  name: Red The Mo Rawk
+- code: 30612
+  name: Orange The Mo Rawk
+- code: 30613
+  name: Blonde The Mo Rawk
+- code: 30614
+  name: Green The Mo Rawk
+- code: 30615
+  name: Blue The Mo Rawk
+- code: 30616
+  name: Purple The Mo Rawk
+- code: 30617
+  name: Brown The Mo Rawk
+- code: 30620
+  name: Black Bubba GoaTee
+- code: 30621
+  name: Red Bubba GoaTee
+- code: 30622
+  name: Orange Bubba GoaTee
+- code: 30623
+  name: Blonde Bubba GoaTee
+- code: 30624
+  name: Green Bubba GoaTee
+- code: 30625
+  name: Blue Bubba GoaTee
+- code: 30626
+  name: Purple Bubba GoaTee
+- code: 30627
+  name: Brown Bubba GoaTee
+- code: 30630
+  name: Black Neon Cactus
+- code: 30631
+  name: Red Neon Cactus
+- code: 30632
+  name: Orange Neon Cactus
+- code: 30633
+  name: Blonde Neon Cactus
+- code: 30634
+  name: Green Neon Cactus
+- code: 30635
+  name: Blue Neon Cactus
+- code: 30636
+  name: Purple Neon Cactus
+- code: 30637
+  name: Brown Neon Cactus
+- code: 30640
+  name: Black Urban Dragon
+- code: 30641
+  name: Red Urban Dragon
+- code: 30642
+  name: Orange Urban Dragon
+- code: 30643
+  name: Blonde Urban Dragon
+- code: 30644
+  name: Green Urban Dragon
+- code: 30645
+  name: Blue Urban Dragon
+- code: 30646
+  name: Purple Urban Dragon
+- code: 30647
+  name: Brown Urban Dragon
+- code: 30650
+  name: Black Rise N Shine
+- code: 30651
+  name: Red Rise N Shine
+- code: 30652
+  name: Orange Rise N Shine
+- code: 30653
+  name: Blonde Rise N Shine
+- code: 30654
+  name: Green Rise N Shine
+- code: 30655
+  name: Blue Rise N Shine
+- code: 30656
+  name: Purple Rise N Shine
+- code: 30657
+  name: Brown Rise N Shine
+- code: 30660
+  name: Black Fuzz
+- code: 30661
+  name: Red Fuzz
+- code: 30662
+  name: Orange Fuzz
+- code: 30663
+  name: Blonde Fuzz
+- code: 30664
+  name: Green Fuzz
+- code: 30665
+  name: Blue Fuzz
+- code: 30666
+  name: Purple Fuzz
+- code: 30667
+  name: Brown Fuzz
+- code: 30670
+  name: Black Preppy Spike
+- code: 30671
+  name: Red Preppy Spike
+- code: 30672
+  name: Orange Preppy Spike
+- code: 30673
+  name: Blonde Preppy Spike
+- code: 30674
+  name: Green Preppy Spike
+- code: 30675
+  name: Blue Preppy Spike
+- code: 30676
+  name: Purple Preppy Spike
+- code: 30677
+  name: Brown Preppy Spike
+- code: 30680
+  name: Black Hobo
+- code: 30681
+  name: Red Hobo
+- code: 30682
+  name: Orange Hobo
+- code: 30683
+  name: Blonde Hobo
+- code: 30684
+  name: Green Hobo
+- code: 30685
+  name: Blue Hobo
+- code: 30686
+  name: Purple Hobo
+- code: 30687
+  name: Brown Hobo
+- code: 30690
+  name: Black Metro Man
+- code: 30691
+  name: Red Metro Man
+- code: 30692
+  name: Orange Metro Man
+- code: 30693
+  name: Blonde Metro Man
+- code: 30694
+  name: Green Metro Man
+- code: 30695
+  name: Blue Metro Man
+- code: 30696
+  name: Purple Metro Man
+- code: 30697
+  name: Brown Metro Man
+- code: 30700
+  name: Black Rising Rocker
+- code: 30701
+  name: Red Rising Rocker
+- code: 30702
+  name: Orange Rising Rocker
+- code: 30703
+  name: Blonde Rising Rocker
+- code: 30704
+  name: Green Rising Rocker
+- code: 30705
+  name: Blue Rising Rocker
+- code: 30706
+  name: Purple Rising Rocker
+- code: 30707
+  name: Brown Rising Rocker
+- code: 30710
+  name: Black Puffy Fro
+- code: 30711
+  name: Red Puffy Fro
+- code: 30712
+  name: Orange Puffy Fro
+- code: 30713
+  name: Blonde Puffy Fro
+- code: 30714
+  name: Green Puffy Fro
+- code: 30715
+  name: Blue Puffy Fro
+- code: 30716
+  name: Purple Puffy Fro
+- code: 30717
+  name: Brown Puffy Fro
+- code: 30720
+  name: Black Exotica
+- code: 30721
+  name: Red Exotica
+- code: 30722
+  name: Orange Exotica
+- code: 30723
+  name: Blonde Exotica
+- code: 30724
+  name: Green Exotica
+- code: 30725
+  name: Blue Exotica
+- code: 30726
+  name: Purple Exotica
+- code: 30727
+  name: Brown Exotica
+- code: 30730
+  name: Black Roving Rockstar
+- code: 30731
+  name: Red Roving Rockstar
+- code: 30732
+  name: Orange Roving Rockstar
+- code: 30733
+  name: Blonde Roving Rockstar
+- code: 30734
+  name: Green Roving Rockstar
+- code: 30735
+  name: Blue Roving Rockstar
+- code: 30736
+  name: Purple Roving Rockstar
+- code: 30737
+  name: Brown Roving Rockstar
+- code: 30740
+  name: Black Receding Hair
+- code: 30741
+  name: Red Receding Hair
+- code: 30742
+  name: Orange Receding Hair
+- code: 30743
+  name: Blonde Receding Hair
+- code: 30744
+  name: Green Receding Hair
+- code: 30745
+  name: Blue Receding Hair
+- code: 30746
+  name: Purple Receding Hair
+- code: 30747
+  name: Brown Receding Hair
+- code: 30750
+  name: Black Buddha Fire
+- code: 30751
+  name: Red Buddha Fire
+- code: 30752
+  name: Orange Buddha Fire
+- code: 30753
+  name: Blonde Buddha Fire
+- code: 30754
+  name: Green Buddha Fire
+- code: 30755
+  name: Blue Buddha Fire
+- code: 30756
+  name: Purple Buddha Fire
+- code: 30757
+  name: Brown Buddha Fire
+- code: 30760
+  name: Black Bowling Ball
+- code: 30761
+  name: Red Bowling Ball
+- code: 30762
+  name: Orange Bowling Ball
+- code: 30763
+  name: Blonde Bowling Ball
+- code: 30764
+  name: Green Bowling Ball
+- code: 30765
+  name: Blue Bowling Ball
+- code: 30766
+  name: Purple Bowling Ball
+- code: 30767
+  name: Brown Bowling Ball
+- code: 30770
+  name: Black Lucky Charms
+- code: 30771
+  name: Red Lucky Charms
+- code: 30772
+  name: Orange Lucky Charms
+- code: 30773
+  name: Blonde Lucky Charms
+- code: 30774
+  name: Green Lucky Charms
+- code: 30775
+  name: Blue Lucky Charms
+- code: 30776
+  name: Purple Lucky Charms
+- code: 30777
+  name: Brown Lucky Charms
+- code: 30780
+  name: Black Dragon Tail
+- code: 30781
+  name: Red Dragon Tail
+- code: 30782
+  name: Orange Dragon Tail
+- code: 30783
+  name: Blonde Dragon Tail
+- code: 30784
+  name: Green Dragon Tail
+- code: 30785
+  name: Blue Dragon Tail
+- code: 30786
+  name: Purple Dragon Tail
+- code: 30787
+  name: Brown Dragon Tail
+- code: 30790
+  name: Black Lion Hair
+- code: 30791
+  name: Red Lion Hair
+- code: 30792
+  name: Orange Lion Hair
+- code: 30793
+  name: Blonde Lion Hair
+- code: 30794
+  name: Green Lion Hair
+- code: 30795
+  name: Blue Lion Hair
+- code: 30796
+  name: Purple Lion Hair
+- code: 30797
+  name: Brown Lion Hair
+- code: 30800
+  name: Black Dreamcatcher
+- code: 30801
+  name: Red Dreamcatcher
+- code: 30802
+  name: Orange Dreamcatcher
+- code: 30803
+  name: Blonde Dreamcatcher
+- code: 30804
+  name: Green Dreamcatcher
+- code: 30805
+  name: Blue Dreamcatcher
+- code: 30806
+  name: Purple Dreamcatcher
+- code: 30807
+  name: Brown Dreamcatcher
+- code: 30810
+  name: Black Gruff & Tough
+- code: 30811
+  name: Red Gruff & Tough
+- code: 30812
+  name: Orange Gruff & Tough
+- code: 30813
+  name: Blonde Gruff & Tough
+- code: 30814
+  name: Green Gruff & Tough
+- code: 30815
+  name: Blue Gruff & Tough
+- code: 30816
+  name: Purple Gruff & Tough
+- code: 30817
+  name: Brown Gruff & Tough
+- code: 30820
+  name: Black Matinee Idol
+- code: 30821
+  name: Red Matinee Idol
+- code: 30822
+  name: Orange Matinee Idol
+- code: 30823
+  name: Blond Matinee Idol
+- code: 30824
+  name: Green Matinee Idol
+- code: 30825
+  name: Blue Matinee Idol
+- code: 30826
+  name: Purple Matinee Idol
+- code: 30827
+  name: Brown Matinee Idol
+- code: 30830
+  name: Black Alex
+- code: 30831
+  name: Red Alex
+- code: 30832
+  name: Orange Alex
+- code: 30833
+  name: Blond Alex
+- code: 30834
+  name: Green Alex
+- code: 30835
+  name: Blue Alex
+- code: 30836
+  name: Purple Alex
+- code: 30837
+  name: Brown Alex
+- code: 30840
+  name: Black Julian Hair
+- code: 30841
+  name: Red Julian Hair
+- code: 30842
+  name: Orange Julian Hair
+- code: 30843
+  name: Blonde Julian Hair
+- code: 30844
+  name: Green Julian Hair
+- code: 30845
+  name: Blue Julian Hair
+- code: 30846
+  name: Purple Julian Hair
+- code: 30847
+  name: Brown Julian Hair
+- code: 30850
+  name: Black Cornrow
+- code: 30851
+  name: Red Cornrow
+- code: 30852
+  name: Orange Cornrow
+- code: 30853
+  name: Blond Cornrow
+- code: 30854
+  name: Green Cornrow
+- code: 30855
+  name: Blue Cornrow
+- code: 30856
+  name: Purple Cornrow
+- code: 30857
+  name: Brown Cornrow
+- code: 30860
+  name: Black Male Runway Hair
+- code: 30861
+  name: Red Male Runway Hair
+- code: 30862
+  name: Orange Male Runway Hair
+- code: 30863
+  name: Blonde Male Runway Hair
+- code: 30864
+  name: Green Male Runway Hair
+- code: 30865
+  name: Blue Male Runway Hair
+- code: 30866
+  name: Purple Male Runway Hair
+- code: 30867
+  name: Brown Male Runway Hair
+- code: 30870
+  name: Black Hector Hair
+- code: 30871
+  name: Red Hector Hair
+- code: 30872
+  name: Orange Hector Hair
+- code: 30873
+  name: Blonde Hector Hair
+- code: 30874
+  name: Green Hector Hair
+- code: 30875
+  name: Blue Hector Hair
+- code: 30876
+  name: Purple Hector Hair
+- code: 30877
+  name: Brown Hector Hair
+- code: 30880
+  name: Black Unbalanced
+- code: 30881
+  name: Red Unbalanced
+- code: 30882
+  name: Orange Unbalanced
+- code: 30883
+  name: Blond Unbalanced
+- code: 30884
+  name: Green Unbalanced
+- code: 30885
+  name: Blue Unbalanced
+- code: 30886
+  name: Purple Unbalanced
+- code: 30887
+  name: Brown Unbalanced
+- code: 30890
+  name: Black Eastern Mystery
+- code: 30891
+  name: Red Eastern Mystery
+- code: 30892
+  name: Orange Eastern Mystery
+- code: 30893
+  name: Yellow Eastern Mystery
+- code: 30894
+  name: Green Eastern Mystery
+- code: 30895
+  name: Blue Eastern Mystery
+- code: 30896
+  name: Purple Eastern Mystery
+- code: 30897
+  name: Brown Eastern Mystery
+- code: 30900
+  name: Black Kravitz Locks
+- code: 30901
+  name: Red Kravitz Locks
+- code: 30902
+  name: Orange Kravitz Locks
+- code: 30903
+  name: Yellow Kravitz Locks
+- code: 30904
+  name: Green Kravitz Locks
+- code: 30905
+  name: Blue Kravitz Locks
+- code: 30906
+  name: Purple Kravitz Locks
+- code: 30907
+  name: Brown Kravitz Locks
+- code: 30910
+  name: Black Jun Pyo Hair
+- code: 30911
+  name: Red Jun Pyo Hair
+- code: 30912
+  name: Orange Jun Pyo Hair
+- code: 30913
+  name: Yellow Jun Pyo Hair
+- code: 30914
+  name: Green Jun Pyo Hair
+- code: 30915
+  name: Blue Jun Pyo Hair
+- code: 30916
+  name: Purple Jun Pyo Hair
+- code: 30917
+  name: Brown Jun Pyo Hair
+- code: 30920
+  name: Black Short Top Tail
+- code: 30921
+  name: Red Short Top Tail
+- code: 30922
+  name: Orange Short Top Tail
+- code: 30923
+  name: Blonde Short Top Tail
+- code: 30924
+  name: Green Short Top Tail
+- code: 30925
+  name: Blue Short Top Tail
+- code: 30926
+  name: Purple Short Top Tail
+- code: 30927
+  name: Brown Short Top Tail
+- code: 30928
+  name: MISSING NAME
+- code: 30929
+  name: MISSING NAME
+- code: 30930
+  name: Black Boy Band Cut
+- code: 30931
+  name: Red Boy Band Cut
+- code: 30932
+  name: Orange Boy Band Cut
+- code: 30933
+  name: Blond Boy Band Cut
+- code: 30934
+  name: Green Boy Band Cut
+- code: 30935
+  name: Blue Boy Band Cut
+- code: 30936
+  name: Purple Boy Band Cut
+- code: 30937
+  name: Brown Boy Band Cut
+- code: 30940
+  name: Black Hip Hop Cut
+- code: 30941
+  name: Red Hip Hop Cut
+- code: 30942
+  name: Orange Hip Hop Cut
+- code: 30943
+  name: Blond Hip Hop Cut
+- code: 30944
+  name: Green Hip Hop Cut
+- code: 30945
+  name: Blue Hip Hop Cut
+- code: 30946
+  name: Purple Hip Hop Cut
+- code: 30947
+  name: Brown Hip Hop Cut
+- code: 30950
+  name: Black Volume Cut
+- code: 30951
+  name: Red Volume Cut
+- code: 30952
+  name: Orange Volume Cut
+- code: 30953
+  name: Blond Volume Cut
+- code: 30954
+  name: Green Volume Cut
+- code: 30955
+  name: Blue Volume Cut
+- code: 30956
+  name: Purple Volume Cut
+- code: 30957
+  name: Brown Volume Cut
+- code: 30990
+  name: Black Tentacle Hair
+- code: 30991
+  name: Red Tentacle Hair
+- code: 30992
+  name: Orange Tentacle Hair
+- code: 30993
+  name: Blond Tentacle Hair
+- code: 30994
+  name: Green Tentacle Hair
+- code: 30995
+  name: Blue Tentacle Hair
+- code: 30996
+  name: Purple Tentacle Hair
+- code: 30997
+  name: Brown Tentacle Hair
+- code: 31000
+  name: Black Sammy
+- code: 31001
+  name: Red Sammy
+- code: 31002
+  name: Orange Sammy
+- code: 31003
+  name: Blonde Sammy
+- code: 31004
+  name: Green Sammy
+- code: 31005
+  name: Blue Sammy
+- code: 31006
+  name: Purple Sammy
+- code: 31007
+  name: Brown Sammy
+- code: 31010
+  name: Black Veronica
+- code: 31011
+  name: Red Veronica
+- code: 31012
+  name: Orange Veronica
+- code: 31013
+  name: Blonde Veronica
+- code: 31014
+  name: Green Veronica
+- code: 31015
+  name: Blue Veronica
+- code: 31016
+  name: Purple Veronica
+- code: 31017
+  name: Brown Veronica
+- code: 31020
+  name: Black Francesca
+- code: 31021
+  name: Red Francesca
+- code: 31022
+  name: Orange Francesca
+- code: 31023
+  name: Blonde Francesca
+- code: 31024
+  name: Green Francesca
+- code: 31025
+  name: Blue Francesca
+- code: 31026
+  name: Purple Francesca
+- code: 31027
+  name: Brown Francesca
+- code: 31030
+  name: Black Polly
+- code: 31031
+  name: Red Polly
+- code: 31032
+  name: Orange Polly
+- code: 31033
+  name: Blonde Polly
+- code: 31034
+  name: Green Polly
+- code: 31035
+  name: Blue Polly
+- code: 31036
+  name: Purple Polly
+- code: 31037
+  name: Brown Polly
+- code: 31040
+  name: Black Edgy
+- code: 31041
+  name: Red Edgy
+- code: 31042
+  name: Orange Edgy
+- code: 31043
+  name: Blonde Edgy
+- code: 31044
+  name: Green Edgy
+- code: 31045
+  name: Blue Edgy
+- code: 31046
+  name: Purple Edgy
+- code: 31047
+  name: Brown Edgy
+- code: 31050
+  name: Black Connie
+- code: 31051
+  name: Red Connie
+- code: 31052
+  name: Orange Connie
+- code: 31053
+  name: Blonde Connie
+- code: 31054
+  name: Green Connie
+- code: 31055
+  name: Blue Connie
+- code: 31056
+  name: Purple Connie
+- code: 31057
+  name: Brown Connie
+- code: 31060
+  name: Black Annie
+- code: 31061
+  name: Red Annie
+- code: 31062
+  name: Orange Annie
+- code: 31063
+  name: Blonde Annie
+- code: 31064
+  name: Green Annie
+- code: 31065
+  name: Blue Annie
+- code: 31066
+  name: Purple Annie
+- code: 31067
+  name: Brown Annie
+- code: 31070
+  name: Black Stella
+- code: 31071
+  name: Red Stella
+- code: 31072
+  name: Orange Stella
+- code: 31073
+  name: Blonde Stella
+- code: 31074
+  name: Green Stella
+- code: 31075
+  name: Blue Stella
+- code: 31076
+  name: Purple Stella
+- code: 31077
+  name: Brown Stella
+- code: 31080
+  name: Black Rainbow
+- code: 31081
+  name: Red Rainbow
+- code: 31082
+  name: Orange Rainbow
+- code: 31083
+  name: Blonde Rainbow
+- code: 31084
+  name: Green Rainbow
+- code: 31085
+  name: Blue Rainbow
+- code: 31086
+  name: Purple Rainbow
+- code: 31087
+  name: Brown Rainbow
+- code: 31090
+  name: Black Bridget
+- code: 31091
+  name: Red Bridget
+- code: 31092
+  name: Orange Bridget
+- code: 31093
+  name: Blonde Bridget
+- code: 31094
+  name: Green Bridget
+- code: 31095
+  name: Blue Bridget
+- code: 31096
+  name: Purple Bridget
+- code: 31097
+  name: Brown Bridget
+- code: 31100
+  name: Black Mary
+- code: 31101
+  name: Red Mary
+- code: 31102
+  name: Orange Mary
+- code: 31103
+  name: Blonde Mary
+- code: 31104
+  name: Green Mary
+- code: 31105
+  name: Blue Mary
+- code: 31106
+  name: Purple Mary
+- code: 31107
+  name: Brown Mary
+- code: 31110
+  name: Black Monica
+- code: 31111
+  name: Red Monica
+- code: 31112
+  name: Orange Monica
+- code: 31113
+  name: Blonde Monica
+- code: 31114
+  name: Green Monica
+- code: 31115
+  name: Blue Monica
+- code: 31116
+  name: Purple Monica
+- code: 31117
+  name: Brown Monica
+- code: 31120
+  name: Black Miru
+- code: 31121
+  name: Red Miru
+- code: 31122
+  name: Orange Miru
+- code: 31123
+  name: Blonde Miru
+- code: 31124
+  name: Green Miru
+- code: 31125
+  name: Blue Miru
+- code: 31126
+  name: Purple Miru
+- code: 31127
+  name: Brown Miru
+- code: 31130
+  name: Black Jolie
+- code: 31131
+  name: Red Jolie
+- code: 31132
+  name: Orange Jolie
+- code: 31133
+  name: Blonde Jolie
+- code: 31134
+  name: Green Jolie
+- code: 31135
+  name: Blue Jolie
+- code: 31136
+  name: Purple Jolie
+- code: 31137
+  name: Brown Jolie
+- code: 31140
+  name: Black Pei Pei
+- code: 31141
+  name: Red Pei Pei
+- code: 31142
+  name: Orange Pei Pei
+- code: 31143
+  name: Blonde Pei Pei
+- code: 31144
+  name: Green Pei Pei
+- code: 31145
+  name: Blue Pei Pei
+- code: 31146
+  name: Purple Pei Pei
+- code: 31147
+  name: Brown Pei Pei
+- code: 31150
+  name: Black Angelica
+- code: 31151
+  name: Red Angelica
+- code: 31152
+  name: Orange Angelica
+- code: 31153
+  name: Blonde Angelica
+- code: 31154
+  name: Green Angelica
+- code: 31155
+  name: Blue Angelica
+- code: 31156
+  name: Purple Angelica
+- code: 31157
+  name: Brown Angelica
+- code: 31160
+  name: Black Lori
+- code: 31161
+  name: Red Lori
+- code: 31162
+  name: Orange Lori
+- code: 31163
+  name: Blonde Lori
+- code: 31164
+  name: Green Lori
+- code: 31165
+  name: Blue Lori
+- code: 31166
+  name: Purple Lori
+- code: 31167
+  name: Brown Lori
+- code: 31170
+  name: Black Rastafari
+- code: 31171
+  name: Red Rastafari
+- code: 31172
+  name: Orange Rastafari
+- code: 31173
+  name: Blonde Rastafari
+- code: 31174
+  name: Green Rastafari
+- code: 31175
+  name: Blue Rastafari
+- code: 31176
+  name: Purple Rastafari
+- code: 31177
+  name: Brown Rastafari
+- code: 31180
+  name: Black Cutey Doll
+- code: 31181
+  name: Red Cutey Doll
+- code: 31182
+  name: Orange Cutey Doll
+- code: 31183
+  name: Blonde Cutey Doll
+- code: 31184
+  name: Green Cutey Doll
+- code: 31185
+  name: Blue Cutey Doll
+- code: 31186
+  name: Purple Cutey Doll
+- code: 31187
+  name: Brown Cutey Doll
+- code: 31190
+  name: Black Celeb
+- code: 31191
+  name: Red Celeb
+- code: 31192
+  name: Orange Celeb
+- code: 31193
+  name: Blonde Celeb
+- code: 31194
+  name: Green Celeb
+- code: 31195
+  name: Blue Celeb
+- code: 31196
+  name: Purple Celeb
+- code: 31197
+  name: Brown Celeb
+- code: 31200
+  name: Black Holla' Back Do
+- code: 31201
+  name: Red Holla' Back Do
+- code: 31202
+  name: Orange Holla' Back Do
+- code: 31203
+  name: Blonde Holla' Back Do
+- code: 31204
+  name: Green Holla' Back Do
+- code: 31205
+  name: Blue Holla' Back Do
+- code: 31206
+  name: Purple Holla' Back Do
+- code: 31207
+  name: Brown Holla' Back Do
+- code: 31210
+  name: Black Perfect Stranger
+- code: 31211
+  name: Red Perfect Stranger
+- code: 31212
+  name: Orange Perfect Stranger
+- code: 31213
+  name: Blonde Perfect Stranger
+- code: 31214
+  name: Green Perfect Stranger
+- code: 31215
+  name: Blue Perfect Stranger
+- code: 31216
+  name: Purple Perfect Stranger
+- code: 31217
+  name: Brown Perfect Stranger
+- code: 31220
+  name: Black Caspia
+- code: 31221
+  name: Red Caspia
+- code: 31222
+  name: Orange Caspia
+- code: 31223
+  name: Blonde Caspia
+- code: 31224
+  name: Green Caspia
+- code: 31225
+  name: Blue Caspia
+- code: 31226
+  name: Purple Caspia
+- code: 31227
+  name: Brown Caspia
+- code: 31230
+  name: Black Rose
+- code: 31231
+  name: Red Rose
+- code: 31232
+  name: Orange Rose
+- code: 31233
+  name: Blonde Rose
+- code: 31234
+  name: Green Rose
+- code: 31235
+  name: Blue Rose
+- code: 31236
+  name: Purple Rose
+- code: 31237
+  name: Brown Rose
+- code: 31240
+  name: Black Disheveled
+- code: 31241
+  name: Red Disheveled
+- code: 31242
+  name: Orange Disheveled
+- code: 31243
+  name: Blonde Disheveled
+- code: 31244
+  name: Green Disheveled
+- code: 31245
+  name: Blue Disheveled
+- code: 31246
+  name: Purple Disheveled
+- code: 31247
+  name: Brown Disheveled
+- code: 31250
+  name: Black Bowlcut
+- code: 31251
+  name: Red Bowlcut
+- code: 31252
+  name: Orange Bowlcut
+- code: 31253
+  name: Blonde Bowlcut
+- code: 31254
+  name: Green Bowlcut
+- code: 31255
+  name: Blue Bowlcut
+- code: 31256
+  name: Purple Bowlcut
+- code: 31257
+  name: Brown Bowlcut
+- code: 31260
+  name: Black Daisy Do
+- code: 31261
+  name: Red Daisy Do
+- code: 31262
+  name: Orange Daisy Do
+- code: 31263
+  name: Blonde Daisy Do
+- code: 31264
+  name: Green Daisy Do
+- code: 31265
+  name: Blue Daisy Do
+- code: 31266
+  name: Purple Daisy Do
+- code: 31267
+  name: Brown Daisy Do
+- code: 31270
+  name: Black Pigtails
+- code: 31271
+  name: Red Pigtails
+- code: 31272
+  name: Orange Pigtails
+- code: 31273
+  name: Blonde Pigtails
+- code: 31274
+  name: Green Pigtails
+- code: 31275
+  name: Blue Pigtails
+- code: 31276
+  name: Purple Pigtails
+- code: 31277
+  name: Brown Pigtails
+- code: 31280
+  name: Black Ellie
+- code: 31281
+  name: Red Ellie
+- code: 31282
+  name: Orange Ellie
+- code: 31283
+  name: Blonde Ellie
+- code: 31284
+  name: Green Ellie
+- code: 31285
+  name: Blue Ellie
+- code: 31286
+  name: Purple Ellie
+- code: 31287
+  name: Brown Ellie
+- code: 31290
+  name: Black Naomi
+- code: 31291
+  name: Red Naomi
+- code: 31292
+  name: Orange Naomi
+- code: 31293
+  name: Blonde Naomi
+- code: 31294
+  name: Green Naomi
+- code: 31295
+  name: Blue Naomi
+- code: 31296
+  name: Purple Naomi
+- code: 31297
+  name: Brown Naomi
+- code: 31300
+  name: Black Chantelle
+- code: 31301
+  name: Red Chantelle
+- code: 31302
+  name: Orange Chantelle
+- code: 31303
+  name: Blonde Chantelle
+- code: 31304
+  name: Green Chantelle
+- code: 31305
+  name: Blue Chantelle
+- code: 31306
+  name: Purple Chantelle
+- code: 31307
+  name: Brown Chantelle
+- code: 31310
+  name: Black Carla
+- code: 31311
+  name: Red Carla
+- code: 31312
+  name: Orange Carla
+- code: 31313
+  name: Blonde Carla
+- code: 31314
+  name: Green Carla
+- code: 31315
+  name: Blue Carla
+- code: 31316
+  name: Purple Carla
+- code: 31317
+  name: Brown Carla
+- code: 31320
+  name: Black Roxy
+- code: 31321
+  name: Red Roxy
+- code: 31322
+  name: Orange Roxy
+- code: 31323
+  name: Blonde Roxy
+- code: 31324
+  name: Green Roxy
+- code: 31325
+  name: Blue Roxy
+- code: 31326
+  name: Purple Roxy
+- code: 31327
+  name: Brown Roxy
+- code: 31330
+  name: Black Penelope
+- code: 31331
+  name: Red Penelope
+- code: 31332
+  name: Orange Penelope
+- code: 31333
+  name: Blonde Penelope
+- code: 31334
+  name: Green Penelope
+- code: 31335
+  name: Blue Penelope
+- code: 31336
+  name: Purple Penelope
+- code: 31337
+  name: Brown Penelope
+- code: 31340
+  name: Black Rae
+- code: 31341
+  name: Red Rae
+- code: 31342
+  name: Orange Rae
+- code: 31343
+  name: Blonde Rae
+- code: 31344
+  name: Green Rae
+- code: 31345
+  name: Blue Rae
+- code: 31346
+  name: Purple Rae
+- code: 31347
+  name: Brown Rae
+- code: 31350
+  name: Black Fourtail Braids
+- code: 31351
+  name: Red Fourtail Braids
+- code: 31352
+  name: Orange Fourtail Braids
+- code: 31353
+  name: Blonde Fourtail Braids
+- code: 31354
+  name: Green Fourtail Braids
+- code: 31355
+  name: Blue Fourtail Braids
+- code: 31356
+  name: purple Fourtail Braids
+- code: 31357
+  name: Brown Fourtail Braids
+- code: 31400
+  name: Black Boyish
+- code: 31401
+  name: Red Boyish
+- code: 31402
+  name: Orange Boyish
+- code: 31403
+  name: Blonde Boyish
+- code: 31404
+  name: Green Boyish
+- code: 31405
+  name: Blue Boyish
+- code: 31406
+  name: Purple Boyish
+- code: 31407
+  name: Brown Boyish
+- code: 31410
+  name: Black Paula
+- code: 31411
+  name: Red Paula
+- code: 31412
+  name: Orange Paula
+- code: 31413
+  name: Blonde Paula
+- code: 31414
+  name: Green Paula
+- code: 31415
+  name: Blue Paula
+- code: 31416
+  name: Purple Paula
+- code: 31417
+  name: Brown Paula
+- code: 31420
+  name: Black Lana
+- code: 31421
+  name: Red Lana
+- code: 31422
+  name: Orange Lana
+- code: 31423
+  name: Blonde Lana
+- code: 31424
+  name: Green Lana
+- code: 31425
+  name: Blue Lana
+- code: 31426
+  name: Purple Lana
+- code: 31427
+  name: Brown Lana
+- code: 31430
+  name: Skin Head
+- code: 31431
+  name: Skin Head
+- code: 31432
+  name: Skin Head
+- code: 31433
+  name: Skin Head
+- code: 31434
+  name: Skin Head
+- code: 31435
+  name: Skin Head
+- code: 31436
+  name: Skin Head
+- code: 31437
+  name: Skin Head
+- code: 31440
+  name: Black Ravishing Raven
+- code: 31441
+  name: Red Ravishing Raven
+- code: 31442
+  name: Orange Ravishing Raven
+- code: 31443
+  name: Blonde Ravishing Raven
+- code: 31444
+  name: Green Ravishing Raven
+- code: 31445
+  name: Blue Ravishing Raven
+- code: 31446
+  name: Purple Ravishing Raven
+- code: 31447
+  name: Brown Ravishing Raven
+- code: 31450
+  name: Black Fluffy Dolly
+- code: 31451
+  name: Red Fluffy Dolly
+- code: 31452
+  name: Orange Fluffy Dolly
+- code: 31453
+  name: Blonde Fluffy Dolly
+- code: 31454
+  name: Green Fluffy Dolly
+- code: 31455
+  name: Blue Fluffy Dolly
+- code: 31456
+  name: Purple Fluffy Dolly
+- code: 31457
+  name: Brown Fluffy Dolly
+- code: 31460
+  name: Black Lady Mariko
+- code: 31461
+  name: Red Lady Mariko
+- code: 31462
+  name: Orange Lady Mariko
+- code: 31463
+  name: Blonde Lady Mariko
+- code: 31464
+  name: Green Lady Mariko
+- code: 31465
+  name: Blue Lady Mariko
+- code: 31466
+  name: Purple Lady Mariko
+- code: 31467
+  name: Brown Lady Mariko
+- code: 31470
+  name: Black Ming Ming
+- code: 31471
+  name: Red Ming Ming
+- code: 31472
+  name: Orange Ming Ming
+- code: 31473
+  name: Blonde Ming Ming
+- code: 31474
+  name: Green Ming Ming
+- code: 31475
+  name: Blue Ming Ming
+- code: 31476
+  name: Purple Ming Ming
+- code: 31477
+  name: Brown Ming Ming
+- code: 31480
+  name: Black Classy Sass
+- code: 31481
+  name: Red Classy Sass
+- code: 31482
+  name: Orange Classy Sass
+- code: 31483
+  name: Blonde Classy Sass
+- code: 31484
+  name: Green Classy Sass
+- code: 31485
+  name: Blue Classy Sass
+- code: 31486
+  name: Purple Classy Sass
+- code: 31487
+  name: Brown Classy Sass
+- code: 31490
+  name: Black Cecelia Twist
+- code: 31491
+  name: Red Cecelia Twist
+- code: 31492
+  name: Orange Cecelia Twist
+- code: 31493
+  name: Blonde Cecelia Twist
+- code: 31494
+  name: Green Cecelia Twist
+- code: 31495
+  name: Blue Cecelia Twist
+- code: 31496
+  name: Purple Cecelia Twist
+- code: 31497
+  name: Brown Cecelia Twist
+- code: 31510
+  name: Black Minnie
+- code: 31511
+  name: Red Minnie
+- code: 31512
+  name: Orange Minnie
+- code: 31513
+  name: Blonde Minnie
+- code: 31514
+  name: Green Minnie
+- code: 31515
+  name: Blue Minnie
+- code: 31516
+  name: Purple Minnie
+- code: 31517
+  name: Brown Minnie
+- code: 31520
+  name: Black Curly Stream
+- code: 31521
+  name: Red Curly Stream
+- code: 31522
+  name: Orange Curly Stream
+- code: 31523
+  name: Blonde Curly Stream
+- code: 31524
+  name: Green Curly Stream
+- code: 31525
+  name: Blue Curly Stream
+- code: 31526
+  name: Purple Curly Stream
+- code: 31527
+  name: Brown Curly Stream
+- code: 31530
+  name: Black Zessica
+- code: 31531
+  name: Red Zessica
+- code: 31532
+  name: Orange Zessica
+- code: 31533
+  name: Blonde Zessica
+- code: 31534
+  name: Green Zessica
+- code: 31535
+  name: Blue Zessica
+- code: 31536
+  name: Purple Zessica
+- code: 31537
+  name: Brown Zessica
+- code: 31540
+  name: Black Jean
+- code: 31541
+  name: Red Jean
+- code: 31542
+  name: Orange Jean
+- code: 31543
+  name: Blonde Jean
+- code: 31544
+  name: Green Jean
+- code: 31545
+  name: Blue Jean
+- code: 31546
+  name: Purple Jean
+- code: 31547
+  name: Brown Jean
+- code: 31550
+  name: Black Candy Heart
+- code: 31551
+  name: Red Candy Heart
+- code: 31552
+  name: Orange Candy Heart
+- code: 31553
+  name: Blonde Candy Heart
+- code: 31554
+  name: Green Candy Heart
+- code: 31555
+  name: Blue Candy Heart
+- code: 31556
+  name: Purple Candy Heart
+- code: 31557
+  name: Brown Candy Heart
+- code: 31560
+  name: Black Sunflower Power
+- code: 31561
+  name: Red Sunflower Power
+- code: 31562
+  name: Orange Sunflower Power
+- code: 31563
+  name: Blonde Sunflower Power
+- code: 31564
+  name: Green Sunflower Power
+- code: 31565
+  name: Blue Sunflower Power
+- code: 31566
+  name: Purple Sunflower Power
+- code: 31567
+  name: Brown Sunflower Power
+- code: 31570
+  name: Black Maiden's Weave
+- code: 31571
+  name: Red Maiden's Weave
+- code: 31572
+  name: Orange Maiden's Weave
+- code: 31573
+  name: Blonde Maiden's Weave
+- code: 31574
+  name: Green Maiden's Weave
+- code: 31575
+  name: Blue Maiden's Weave
+- code: 31576
+  name: Purple Maiden's Weave
+- code: 31577
+  name: Brown Maiden's Weave
+- code: 31580
+  name: Black Victorian Wrap
+- code: 31581
+  name: Red Victorian Wrap
+- code: 31582
+  name: Orange Victorian Wrap
+- code: 31583
+  name: Blonde Victorian Wrap
+- code: 31584
+  name: Green Victorian Wrap
+- code: 31585
+  name: Blue Victorian Wrap
+- code: 31586
+  name: Purple Victorian Wrap
+- code: 31587
+  name: Brown Victorian Wrap
+- code: 31590
+  name: Black Ballroom Classic
+- code: 31591
+  name: Red Ballroom Classic
+- code: 31592
+  name: Orange Ballroom Classic
+- code: 31593
+  name: Blonde Ballroom Classic
+- code: 31594
+  name: Green Ballroom Classic
+- code: 31595
+  name: Blue Ballroom Classic
+- code: 31596
+  name: Purple Ballroom Classic
+- code: 31597
+  name: Brown Ballroom Classic
+- code: 31600
+  name: Black Tall Bun
+- code: 31601
+  name: Red Tall Bun
+- code: 31602
+  name: Orange Tall Bun
+- code: 31603
+  name: Blonde Tall Bun
+- code: 31604
+  name: Green Tall Bun
+- code: 31605
+  name: Blue Tall Bun
+- code: 31606
+  name: Purple Tall Bun
+- code: 31607
+  name: Brown Tall Bun
+- code: 31610
+  name: Black Darling Diva
+- code: 31611
+  name: Red Darling Diva
+- code: 31612
+  name: Orange Darling Diva
+- code: 31613
+  name: Blonde Darling Diva
+- code: 31614
+  name: Green Darling Diva
+- code: 31615
+  name: Blue Darling Diva
+- code: 31616
+  name: Purple Darling Diva
+- code: 31617
+  name: Brown Darling Diva
+- code: 31620
+  name: Black Desert Flower
+- code: 31621
+  name: Red Desert Flower
+- code: 31622
+  name: Orange Desert Flower
+- code: 31623
+  name: Blonde Desert Flower
+- code: 31624
+  name: Green Desert Flower
+- code: 31625
+  name: Blue Desert Flower
+- code: 31626
+  name: Purple Desert Flower
+- code: 31627
+  name: Brown Desert Flower
+- code: 31630
+  name: Black The Honeybun
+- code: 31631
+  name: Red The Honeybun
+- code: 31632
+  name: Orange The Honeybun
+- code: 31633
+  name: Blonde The Honeybun
+- code: 31634
+  name: Green The Honeybun
+- code: 31635
+  name: Blue The Honeybun
+- code: 31636
+  name: Purple The Honeybun
+- code: 31637
+  name: Brown The Honeybun
+- code: 31640
+  name: Black Sonara Wave
+- code: 31641
+  name: Red Sonara Wave
+- code: 31642
+  name: Orange Sonara Wave
+- code: 31643
+  name: Blonde Sonara Wave
+- code: 31644
+  name: Green Sonara Wave
+- code: 31645
+  name: Blue Sonara Wave
+- code: 31646
+  name: Purple Sonara Wave
+- code: 31647
+  name: Brown Sonara Wave
+- code: 31650
+  name: Black Dashing Damsel
+- code: 31651
+  name: Red Dashing Damsel
+- code: 31652
+  name: Orange Dashing Damsel
+- code: 31653
+  name: Blonde Dashing Damsel
+- code: 31654
+  name: Green Dashing Damsel
+- code: 31655
+  name: Blue Dashing Damsel
+- code: 31656
+  name: Purple Dashing Damsel
+- code: 31657
+  name: Brown Dashing Damsel
+- code: 31660
+  name: Black Tighty Bun
+- code: 31661
+  name: Red Tighty Bun
+- code: 31662
+  name: Orange Tighty Bun
+- code: 31663
+  name: Blonde Tighty Bun
+- code: 31664
+  name: Green Tighty Bun
+- code: 31665
+  name: Blue Tighty Bun
+- code: 31666
+  name: Purple Tighty Bun
+- code: 31667
+  name: Brown Tighty Bun
+- code: 31670
+  name: Black Grandma ma'
+- code: 31671
+  name: Red Grandma ma'
+- code: 31672
+  name: Orange Grandma ma'
+- code: 31673
+  name: Blonde Grandma ma'
+- code: 31674
+  name: Green Grandma ma'
+- code: 31675
+  name: Blue Grandma ma'
+- code: 31676
+  name: Purple Grandma ma'
+- code: 31677
+  name: Brown Grandma ma'
+- code: 31680
+  name: Black Lovely Ladyhawk
+- code: 31681
+  name: Red Lovely Ladyhawk
+- code: 31682
+  name: Orange Lovely Ladyhawk
+- code: 31683
+  name: Blonde Lovely Ladyhawk
+- code: 31684
+  name: Green Lovely Ladyhawk
+- code: 31685
+  name: Blue Lovely Ladyhawk
+- code: 31686
+  name: Purple Lovely Ladyhawk
+- code: 31687
+  name: Brown Lovely Ladyhawk
+- code: 31690
+  name: Black Demolishing Diva
+- code: 31691
+  name: Red Demolishing Diva
+- code: 31692
+  name: Orange Demolishing Diva
+- code: 31693
+  name: Blonde Demolishing Diva
+- code: 31694
+  name: Green Demolishing Diva
+- code: 31695
+  name: Blue Demolishing Diva
+- code: 31696
+  name: Purple Demolishing Diva
+- code: 31697
+  name: Brown Demolishing Diva
+- code: 31700
+  name: Black Crazy Medusa
+- code: 31701
+  name: Red Crazy Medusa
+- code: 31702
+  name: Orange Crazy Medusa
+- code: 31703
+  name: Blonde Crazy Medusa
+- code: 31704
+  name: Green Crazy Medusa
+- code: 31705
+  name: Blue Crazy Medusa
+- code: 31706
+  name: Purple Crazy Medusa
+- code: 31707
+  name: Brown Crazy Medusa
+- code: 31710
+  name: Black Princess Warrior
+- code: 31711
+  name: Red Princess Warrior
+- code: 31712
+  name: Orange Princess Warrior
+- code: 31713
+  name: Blonde Princess Warrior
+- code: 31714
+  name: Green Princess Warrior
+- code: 31715
+  name: Blue Princess Warrior
+- code: 31716
+  name: Purple Princess Warrior
+- code: 31717
+  name: Brown Princess Warrior
+- code: 31720
+  name: Black Streaky Siren
+- code: 31721
+  name: Red Streaky Siren
+- code: 31722
+  name: Orange Streaky Siren
+- code: 31723
+  name: Blonde Streaky Siren
+- code: 31724
+  name: Green Streaky Siren
+- code: 31725
+  name: Blue Streaky Siren
+- code: 31726
+  name: Purple Streaky Siren
+- code: 31727
+  name: Brown Streaky Siren
+- code: 31730
+  name: Black Model's Ambition
+- code: 31731
+  name: Red Model's Ambition
+- code: 31732
+  name: Orange Model's Ambition
+- code: 31733
+  name: Blonde Model's Ambition
+- code: 31734
+  name: Green Model's Ambition
+- code: 31735
+  name: Blue Model's Ambition
+- code: 31736
+  name: Purple Model's Ambition
+- code: 31737
+  name: Brown Model's Ambition
+- code: 31740
+  name: Black Frizzle Dizzle
+- code: 31741
+  name: Red Frizzle Dizzle
+- code: 31742
+  name: Orange Frizzle Dizzle
+- code: 31743
+  name: Blonde Frizzle Dizzle
+- code: 31744
+  name: Green Frizzle Dizzle
+- code: 31745
+  name: Blue Frizzle Dizzle
+- code: 31746
+  name: Purple Frizzle Dizzle
+- code: 31747
+  name: Brown Frizzle Dizzle
+- code: 31750
+  name: Black Super Diva
+- code: 31751
+  name: Red Super Diva
+- code: 31752
+  name: Orange Super Diva
+- code: 31753
+  name: Blonde Super Diva
+- code: 31754
+  name: Green Super Diva
+- code: 31755
+  name: Blue Super Diva
+- code: 31756
+  name: Purple Super Diva
+- code: 31757
+  name: Brown Super Diva
+- code: 31760
+  name: Black Shaggy Dog
+- code: 31761
+  name: Red Shaggy Dog
+- code: 31762
+  name: Orange Shaggy Dog
+- code: 31763
+  name: Blonde Shaggy Dog
+- code: 31764
+  name: Green Shaggy Dog
+- code: 31765
+  name: Blue Shaggy Dog
+- code: 31766
+  name: Purple Shaggy Dog
+- code: 31767
+  name: Brown Shaggy Dog
+- code: 31770
+  name: Black Short Shaggy Hair
+- code: 31771
+  name: Red Short Shaggy Hair
+- code: 31772
+  name: Orange Short Shaggy Hair
+- code: 31773
+  name: Blonde Short Shaggy Hair
+- code: 31774
+  name: Green Short Shaggy Hair
+- code: 31775
+  name: Blue Short Shaggy Hair
+- code: 31776
+  name: Brown Short Shaggy Hair
+- code: 31777
+  name: Purple Short Shaggy Hair
+- code: 31780
+  name: Black Wind Girl's Head
+- code: 31781
+  name: Red Wind Girl's Head
+- code: 31782
+  name: Orange Wind Girl's Head
+- code: 31783
+  name: Yellow Wind Girl's Head
+- code: 31784
+  name: Green Wind Girl's Head
+- code: 31785
+  name: Blue Wind Girl's Head
+- code: 31786
+  name: Purple Wind Girl's Head
+- code: 31787
+  name: Brown Wind Girl's Head
+- code: 31790
+  name: Black Princessa
+- code: 31791
+  name: Red Princessa
+- code: 31792
+  name: Orange Princessa
+- code: 31793
+  name: Blonde Princessa
+- code: 31794
+  name: Green Princessa
+- code: 31795
+  name: Blue Princessa
+- code: 31796
+  name: Purple Princessa
+- code: 31797
+  name: Brown Princessa
+- code: 31800
+  name: Black Onna's Honor
+- code: 31801
+  name: Red Onna's Honor
+- code: 31802
+  name: Orange Onna's Honor
+- code: 31803
+  name: Blonde Onna's Honor
+- code: 31804
+  name: Green Onna's Honor
+- code: 31805
+  name: Blue Onna's Honor
+- code: 31806
+  name: Purple Onna's Honor
+- code: 31807
+  name: Brown Onna's Honor
+- code: 31810
+  name: Black Apple Hair
+- code: 31811
+  name: Red Apple Hair
+- code: 31812
+  name: Orange Apple Hair
+- code: 31813
+  name: Blonde Apple Hair
+- code: 31814
+  name: Green Apple Hair
+- code: 31815
+  name: Blue Apple Hair
+- code: 31816
+  name: Purple Apple Hair
+- code: 31817
+  name: Brown Apple Hair
+- code: 31820
+  name: Black Grace
+- code: 31821
+  name: Red Grace
+- code: 31822
+  name: Orange Grace
+- code: 31823
+  name: Blond Grace
+- code: 31824
+  name: Green Grace
+- code: 31825
+  name: Blue Grace
+- code: 31826
+  name: Purple Grace
+- code: 31827
+  name: Brown Grace
+- code: 31830
+  name: Black Eye-skimming Bang
+- code: 31831
+  name: Red Eye-skimming Bang
+- code: 31832
+  name: Orange Eye-skimming Bang
+- code: 31833
+  name: Blonde Eye-skimming Bang
+- code: 31834
+  name: Green Eye-skimming Bang
+- code: 31835
+  name: Blue Eye-skimming Bang
+- code: 31836
+  name: Purple Eye-skimming Bang
+- code: 31837
+  name: Brown Eye-skimming Bang
+- code: 31840
+  name: Black Female Runway Hair
+- code: 31841
+  name: Red Female Runway Hair
+- code: 31842
+  name: Orange Female Runway Hair
+- code: 31843
+  name: Blonde Female Runway Hair
+- code: 31844
+  name: Green Female Runway Hair
+- code: 31845
+  name: Blue Female Runway Hair
+- code: 31846
+  name: Purple Female Runway Hair
+- code: 31847
+  name: Brown Female Runway Hair
+- code: 31850
+  name: Black Dambi
+- code: 31851
+  name: Red Dambi
+- code: 31852
+  name: Orange Dambi
+- code: 31853
+  name: Blonde Dambi
+- code: 31854
+  name: Green Dambi
+- code: 31855
+  name: Blue Dambi
+- code: 31856
+  name: Purple Dambi
+- code: 31857
+  name: Brown Dambi
+- code: 31860
+  name: Black Laguna Beach
+- code: 31861
+  name: Red Laguna Beach
+- code: 31862
+  name: Orange Laguna Beach
+- code: 31863
+  name: Yellow Laguna Beach
+- code: 31864
+  name: Green Laguna Beach
+- code: 31865
+  name: Blue Laguna Beach
+- code: 31866
+  name: Purple Laguna Beach
+- code: 31867
+  name: Brown Laguna Beach
+- code: 31870
+  name: Black Ayu
+- code: 31871
+  name: Red Ayu
+- code: 31872
+  name: Orange Ayu
+- code: 31873
+  name: Yellow Ayu
+- code: 31874
+  name: Green Ayu
+- code: 31875
+  name: Blue Ayu
+- code: 31876
+  name: Purple Ayu
+- code: 31877
+  name: Brown Ayu
+- code: 31880
+  name: Black Gardener
+- code: 31881
+  name: Red Gardener
+- code: 31882
+  name: Orange Gardener
+- code: 31883
+  name: Blond Gardener
+- code: 31884
+  name: Green Gardener
+- code: 31885
+  name: Blue Gardener
+- code: 31886
+  name: Purple Gardener
+- code: 31887
+  name: Brown Gardener
+- code: 31890
+  name: Black Short Twin Tails
+- code: 31891
+  name: Red Short Twin Tails
+- code: 31892
+  name: Orange Short Twin Tails
+- code: 31893
+  name: Blond Short Twin Tails
+- code: 31894
+  name: Green Short Twin Tails
+- code: 31895
+  name: Blue Short Twin Tails
+- code: 31896
+  name: Purple Short Twin Tails
+- code: 31897
+  name: Brown Short Twin Tails
+- code: 31910
+  name: Black Housewife
+- code: 31911
+  name: Red Housewife
+- code: 31912
+  name: Orange Housewife
+- code: 31913
+  name: Blond Housewife
+- code: 31914
+  name: Green Housewife
+- code: 31915
+  name: Blue Housewife
+- code: 31916
+  name: Purple Housewife
+- code: 31917
+  name: Brown Housewife
+- code: 31920
+  name: Black CL Hair
+- code: 31921
+  name: Red CL Hair
+- code: 31922
+  name: Orange CL Hair
+- code: 31923
+  name: Yellow CL Hair
+- code: 31924
+  name: Green CL Hair
+- code: 31925
+  name: Blue CL Hair
+- code: 31926
+  name: Purple CL Hair
+- code: 31927
+  name: Brown CL Hair
+- code: 31930
+  name: Black Bowl Cut
+- code: 31931
+  name: Red Bowl Cut
+- code: 31932
+  name: Orange Bowl Cut
+- code: 31933
+  name: Blond Bowl Cut
+- code: 31934
+  name: Green Bowl Cut
+- code: 31935
+  name: Blue Bowl Cut
+- code: 31936
+  name: Purple Bowl Cut
+- code: 31937
+  name: Brown Bowl Cut
+- code: 31940
+  name: Black Spunky Do
+- code: 31941
+  name: Red Spunky Do
+- code: 31942
+  name: Orange Spunky Do
+- code: 31943
+  name: Blond Spunky Do
+- code: 31944
+  name: Green Spunky Do
+- code: 31945
+  name: Blue Spunky Do
+- code: 31946
+  name: Purple Spunky Do
+- code: 31947
+  name: Brown Spunky Do
+- code: 31950
+  name: Black Vintage Flip
+- code: 31951
+  name: Red Vintage Flip
+- code: 31952
+  name: Orange Vintage Flip
+- code: 31953
+  name: Blond Vintage Flip
+- code: 31954
+  name: Green Vintage Flip
+- code: 31955
+  name: Blue Vintage Flip
+- code: 31956
+  name: Purple Vintage Flip
+- code: 31957
+  name: Brown Vintage Flip
+- code: 33000
+  name: Black Prince Cut
+- code: 33001
+  name: Red Prince Cut
+- code: 33002
+  name: Orange Prince Cut
+- code: 33003
+  name: Blond Prince Cut
+- code: 33004
+  name: Green Prince Cut
+- code: 33005
+  name: Blue Prince Cut
+- code: 33006
+  name: Purple Prince Cut
+- code: 33007
+  name: Brown Prince Cut
+- code: 33040
+  name: Black Aran Cut
+- code: 33041
+  name: Red Aran Cut
+- code: 33042
+  name: Orange Aran Cut
+- code: 33043
+  name: Blond Aran Cut
+- code: 33044
+  name: Green Aran Cut
+- code: 33045
+  name: Blue Aran Cut
+- code: 33046
+  name: Purple Aran Cut
+- code: 33047
+  name: Brown Aran Cut
+- code: 33100
+  name: Black The Coco
+- code: 33101
+  name: Red The Coco
+- code: 33102
+  name: Orange The Coco
+- code: 33103
+  name: Blond The Coco
+- code: 33104
+  name: Green The Coco
+- code: 33105
+  name: Blue The Coco
+- code: 33106
+  name: Purple The CoCo
+- code: 33107
+  name: Brown The Coco
+- code: 34000
+  name: Black Palm Tree Hair
+- code: 34001
+  name: Red Palm Tree Hair
+- code: 34002
+  name: Orange Palm Tree Hair
+- code: 34003
+  name: Blond Palm Tree Hair
+- code: 34004
+  name: Green Palm Tree Hair
+- code: 34005
+  name: Blue Palm Tree Hair
+- code: 34006
+  name: Purple Palm Tree Hair
+- code: 34007
+  name: Brown Palm Tree Hair
+- code: 34010
+  name: Black Rollered Hair
+- code: 34011
+  name: Red Rollered Hair
+- code: 34012
+  name: Orange Rollered Hair
+- code: 34013
+  name: Blond Rollered Hair
+- code: 34014
+  name: Green Rollered Hair
+- code: 34015
+  name: Blue Rollered Hair
+- code: 34016
+  name: Purple Rollered Hair
+- code: 34017
+  name: Brown Rollered Hair
+- code: 34020
+  name: Black School Girl Hair
+- code: 34021
+  name: Red School Girl Hair
+- code: 34022
+  name: Orange School Girl Hair
+- code: 34023
+  name: Blond School Girl Hair
+- code: 34024
+  name: Green School Girl Hair
+- code: 34025
+  name: Blue School Girl Hair
+- code: 34026
+  name: Purple School Girl Hair
+- code: 34027
+  name: Brown School Girl Hair
+- code: 34030
+  name: Black Designer Hair
+- code: 34031
+  name: Red Designer Hair
+- code: 34032
+  name: Orange Designer Hair
+- code: 34033
+  name: Blond Designer Hair
+- code: 34034
+  name: Green Designer Hair
+- code: 34035
+  name: Blue Designer Hair
+- code: 34036
+  name: Purple Designer Hair
+- code: 34037
+  name: Brown Designer Hair
+- code: 34050
+  name: Black Aran Hair
+- code: 34051
+  name: Red Aran Hair
+- code: 34052
+  name: Orange Aran Hair
+- code: 34053
+  name: Blond Aran Hair
+- code: 34054
+  name: Green Aran Hair
+- code: 34055
+  name: Blue Aran Hair
+- code: 34056
+  name: Purple Aran Hair
+- code: 34057
+  name: Brown Aran Hair
+- code: 34110
+  name: Black Full Bangs
+- code: 34111
+  name: Red Full Bangs
+- code: 34112
+  name: Orange Full Bangs
+- code: 34113
+  name: Blond Full Bangs
+- code: 34114
+  name: Green Full Bangs
+- code: 34115
+  name: Blue Full Bangs
+- code: 34116
+  name: Purple Full Bangs
+- code: 34117
+  name: Brown Full Bangs

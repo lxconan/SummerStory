@@ -5,7 +5,7 @@ import io.netty.channel.ChannelFuture
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import org.summer.story.config.GlobalConfiguration
-import org.summer.story.server.dtos.OutDto
+import org.summer.story.server.login.dtos.OutDto
 
 interface SendPacketService {
     fun sendPacket(channel: Channel, dto: OutDto): ChannelFuture

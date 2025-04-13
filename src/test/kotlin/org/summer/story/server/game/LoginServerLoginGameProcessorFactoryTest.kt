@@ -3,7 +3,9 @@ package org.summer.story.server.game
 import io.mockk.every
 import io.mockk.mockk
 import org.junit.jupiter.api.Test
-import org.summer.story.server.ReceiveOpcode
+import org.summer.story.server.login.LoginReceiveOpcode
+import org.summer.story.server.login.game.LoginGameProcessorFactory
+import org.summer.story.server.login.game.LoginServerGameProcessor
 import kotlin.test.*
 
 class LoginServerLoginGameProcessorFactoryTest {
@@ -12,11 +14,11 @@ class LoginServerLoginGameProcessorFactoryTest {
     fun `should return processor for registered opcode`() {
         // Given
         val processor = mockk<LoginServerGameProcessor>()
-        every { processor.getOpcode() } returns ReceiveOpcode.PONG
+        every { processor.getOpcode() } returns LoginReceiveOpcode.PONG
         val factory = LoginGameProcessorFactory(listOf(processor))
 
         // When
-        val result = factory.getGameProcessor(ReceiveOpcode.PONG.value.toShort())
+        val result = factory.getGameProcessor(LoginReceiveOpcode.PONG.value.toShort())
 
         // Then
         assertNotNull(result, "Processor should not be null for registered opcode")
@@ -29,7 +31,7 @@ class LoginServerLoginGameProcessorFactoryTest {
         val factory = LoginGameProcessorFactory(emptyList())
 
         // When
-        val result = factory.getGameProcessor(ReceiveOpcode.PONG.value.toShort())
+        val result = factory.getGameProcessor(LoginReceiveOpcode.PONG.value.toShort())
 
         // Then
         assertNull(result, "Processor should be null for unregistered opcode")
