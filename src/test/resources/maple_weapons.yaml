@@ -1,0 +1,2440 @@
+- code: 1302000
+  name: Sword
+- code: 1302001
+  name: Saw
+- code: 1302002
+  name: Viking Sword
+- code: 1302003
+  name: Eloon
+- code: 1302004
+  name: Cutlus
+- code: 1302005
+  name: Sabre
+- code: 1302006
+  name: Machete
+- code: 1302007
+  name: Long Sword
+- code: 1302008
+  name: Gladius
+- code: 1302009
+  name: Traus
+- code: 1302010
+  name: Jeweled Katar
+- code: 1302011
+  name: Neocora
+- code: 1302012
+  name: Red Katana
+- code: 1302013
+  name: Red Whip
+- code: 1302014
+  name: Old Gladius
+- code: 1302015
+  name: Hero's Gladius
+- code: 1302016
+  name: Yellow Umbrella
+- code: 1302017
+  name: Sky Blue Umbrella
+- code: 1302018
+  name: Khan
+- code: 1302019
+  name: Nameless Sword
+- code: 1302020
+  name: Maple Sword
+- code: 1302021
+  name: Pico-Pico Hammer
+- code: 1302022
+  name: Bamboo Sword
+- code: 1302023
+  name: Fraute
+- code: 1302024
+  name: Newspaper Sword
+- code: 1302025
+  name: Red Umbrella
+- code: 1302026
+  name: Black Umbrella
+- code: 1302027
+  name: Green Umbrella
+- code: 1302028
+  name: Light Purple Umbrella
+- code: 1302029
+  name: Beige Umbrella
+- code: 1302030
+  name: Maple Soul Singer
+- code: 1302031
+  name: Diao Chan Sword
+- code: 1302033
+  name: Maple Flag
+- code: 1302034
+  name: Pumpkin Basket
+- code: 1302035
+  name: 'Maple Flag : 1000 Days'
+- code: 1302036
+  name: 'Maple Flag : 1000 Days'
+- code: 1302037
+  name: Trumpet
+- code: 1302038
+  name: Gladius
+- code: 1302039
+  name: Jeweled Katar
+- code: 1302040
+  name: Neocora
+- code: 1302041
+  name: Red Katana
+- code: 1302042
+  name: Khan
+- code: 1302043
+  name: Gladius
+- code: 1302044
+  name: Jeweled Katar
+- code: 1302045
+  name: Neocora
+- code: 1302046
+  name: Red Katana
+- code: 1302047
+  name: Khan
+- code: 1302048
+  name: Unused Weapon
+- code: 1302049
+  name: Glowing Whip
+- code: 1302050
+  name: Gladius
+- code: 1302051
+  name: Jeweled Katar
+- code: 1302052
+  name: Neocora
+- code: 1302053
+  name: Red Katana
+- code: 1302054
+  name: Khan
+- code: 1302056
+  name: Sparta
+- code: 1302057
+  name: The Stars and Stripes
+- code: 1302058
+  name: Maple Umbrella
+- code: 1302059
+  name: Dragon Carabella
+- code: 1302060
+  name: Huckle's Lamp
+- code: 1302062
+  name: Pumpkin Basket (2006 SE)
+- code: 1302063
+  name: Flaming Katana
+- code: 1302064
+  name: Maple Glory Sword
+- code: 1302065
+  name: Blue Maple Flag
+- code: 1302066
+  name: Maple 1500 Anniv. Flag
+- code: 1302067
+  name: Maple 1500 Anniv. Flag
+- code: 1302068
+  name: Onyx Blade
+- code: 1302071
+  name: Pink Flower Tube
+- code: 1302073
+  name: Singapore Flag (Beginner)
+- code: 1302074
+  name: Malaysia Flag (Beginner)
+- code: 1302075
+  name: Singapore Flag (One Handed Sword)
+- code: 1302076
+  name: Malaysia Flag (One Handed Sword)
+- code: 1302077
+  name: Beginner Warrior's sword
+- code: 1302079
+  name: Astral Blade
+- code: 1302080
+  name: Maplemas Lights
+- code: 1302081
+  name: Timeless Executioners
+- code: 1302083
+  name: Viking Sword for Transformation
+- code: 1302086
+  name: Reverse Executioners
+- code: 1302088
+  name: Stirge-on-a-String
+- code: 1302089
+  name: Stirge-on-a-Rope
+- code: 1302090
+  name: Stirge-o-Whip
+- code: 1302091
+  name: Stirge Grappler
+- code: 1302092
+  name: Swooping Stirge
+- code: 1302093
+  name: Frantic Strige
+- code: 1302094
+  name: Angry Stirge
+- code: 1302095
+  name: Lifeguard Saver
+- code: 1302098
+  name: Lunch box (Lv 20)
+- code: 1302099
+  name: Lunch box (Lv 60)
+- code: 1302100
+  name: Lunch box (Lv 90)
+- code: 1302101
+  name: Lunch box (Lv 120)
+- code: 1302105
+  name: Seraphim One-handed Sword
+- code: 1302106
+  name: Crystal Blade
+- code: 1302107
+  name: Black Crystal Blade
+- code: 1302112
+  name: Balrog's Khan
+- code: 1302113
+  name: Balrog's Fraute
+- code: 1302114
+  name: GMS Carabella
+- code: 1302119
+  name: King Pepe Cutlass
+- code: 1302120
+  name: Angel Sword
+- code: 1302124
+  name: Unused Weapon
+- code: 1302125
+  name: Unused Weapon
+- code: 1302126
+  name: Unused Weapon
+- code: 1302131
+  name: Broomstick
+- code: 1302133
+  name: Astaroth One-Handed Sword
+- code: 1312000
+  name: Double Axe
+- code: 1312001
+  name: Battle Axe
+- code: 1312002
+  name: Scythe
+- code: 1312003
+  name: Misthil Axe
+- code: 1312004
+  name: Hand Axe
+- code: 1312005
+  name: Fireman's Axe
+- code: 1312006
+  name: Dankke
+- code: 1312007
+  name: Blue Counter
+- code: 1312008
+  name: Buck
+- code: 1312009
+  name: Hawkhead
+- code: 1312010
+  name: Mikhail
+- code: 1312011
+  name: Gaea
+- code: 1312012
+  name: Hula Hoop
+- code: 1312013
+  name: Green Paint Brush
+- code: 1312014
+  name: Black Paint Brush
+- code: 1312015
+  name: Vifennis
+- code: 1312016
+  name: Contra Axe
+- code: 1312017
+  name: Chief Axe
+- code: 1312018
+  name: Buck
+- code: 1312019
+  name: Hawkhead
+- code: 1312020
+  name: Mikhail
+- code: 1312021
+  name: Gaea
+- code: 1312022
+  name: Buck
+- code: 1312023
+  name: Hawkhead
+- code: 1312024
+  name: Mikhail
+- code: 1312025
+  name: Gaea
+- code: 1312026
+  name: Buck
+- code: 1312027
+  name: Hawkhead
+- code: 1312028
+  name: Mikhail
+- code: 1312029
+  name: Gaea
+- code: 1312030
+  name: Tomahawk
+- code: 1312031
+  name: Dragon Axe
+- code: 1312032
+  name: Maple Steel Axe
+- code: 1312033
+  name: Maple 1500 Anniv. Flag
+- code: 1312034
+  name: Pink Flower Tube
+- code: 1312035
+  name: Unused Weapon
+- code: 1312036
+  name: Malaysia Flag (One Handed Axe)
+- code: 1312037
+  name: Timeless Bardiche
+- code: 1312038
+  name: Reverse Bardiche
+- code: 1312039
+  name: Seraphim One-handed Axe
+- code: 1312042
+  name: Balrog's Gaea
+- code: 1312043
+  name: Balrog's Vifennis
+- code: 1312044
+  name: GMS Axe
+- code: 1312045
+  name: King Pepe Danker
+- code: 1312046
+  name: Unused Weapon
+- code: 1322000
+  name: Mace
+- code: 1322001
+  name: Hammer
+- code: 1322002
+  name: Iron Mace
+- code: 1322003
+  name: Lollipop
+- code: 1322004
+  name: Fusion Mace
+- code: 1322005
+  name: Wooden Club
+- code: 1322006
+  name: Steel Pipe
+- code: 1322007
+  name: Leather Purse
+- code: 1322008
+  name: Hard Briefcase
+- code: 1322009
+  name: Plunger
+- code: 1322010
+  name: Square Shovel
+- code: 1322011
+  name: Pointed Shovel
+- code: 1322012
+  name: Red Brick
+- code: 1322013
+  name: Wizet Secret Agent Suitcase
+- code: 1322014
+  name: War Hammer
+- code: 1322015
+  name: Heavy Hammer
+- code: 1322016
+  name: Jacker
+- code: 1322017
+  name: Knuckle Mace
+- code: 1322018
+  name: Tamus
+- code: 1322019
+  name: The Judgement
+- code: 1322020
+  name: Bent Judgement
+- code: 1322021
+  name: Black Tube
+- code: 1322022
+  name: Red Flowery Tube
+- code: 1322023
+  name: Blue Flowery Tube
+- code: 1322024
+  name: Purple Tube
+- code: 1322025
+  name: Emergency Rescue Tube
+- code: 1322026
+  name: Colorful Tube
+- code: 1322027
+  name: Frying Pan
+- code: 1322028
+  name: Heaven's Justice
+- code: 1322029
+  name: Ruin Hammer
+- code: 1322031
+  name: Pig Illustrated
+- code: 1322032
+  name: Iron Hammer
+- code: 1322033
+  name: Goblin Bat
+- code: 1322035
+  name: War Hammer
+- code: 1322036
+  name: Knuckle Mace
+- code: 1322037
+  name: Tamus
+- code: 1322038
+  name: The Judgement
+- code: 1322039
+  name: Heaven's Justice
+- code: 1322040
+  name: War Hammer
+- code: 1322041
+  name: Knuckle Mace
+- code: 1322042
+  name: Tamus
+- code: 1322043
+  name: The Judgement
+- code: 1322044
+  name: Heaven's Justice
+- code: 1322045
+  name: Battle Hammer
+- code: 1322046
+  name: War Hammer
+- code: 1322047
+  name: Knuckle Mace
+- code: 1322048
+  name: Tamus
+- code: 1322049
+  name: The Judgement
+- code: 1322050
+  name: Heaven's Justice
+- code: 1322051
+  name: Fruity Bamboo
+- code: 1322052
+  name: Dragon Mace
+- code: 1322053
+  name: Golden Mace
+- code: 1322054
+  name: Maple Havoc Hammer
+- code: 1322055
+  name: Maple 1500 Anniv. Flag
+- code: 1322056
+  name: Pink Flower Tube
+- code: 1322057
+  name: Singapore Flag (One Handed Mace)
+- code: 1322058
+  name: Malaysia Flag (One Handed Mace)
+- code: 1322059
+  name: Cosmic Scepter
+- code: 1322060
+  name: Timeless Allargando
+- code: 1322061
+  name: Reverse Allargando
+- code: 1322062
+  name: Crushed Skull
+- code: 1322063
+  name: Duck tube
+- code: 1322064
+  name: Duck tube
+- code: 1322065
+  name: Seraphim One-handed Blunt Weapon
+- code: 1322068
+  name: Balrog's Golden Hammer
+- code: 1322069
+  name: Balrog's Runi Hammer
+- code: 1322072
+  name: GMS Flame
+- code: 1322073
+  name: King Pepe Heavy Hammer
+- code: 1322074
+  name: Unused Weapon
+- code: 1332000
+  name: Triangular Zamadar
+- code: 1332001
+  name: Halfmoon Zamadar
+- code: 1332002
+  name: Triple-Tipped Zamadar
+- code: 1332003
+  name: Shinkita
+- code: 1332004
+  name: Forked Dagger
+- code: 1332005
+  name: Razor
+- code: 1332006
+  name: Field Dagger
+- code: 1332007
+  name: Fruit Knife
+- code: 1332008
+  name: Coconut Knife
+- code: 1332009
+  name: Cass
+- code: 1332010
+  name: Iron Dagger
+- code: 1332011
+  name: Bazlud
+- code: 1332012
+  name: Reef Claw
+- code: 1332013
+  name: Stinger
+- code: 1332014
+  name: Gephart
+- code: 1332015
+  name: Deadly Fin
+- code: 1332016
+  name: Sai
+- code: 1332017
+  name: Serpent's Coil
+- code: 1332018
+  name: Kandine
+- code: 1332019
+  name: Golden River
+- code: 1332020
+  name: Korean Fan
+- code: 1332021
+  name: Plastic Bottle
+- code: 1332022
+  name: Angelic Betrayal
+- code: 1332023
+  name: Dragon's Tail
+- code: 1332024
+  name: Bushido
+- code: 1332025
+  name: Maple Wagner
+- code: 1332026
+  name: Cursayer
+- code: 1332027
+  name: Varkit
+- code: 1332029
+  name: Liu Bei Dagger
+- code: 1332030
+  name: Fan
+- code: 1332031
+  name: Dragon Toenail
+- code: 1332032
+  name: Christmas Tree
+- code: 1332033
+  name: Reef Claw
+- code: 1332034
+  name: Shinkita
+- code: 1332035
+  name: Deadly Fin
+- code: 1332036
+  name: Kandine
+- code: 1332037
+  name: Dragon's Tail
+- code: 1332038
+  name: Reef Claw
+- code: 1332039
+  name: Shinkita
+- code: 1332040
+  name: Deadly Fin
+- code: 1332041
+  name: Kandine
+- code: 1332042
+  name: Dragon's Tail
+- code: 1332043
+  name: Reef Claw
+- code: 1332044
+  name: Shinkita
+- code: 1332045
+  name: Deadly Fin
+- code: 1332046
+  name: Kandine
+- code: 1332047
+  name: Dragon's Tail
+- code: 1332049
+  name: Dragon Kanzir
+- code: 1332050
+  name: Dragon Kreda
+- code: 1332051
+  name: Gold Double Knife
+- code: 1332052
+  name: Blood Dagger
+- code: 1332053
+  name: Kebob
+- code: 1332054
+  name: Diamond Dagger
+- code: 1332055
+  name: Maple Dark Mate
+- code: 1332056
+  name: Maple Asura Dagger
+- code: 1332057
+  name: Maple 1500 Anniv. Flag
+- code: 1332059
+  name: Pink Flower Tube
+- code: 1332060
+  name: Singapore Flag (Dagger)
+- code: 1332061
+  name: Malaysia Flag (Dagger)
+- code: 1332063
+  name: Beginner Thief's short sword
+- code: 1332064
+  name: Nebula Dagger 1 (LUK)
+- code: 1332065
+  name: Nebula Dagger 2 (STR)
+- code: 1332066
+  name: Razor
+- code: 1332067
+  name: Maku(LUK)
+- code: 1332068
+  name: Makusuma(LUK)
+- code: 1332069
+  name: Makumagna(LUK)
+- code: 1332070
+  name: Maku(STR)
+- code: 1332071
+  name: Makusuma(STR)
+- code: 1332072
+  name: Makumagna(STR)
+- code: 1332073
+  name: Timeless Pescas
+- code: 1332074
+  name: Timeless Killic
+- code: 1332075
+  name: Reverse Pescas
+- code: 1332076
+  name: Reverse Killic
+- code: 1332077
+  name: Raven's Beak
+- code: 1332078
+  name: Night Raven's Beak
+- code: 1332079
+  name: Dawn Raven's Beak
+- code: 1332080
+  name: Dusk Raven's Beak
+- code: 1332081
+  name: Seraphim Dagger
+- code: 1332084
+  name: Balrog's Angelic Betrayal
+- code: 1332085
+  name: Dragon's Tail of Balrog
+- code: 1332086
+  name: Balrog's Cursayer
+- code: 1332087
+  name: Balrog's Varkit
+- code: 1332088
+  name: King Pepe Gephart
+- code: 1332093
+  name: Unused Weapon
+- code: 1332094
+  name: Unused Weapon
+- code: 1332095
+  name: Unused Weapon
+- code: 1332099
+  name: Astaroth Short Sword
+- code: 1372000
+  name: Fairy Wand
+- code: 1372001
+  name: Wizard Wand
+- code: 1372002
+  name: Metal Wand
+- code: 1372003
+  name: Mithril Wand
+- code: 1372004
+  name: Ice Wand
+- code: 1372005
+  name: Wooden Wand
+- code: 1372006
+  name: Hardwood Wand
+- code: 1372007
+  name: Cromi
+- code: 1372008
+  name: Hinomaru Fan
+- code: 1372009
+  name: Magicodar
+- code: 1372010
+  name: Dimon Wand
+- code: 1372011
+  name: Zhu-Ge-Liang Wand
+- code: 1372012
+  name: Crystal Wand
+- code: 1372014
+  name: Evil Tale
+- code: 1372015
+  name: Angel Wings
+- code: 1372016
+  name: Phoenix Wand
+- code: 1372017
+  name: Streetlight
+- code: 1372018
+  name: Wizard Wand
+- code: 1372019
+  name: Cromi
+- code: 1372020
+  name: Evil Tale
+- code: 1372021
+  name: Angel Wings
+- code: 1372022
+  name: Wizard Wand
+- code: 1372023
+  name: Cromi
+- code: 1372024
+  name: Evil Tale
+- code: 1372025
+  name: Angel Wings
+- code: 1372026
+  name: Unused Weapon
+- code: 1372027
+  name: Wizard Wand
+- code: 1372028
+  name: Cromi
+- code: 1372029
+  name: Evil Tale
+- code: 1372030
+  name: Angel Wings
+- code: 1372031
+  name: Heart Staff
+- code: 1372032
+  name: Dragon Wand
+- code: 1372033
+  name: Heart Wand
+- code: 1372034
+  name: Maple Shine Wand
+- code: 1372035
+  name: Elemental Wand 1
+- code: 1372036
+  name: Elemental Wand 2
+- code: 1372037
+  name: Elemental Wand 3
+- code: 1372038
+  name: Elemental Wand 4
+- code: 1372039
+  name: Elemental Wand 5
+- code: 1372040
+  name: Elemental Wand 6
+- code: 1372041
+  name: Elemental Wand 7
+- code: 1372042
+  name: Elemental Wand 8
+- code: 1372043
+  name: Beginner Magician's wand
+- code: 1372044
+  name: Timeless Enreal Tear
+- code: 1372045
+  name: Reverse Enreal Tear
+- code: 1372046
+  name: Seraphim Wand
+- code: 1372049
+  name: Zakum's Tree Branch
+- code: 1372050
+  name: Balrog's Magicodar
+- code: 1372051
+  name: Balrog's Phoenix Wand
+- code: 1372053
+  name: King Pepe Wizard Wand
+- code: 1372056
+  name: Unused Weapon
+- code: 1372058
+  name: Astaroth Wand
+- code: 1382000
+  name: Wooden Staff
+- code: 1382001
+  name: Arc Staff
+- code: 1382002
+  name: Wizard Staff
+- code: 1382003
+  name: Sapphire Staff
+- code: 1382004
+  name: Old Wooden Staff
+- code: 1382005
+  name: Emerald Staff
+- code: 1382006
+  name: Thorns
+- code: 1382007
+  name: Evil Wings
+- code: 1382008
+  name: Kage
+- code: 1382009
+  name: Maple Staff
+- code: 1382010
+  name: Dark Ritual
+- code: 1382011
+  name: Mystic Cane
+- code: 1382012
+  name: Maple Lama Staff
+- code: 1382014
+  name: Sun Quan Staff
+- code: 1382015
+  name: Poison Mushroom
+- code: 1382016
+  name: Pyogo Mushroom
+- code: 1382017
+  name: Circle-Winded Staff
+- code: 1382018
+  name: Petal Staff
+- code: 1382019
+  name: Hall Staff
+- code: 1382020
+  name: Arc Staff
+- code: 1382021
+  name: Thorns
+- code: 1382022
+  name: Evil Wings
+- code: 1382023
+  name: Dark Ritual
+- code: 1382024
+  name: Kage
+- code: 1382025
+  name: Arc Staff
+- code: 1382026
+  name: Thorns
+- code: 1382027
+  name: Evil Wings
+- code: 1382028
+  name: Dark Ritual
+- code: 1382029
+  name: Kage
+- code: 1382030
+  name: Arc Staff
+- code: 1382031
+  name: Thorns
+- code: 1382032
+  name: Evil Wings
+- code: 1382033
+  name: Dark Ritual
+- code: 1382034
+  name: Kage
+- code: 1382035
+  name: Blue Marine
+- code: 1382036
+  name: Dragon Staff
+- code: 1382037
+  name: Doomsday Staff
+- code: 1382039
+  name: Maple Wisdom Staff
+- code: 1382040
+  name: Maple 1500 Anniv. Flag
+- code: 1382041
+  name: Nocturnal Staff
+- code: 1382042
+  name: Pink Flower Tube
+- code: 1382043
+  name: Singapore Flag (Staff)
+- code: 1382044
+  name: Malaysia Flag (Staff)
+- code: 1382045
+  name: Elemental Staff 1
+- code: 1382046
+  name: Elemental Staff 2
+- code: 1382047
+  name: Elemental Staff 3
+- code: 1382048
+  name: Elemental Staff 4
+- code: 1382049
+  name: Elemental Staff 5
+- code: 1382050
+  name: Elemental Staff 6
+- code: 1382051
+  name: Elemental Staff 7
+- code: 1382052
+  name: Elemental Staff 8
+- code: 1382053
+  name: Celestial Staff
+- code: 1382054
+  name: Umaru
+- code: 1382055
+  name: Umarusuma
+- code: 1382056
+  name: Umarumagna
+- code: 1382057
+  name: Timeless Aeas Hand
+- code: 1382058
+  name: Wooden Staff for Transformation
+- code: 1382059
+  name: Reverse Aeas Hand
+- code: 1382060
+  name: Crimson Arcanon
+- code: 1382062
+  name: Seraphim Staff
+- code: 1382066
+  name: Balrog's Kage
+- code: 1382067
+  name: Balrog's Blue Marine
+- code: 1382068
+  name: Bain Wings
+- code: 1382070
+  name: King Pepe Petal Staff
+- code: 1382074
+  name: Unused Weapon
+- code: 1382075
+  name: Unused Weapon
+- code: 1382076
+  name: Unused Weapon
+- code: 1382080
+  name: Astaroth Staff
+- code: 1392000
+  name: Unused Weapon
+- code: 1402000
+  name: Two-Handed Sword
+- code: 1402001
+  name: Wooden Sword
+- code: 1402002
+  name: Scimitar
+- code: 1402003
+  name: Lion's Fang
+- code: 1402004
+  name: Blue Screamer
+- code: 1402005
+  name: Berzerker
+- code: 1402006
+  name: Lionheart
+- code: 1402007
+  name: Zard
+- code: 1402008
+  name: Broadsword
+- code: 1402009
+  name: Wooden Baseball Bat
+- code: 1402010
+  name: Aluminum Baseball Bat
+- code: 1402011
+  name: Sparta
+- code: 1402012
+  name: Doombringer
+- code: 1402013
+  name: Japanese Map
+- code: 1402014
+  name: Thermometer
+- code: 1402015
+  name: Heaven's Gate
+- code: 1402016
+  name: Devil's Sunrise
+- code: 1402017
+  name: Daiwa Sword
+- code: 1402018
+  name: Wooden Samurai Sword
+- code: 1402019
+  name: Scimitar
+- code: 1402020
+  name: Lion's Fang
+- code: 1402021
+  name: Sparta
+- code: 1402022
+  name: Doombringer
+- code: 1402023
+  name: Heaven's Gate
+- code: 1402024
+  name: Scimitar
+- code: 1402025
+  name: Lion's Fang
+- code: 1402026
+  name: Sparta
+- code: 1402027
+  name: Doombringer
+- code: 1402028
+  name: Heaven's Gate
+- code: 1402029
+  name: Aluminum Bat
+- code: 1402030
+  name: Scimitar
+- code: 1402031
+  name: Lion's Fang
+- code: 1402032
+  name: Sparta
+- code: 1402033
+  name: Doombringer
+- code: 1402034
+  name: Heaven's Gate
+- code: 1402035
+  name: The Beheader
+- code: 1402036
+  name: Dragon Claymore
+- code: 1402037
+  name: Stonetooth Sword
+- code: 1402039
+  name: Maple Soul Rohen
+- code: 1402040
+  name: Maple 1500 Anniv. Flag
+- code: 1402041
+  name: Pink Flower Tube
+- code: 1402042
+  name: Singapore Flag (Two Handed Sword)
+- code: 1402043
+  name: Unused Weapon
+- code: 1402044
+  name: Pumpkin Lantern
+- code: 1402045
+  name: Tiger's Fang
+- code: 1402046
+  name: Timeless Nibleheim
+- code: 1402047
+  name: Reverse Nibleheim
+- code: 1402048
+  name: Raven's Wing
+- code: 1402049
+  name: Night Raven's Wing
+- code: 1402050
+  name: Dawn Raven's Wing
+- code: 1402051
+  name: Dusk Raven's Wing
+- code: 1402053
+  name: Seraphim Two-handed Sword
+- code: 1402056
+  name: Balrog's Blue Screamer
+- code: 1402057
+  name: Heaven's Gate of Balrog
+- code: 1402058
+  name: Balrog's Berzerker
+- code: 1402059
+  name: Devil's Sunrise of Balrog
+- code: 1402061
+  name: GMS Claymore
+- code: 1402062
+  name: Bain Sword
+- code: 1402064
+  name: King Pepe Highlander
+- code: 1402068
+  name: Unused Weapon
+- code: 1402072
+  name: Astaroth Two-Handed Sword
+- code: 1412000
+  name: Two-Handed Axe
+- code: 1412001
+  name: Metal Axe
+- code: 1412002
+  name: Iron Axe
+- code: 1412003
+  name: The Rising
+- code: 1412004
+  name: Niam
+- code: 1412005
+  name: Sabretooth
+- code: 1412006
+  name: Blue Axe
+- code: 1412007
+  name: The Shining
+- code: 1412008
+  name: Chrono
+- code: 1412009
+  name: Helios
+- code: 1412010
+  name: Colonian Axe
+- code: 1412011
+  name: Maple Dragon Axe
+- code: 1412012
+  name: Iron Axe
+- code: 1412013
+  name: The Rising
+- code: 1412014
+  name: The Shining
+- code: 1412015
+  name: Chrono
+- code: 1412016
+  name: Helios
+- code: 1412017
+  name: The Rising
+- code: 1412018
+  name: The Shining
+- code: 1412019
+  name: Chrono
+- code: 1412020
+  name: Helios
+- code: 1412021
+  name: Tavar
+- code: 1412022
+  name: The Rising
+- code: 1412023
+  name: The Shining
+- code: 1412024
+  name: Chrono
+- code: 1412025
+  name: Helios
+- code: 1412026
+  name: Dragon Battle Axe
+- code: 1412027
+  name: Maple Demon Axe
+- code: 1412028
+  name: Maple 1500 Anniv. Flag
+- code: 1412029
+  name: Pink Flower Tube
+- code: 1412030
+  name: Singapore Flag (Two Handed Axe)
+- code: 1412031
+  name: Malaysia Flag (Two Handed Axe)
+- code: 1412032
+  name: Crescent Moon
+- code: 1412033
+  name: Timeless Tabarzin
+- code: 1412034
+  name: Reverse Tabarzin
+- code: 1412035
+  name: Seraphim Two-handed Axe
+- code: 1412038
+  name: Balrog's Helios
+- code: 1412039
+  name: Balrog's Colonian Axe
+- code: 1412040
+  name: Redner
+- code: 1412041
+  name: GMS Battle Axe
+- code: 1412042
+  name: King Pepe Niam
+- code: 1412043
+  name: Unused Weapon
+- code: 1412044
+  name: Unused Weapon
+- code: 1412046
+  name: Astaroth Axe
+- code: 1422000
+  name: Wooden Mallet
+- code: 1422001
+  name: Mithril Maul
+- code: 1422002
+  name: Heavy Mace
+- code: 1422003
+  name: Square Hammer
+- code: 1422004
+  name: Monkey Wrench
+- code: 1422005
+  name: Golden Mole
+- code: 1422006
+  name: Pickaxe
+- code: 1422007
+  name: Titan
+- code: 1422008
+  name: Sledgehammer
+- code: 1422009
+  name: The Blessing
+- code: 1422010
+  name: Gigantic Sledge
+- code: 1422011
+  name: Sake Bottle
+- code: 1422012
+  name: The Morningstar
+- code: 1422013
+  name: Leomite
+- code: 1422014
+  name: Maple Doom Singer
+- code: 1422015
+  name: Golden Mole
+- code: 1422016
+  name: The Blessing
+- code: 1422017
+  name: Gigantic Sledge
+- code: 1422018
+  name: The Morningstar
+- code: 1422019
+  name: Golden Mole
+- code: 1422020
+  name: The Blessing
+- code: 1422021
+  name: Gigantic Sledge
+- code: 1422022
+  name: The Morningstar
+- code: 1422023
+  name: Golden Mole
+- code: 1422024
+  name: The Blessing
+- code: 1422025
+  name: Gigantic Sledge
+- code: 1422026
+  name: The Morningstar
+- code: 1422027
+  name: Golden Smith Hammer
+- code: 1422028
+  name: Dragon Flame
+- code: 1422029
+  name: Maple Belzet
+- code: 1422030
+  name: Pink Seal Cushion
+- code: 1422031
+  name: Blue Seal Cushion
+- code: 1422032
+  name: Maple 1500 Anniv. Flag
+- code: 1422033
+  name: Pink Flower Tube
+- code: 1422034
+  name: Singapore Flag (Two Handed Mace)
+- code: 1422035
+  name: Unused Weapon
+- code: 1422036
+  name: Toymaker Hammer
+- code: 1422037
+  name: Timeless Bellocce
+- code: 1422038
+  name: Reverse Bellocce
+- code: 1422039
+  name: Seraphim Two-handed Blunt Weapon
+- code: 1422042
+  name: Balrog's Morningstar
+- code: 1422043
+  name: Balrog's Leomite
+- code: 1422044
+  name: GMS Maul
+- code: 1422045
+  name: King Pepe Big Hammer
+- code: 1422046
+  name: Unused Weapon
+- code: 1422047
+  name: Unused Weapon
+- code: 1432000
+  name: Spear
+- code: 1432001
+  name: Fork on a Stick
+- code: 1432002
+  name: Forked Spear
+- code: 1432003
+  name: Nakamaki
+- code: 1432004
+  name: Serpent's Tongue
+- code: 1432005
+  name: Zeco
+- code: 1432006
+  name: Holy Spear
+- code: 1432007
+  name: Redemption
+- code: 1432008
+  name: Fish Spear
+- code: 1432009
+  name: Bamboo Spear
+- code: 1432010
+  name: Omega Spear
+- code: 1432011
+  name: Fairfrozen
+- code: 1432012
+  name: Maple Impaler
+- code: 1432013
+  name: Pumpkin Spear
+- code: 1432014
+  name: Fish Spear
+- code: 1432015
+  name: Red Ski
+- code: 1432016
+  name: Orange Ski
+- code: 1432017
+  name: Green Ski
+- code: 1432018
+  name: Sky Ski
+- code: 1432019
+  name: Forked Spear
+- code: 1432020
+  name: Serpent's Tongue
+- code: 1432021
+  name: Holy Spear
+- code: 1432022
+  name: Redemption
+- code: 1432023
+  name: Omega Spear
+- code: 1432024
+  name: Forked Spear
+- code: 1432025
+  name: Serpent's Tongue
+- code: 1432026
+  name: Holy Spear
+- code: 1432027
+  name: Redemption
+- code: 1432028
+  name: Omega Spear
+- code: 1432029
+  name: Unused Weapon
+- code: 1432030
+  name: Pinaka
+- code: 1432031
+  name: Forked Spear
+- code: 1432032
+  name: Serpent's Tongue
+- code: 1432033
+  name: Holy Spear
+- code: 1432034
+  name: Redemption
+- code: 1432035
+  name: Omega Spear
+- code: 1432038
+  name: Dragon Faltizan
+- code: 1432039
+  name: Fishing Pole
+- code: 1432040
+  name: Maple Soul Spear
+- code: 1432041
+  name: Maple 1500 Anniv. Flag
+- code: 1432042
+  name: Pink Flower Tube
+- code: 1432043
+  name: Singapore Flag (Spear)
+- code: 1432044
+  name: Malaysia Flag (Spear)
+- code: 1432045
+  name: Sunspear
+- code: 1432046
+  name: Maplemas Tree
+- code: 1432047
+  name: Timeless Alchupiz
+- code: 1432048
+  name: Pooh Pooh Shovel
+- code: 1432049
+  name: Reverse Alchupiz
+- code: 1432050
+  name: Seraphim Spear
+- code: 1432054
+  name: Balrog's Omega Spear
+- code: 1432055
+  name: Balrog's Fairfrozen
+- code: 1432056
+  name: Stormshear
+- code: 1432057
+  name: King Pepe Nakamaki
+- code: 1432058
+  name: Unused Weapon
+- code: 1432059
+  name: Unused Weapon
+- code: 1432061
+  name: Astaroth Spear
+- code: 1442000
+  name: Pole Arm
+- code: 1442001
+  name: Mithril Pole Arm
+- code: 1442002
+  name: Eviscerator
+- code: 1442003
+  name: Axe Pole Arm
+- code: 1442004
+  name: Janitor's Mop
+- code: 1442005
+  name: The Nine Dragons
+- code: 1442006
+  name: Iron Ball
+- code: 1442007
+  name: Studded Polearm
+- code: 1442008
+  name: The Gold Dragon
+- code: 1442009
+  name: Crescent Polearm
+- code: 1442010
+  name: Skylar
+- code: 1442011
+  name: Surfboard
+- code: 1442012
+  name: Sky Snowboard
+- code: 1442013
+  name: Aqua Snowboard
+- code: 1442014
+  name: Silver Snowboard
+- code: 1442015
+  name: Golden Snowboard
+- code: 1442016
+  name: Dark Snowboard
+- code: 1442017
+  name: Blood Snowboard
+- code: 1442018
+  name: Frozen Tuna
+- code: 1442019
+  name: Eclipse
+- code: 1442020
+  name: Hellslayer
+- code: 1442021
+  name: Yellow Mop
+- code: 1442022
+  name: White Mop
+- code: 1442023
+  name: Maroon Mop
+- code: 1442024
+  name: Maple Scorpio
+- code: 1442025
+  name: Guan Yu Pole Arm
+- code: 1442026
+  name: Red Surfboard
+- code: 1442027
+  name: Green Surfboard
+- code: 1442028
+  name: Black Surfboard
+- code: 1442029
+  name: Gold Surfboard
+- code: 1442030
+  name: Maple Snowboard
+- code: 1442031
+  name: The Nine Dragons
+- code: 1442032
+  name: Skylar
+- code: 1442033
+  name: The Gold Dragon
+- code: 1442034
+  name: Eclipse
+- code: 1442035
+  name: The Nine Dragons
+- code: 1442036
+  name: Skylar
+- code: 1442037
+  name: The Gold Dragon
+- code: 1442038
+  name: Eclipse
+- code: 1442039
+  name: Frozen Tuna
+- code: 1442040
+  name: The Nine Dragons
+- code: 1442041
+  name: Skylar
+- code: 1442042
+  name: The Gold Dragon
+- code: 1442043
+  name: Eclipse
+- code: 1442044
+  name: Zedbug
+- code: 1442045
+  name: Dragon Chelbird
+- code: 1442046
+  name: Super Snowboard
+- code: 1442047
+  name: Yellow Valentine Rose
+- code: 1442048
+  name: Red Valentine Rose
+- code: 1442049
+  name: Blue Valentine Rose
+- code: 1442050
+  name: White Valentine Rose
+- code: 1442051
+  name: Maple Karstan
+- code: 1442052
+  name: Maple 1500 Anniv. Flag
+- code: 1442053
+  name: Pink Flower Tube
+- code: 1442054
+  name: Red Surfboard
+- code: 1442055
+  name: Green Surfboard
+- code: 1442056
+  name: Sky Blue Surfboard
+- code: 1442057
+  name: Purple Surfboard
+- code: 1442058
+  name: Singapore Flag (Pole Arm)
+- code: 1442059
+  name: Unused Weapon
+- code: 1442060
+  name: Heavenly Messenger
+- code: 1442061
+  name: Versalmas Cactus
+- code: 1442063
+  name: Timeless Diesra
+- code: 1442065
+  name: Tsunami Wave
+- code: 1442066
+  name: Bullseye Board
+- code: 1442067
+  name: Reverse Diesra
+- code: 1442068
+  name: Crimson Arcglaive
+- code: 1442071
+  name: Seraphim Pole Arm
+- code: 1442074
+  name: Balrog's Eclipse
+- code: 1442075
+  name: Balrog's Hellslayer
+- code: 1442076
+  name: Aran Polearm Maha
+- code: 1442077
+  name: Practice Polearm
+- code: 1442078
+  name: Bain Pole Arm
+- code: 1442079
+  name: Basic Polearm
+- code: 1442080
+  name: Steel Polearm
+- code: 1442081
+  name: Tru's Mithril Polearm
+- code: 1442082
+  name: King Pepe Axe Polearm
+- code: 1442083
+  name: Unused Weapon
+- code: 1442084
+  name: Unused Weapon
+- code: 1442103
+  name: Astaroth Polearm
+- code: 1452000
+  name: Battle Bow
+- code: 1452001
+  name: Hunter's Bow
+- code: 1452002
+  name: War Bow
+- code: 1452003
+  name: Composite Bow
+- code: 1452004
+  name: Asianic Bow
+- code: 1452005
+  name: Ryden
+- code: 1452006
+  name: Red Viper
+- code: 1452007
+  name: Vaulter 2000
+- code: 1452008
+  name: Olympus
+- code: 1452009
+  name: Red Hinkel
+- code: 1452010
+  name: Blue Hinkel
+- code: 1452011
+  name: Golden Hinkel
+- code: 1452012
+  name: Marine Arund
+- code: 1452013
+  name: Fire Arund
+- code: 1452014
+  name: Golden Arund
+- code: 1452015
+  name: Dark Arund
+- code: 1452016
+  name: Maple Bow
+- code: 1452017
+  name: Metus
+- code: 1452018
+  name: Bow of Magical Destruction
+- code: 1452019
+  name: White Nisrock
+- code: 1452020
+  name: Golden Nisrock
+- code: 1452021
+  name: Dark Nisrock
+- code: 1452022
+  name: Maple Soul Searcher
+- code: 1452023
+  name: Cao Cao Bow
+- code: 1452025
+  name: Blue Metus
+- code: 1452026
+  name: Black Metus
+- code: 1452027
+  name: Ryden
+- code: 1452028
+  name: Olympus
+- code: 1452029
+  name: Asianic Bow
+- code: 1452030
+  name: Golden Hinkel
+- code: 1452031
+  name: Dark Arund
+- code: 1452032
+  name: Ryden
+- code: 1452033
+  name: Olympus
+- code: 1452034
+  name: Asianic Bow
+- code: 1452035
+  name: Golden Hinkel
+- code: 1452036
+  name: Dark Arund
+- code: 1452037
+  name: Unused Weapon
+- code: 1452038
+  name: Ryden
+- code: 1452039
+  name: Olympus
+- code: 1452040
+  name: Asianic Bow
+- code: 1452041
+  name: Golden Hinkel
+- code: 1452042
+  name: Dark Arund
+- code: 1452044
+  name: Dragon Shiner Bow
+- code: 1452045
+  name: Maple Kandiva Bow
+- code: 1452046
+  name: Maple 1500 Anniv. Flag
+- code: 1452048
+  name: Pink Flower Tube
+- code: 1452049
+  name: Singapore Flag (Bow)
+- code: 1452050
+  name: Malaysia Flag (Bow)
+- code: 1452051
+  name: Beginner Bowman's bow
+- code: 1452052
+  name: Andromeda Bow
+- code: 1452053
+  name: Winkel
+- code: 1452054
+  name: Akha
+- code: 1452055
+  name: Akhasuma
+- code: 1452056
+  name: Akhamagna
+- code: 1452057
+  name: Timeless Engaw
+- code: 1452058
+  name: Unused Weapon
+- code: 1452059
+  name: Reverse Engaw
+- code: 1452060
+  name: Crimson Arclancer
+- code: 1452062
+  name: Seraphim Bow
+- code: 1452066
+  name: Balrog's Marine Arund
+- code: 1452067
+  name: Balrog's Fire Arund
+- code: 1452068
+  name: Balrog's Golden Arund
+- code: 1452069
+  name: Balrog's Dark Arund
+- code: 1452070
+  name: Balrog's Metus
+- code: 1452071
+  name: Bain Long Bow
+- code: 1452073
+  name: King Pepe Red Viper
+- code: 1452077
+  name: Unused Weapon
+- code: 1452078
+  name: Unused Weapon
+- code: 1452079
+  name: Unused Weapon
+- code: 1452083
+  name: Solomon's Unstable Bow
+- code: 1452084
+  name: Solomon's Bow
+- code: 1452085
+  name: Astaroth Bow
+- code: 1462000
+  name: Mountain Crossbow
+- code: 1462001
+  name: Crossbow
+- code: 1462002
+  name: Battle Crossbow
+- code: 1462003
+  name: Balanche
+- code: 1462004
+  name: Eagle Crow
+- code: 1462005
+  name: Heckler
+- code: 1462006
+  name: Silver Crow
+- code: 1462007
+  name: Rower
+- code: 1462008
+  name: Golden Crow
+- code: 1462009
+  name: Gross Jaeger
+- code: 1462010
+  name: Marine Raven
+- code: 1462011
+  name: Fire Raven
+- code: 1462012
+  name: Golden Raven
+- code: 1462013
+  name: Dark Raven
+- code: 1462014
+  name: Maple Crow
+- code: 1462015
+  name: White Neschere
+- code: 1462016
+  name: Golden Neschere
+- code: 1462017
+  name: Dark Neschere
+- code: 1462018
+  name: Casa Crow
+- code: 1462019
+  name: Maple Crossbow
+- code: 1462021
+  name: Dark Crow
+- code: 1462022
+  name: Yellow Crow
+- code: 1462023
+  name: Mountain Crossbow
+- code: 1462024
+  name: Rower
+- code: 1462025
+  name: Golden Crow
+- code: 1462026
+  name: Gross Jaeger
+- code: 1462027
+  name: Dark Raven
+- code: 1462028
+  name: Mountain Crossbow
+- code: 1462029
+  name: Rower
+- code: 1462030
+  name: Golden Crow
+- code: 1462031
+  name: Gross Jaeger
+- code: 1462032
+  name: Dark Raven
+- code: 1462033
+  name: Mountain Crossbow
+- code: 1462034
+  name: Rower
+- code: 1462035
+  name: Golden Crow
+- code: 1462036
+  name: Gross Jaeger
+- code: 1462037
+  name: Dark Raven
+- code: 1462039
+  name: Dragon Shiner Cross
+- code: 1462040
+  name: Maple Nishada
+- code: 1462041
+  name: Maple 1500 Anniv. Flag
+- code: 1462043
+  name: Pink Flower Tube
+- code: 1462044
+  name: Singapore Flag (Crossbow)
+- code: 1462045
+  name: Malaysia Flag (Crossbow)
+- code: 1462046
+  name: Void Hunter
+- code: 1462047
+  name: Xaru
+- code: 1462048
+  name: Xarusuma
+- code: 1462049
+  name: Xarumagna
+- code: 1462050
+  name: Timeless Black Beauty
+- code: 1462051
+  name: Reverse Black Beauty
+- code: 1462052
+  name: Raven's Eye
+- code: 1462053
+  name: Night Raven's Eye
+- code: 1462054
+  name: Dawn Raven's Eye
+- code: 1462055
+  name: Dusk Raven's Eye
+- code: 1462056
+  name: Seraphim Crossbow
+- code: 1462059
+  name: Balrog's Marine Raven
+- code: 1462060
+  name: Balrog's Fire Raven
+- code: 1462061
+  name: Balrog's Golden Raven
+- code: 1462062
+  name: Balrog's Dark Raven
+- code: 1462063
+  name: Balrog's Casa Crow
+- code: 1462066
+  name: King Pepe Eagle Crow
+- code: 1462069
+  name: Unused Weapon
+- code: 1462070
+  name: Unused Weapon
+- code: 1462071
+  name: Unused Weapon
+- code: 1462075
+  name: Astaroth Crossbow
+- code: 1472000
+  name: Garnier
+- code: 1472001
+  name: Steel Titans
+- code: 1472002
+  name: Mithril Titans
+- code: 1472003
+  name: Gold Titans
+- code: 1472004
+  name: Bronze Igor
+- code: 1472005
+  name: Steel Igor
+- code: 1472006
+  name: Adamantium Igor
+- code: 1472007
+  name: Meba
+- code: 1472008
+  name: Steel Guards
+- code: 1472009
+  name: Mithril Guards
+- code: 1472010
+  name: Adamantium Guards
+- code: 1472011
+  name: Bronze Guardian
+- code: 1472012
+  name: Silver Guardian
+- code: 1472013
+  name: Dark Guardian
+- code: 1472014
+  name: Steel Avarice
+- code: 1472015
+  name: Blood Avarice
+- code: 1472016
+  name: Adamantium Avarice
+- code: 1472017
+  name: Dark Avarice
+- code: 1472018
+  name: Steel Slain
+- code: 1472019
+  name: Blood Slain
+- code: 1472020
+  name: Sapphire Slain
+- code: 1472021
+  name: Dark Slain
+- code: 1472022
+  name: Bronze Gigantic
+- code: 1472023
+  name: Blood Gigantic
+- code: 1472024
+  name: Sapphire Gigantic
+- code: 1472025
+  name: Dark Gigantic
+- code: 1472026
+  name: Brown Scarab
+- code: 1472027
+  name: Green Scarab
+- code: 1472028
+  name: Blue Scarab
+- code: 1472029
+  name: Black Scarab
+- code: 1472030
+  name: Maple Claw
+- code: 1472031
+  name: Black Mamba
+- code: 1472032
+  name: Maple Kandayo
+- code: 1472033
+  name: Casters
+- code: 1472034
+  name: Adamantium Guards
+- code: 1472035
+  name: Dark Slain
+- code: 1472036
+  name: Dark Gigantic
+- code: 1472037
+  name: Black Scarab
+- code: 1472038
+  name: Black Mamba
+- code: 1472039
+  name: Adamantium Guards
+- code: 1472040
+  name: Dark Slain
+- code: 1472041
+  name: Dark Gigantic
+- code: 1472042
+  name: Black Scarab
+- code: 1472043
+  name: Black Mamba
+- code: 1472044
+  name: Unused Weapon
+- code: 1472045
+  name: Adamantium Guards
+- code: 1472046
+  name: Dark Slain
+- code: 1472047
+  name: Dark Gigantic
+- code: 1472048
+  name: Black Scarab
+- code: 1472049
+  name: Black Mamba
+- code: 1472051
+  name: Dragon Green Sleve
+- code: 1472052
+  name: Dragon Purple Sleve
+- code: 1472053
+  name: Red Craven
+- code: 1472054
+  name: Shinobi Bracer
+- code: 1472055
+  name: Maple Skanda
+- code: 1472056
+  name: Maple 1500 Anniv. Flag
+- code: 1472058
+  name: Pink Flower Tube
+- code: 1472059
+  name: Singapore Flag (claw)
+- code: 1472060
+  name: Malaysia Flag (Claw)
+- code: 1472061
+  name: Beginner Thief Wrist Guard
+- code: 1472062
+  name: Black Hole
+- code: 1472063
+  name: Magical Mitten
+- code: 1472064
+  name: Neva
+- code: 1472065
+  name: Kuma
+- code: 1472066
+  name: Kumasuma
+- code: 1472067
+  name: Kumamagna
+- code: 1472068
+  name: Timeless Lampion
+- code: 1472069
+  name: Steel Avarice for Transformation
+- code: 1472071
+  name: Reverse Lampion
+- code: 1472072
+  name: Raven's Claw
+- code: 1472073
+  name: Night Raven's Claw
+- code: 1472074
+  name: Dawn Raven's Claw
+- code: 1472075
+  name: Dusk Raven's Claw
+- code: 1472077
+  name: Seraphim Claw
+- code: 1472083
+  name: Balrog's Black Mamba
+- code: 1472084
+  name: Balrog's Caster
+- code: 1472086
+  name: Bain Biter
+- code: 1472089
+  name: King Pepe Dark Guardian
+- code: 1472093
+  name: Unused Weapon
+- code: 1472094
+  name: Unused Weapon
+- code: 1472095
+  name: Unused Weapon
+- code: 1472100
+  name: Astaroth Claw
+- code: 1482000
+  name: Steel Knuckler
+- code: 1482001
+  name: Leather Arms
+- code: 1482002
+  name: Double Tail Knuckler
+- code: 1482003
+  name: Norman Grip
+- code: 1482004
+  name: Prime Hands
+- code: 1482005
+  name: Silver Maiden
+- code: 1482006
+  name: Neozard
+- code: 1482007
+  name: Fury Claw
+- code: 1482008
+  name: Psycho Claw
+- code: 1482009
+  name: Beia Crash
+- code: 1482010
+  name: Steelno
+- code: 1482011
+  name: White Fangz
+- code: 1482012
+  name: King Cent
+- code: 1482013
+  name: Dragon Slash Claw
+- code: 1482014
+  name: Scallywag Knuckler
+- code: 1482015
+  name: Prime Hands
+- code: 1482016
+  name: Fury Claw
+- code: 1482017
+  name: Seraphims
+- code: 1482018
+  name: Beia Crash
+- code: 1482019
+  name: Steelno
+- code: 1482020
+  name: Maple Knuckle
+- code: 1482021
+  name: Maple Storm Finger
+- code: 1482022
+  name: Maple Golden Claw
+- code: 1482023
+  name: Timeless Equinox
+- code: 1482024
+  name: Reverse Equinox
+- code: 1482025
+  name: Pink Flower Tube
+- code: 1482029
+  name: Seraphim Knuckler
+- code: 1482031
+  name: Balrog's Steel Renault
+- code: 1482032
+  name: Balrog's White Evil
+- code: 1482034
+  name: GMS Knuckle
+- code: 1482037
+  name: King Pepe Silver Maiden
+- code: 1482041
+  name: Unused Weapon
+- code: 1482042
+  name: Unused Weapon
+- code: 1482043
+  name: Unused Weapon
+- code: 1482046
+  name: Astaroth Knuckles
+- code: 1492000
+  name: Pistol
+- code: 1492001
+  name: Dellinger Special
+- code: 1492002
+  name: The Negotiator
+- code: 1492003
+  name: Golden Hook
+- code: 1492004
+  name: Cold Mind
+- code: 1492005
+  name: Shooting Star
+- code: 1492006
+  name: Lunar Shooter
+- code: 1492007
+  name: Mr. Rasfelt
+- code: 1492008
+  name: Burning Hell
+- code: 1492009
+  name: Abyss Shooter
+- code: 1492010
+  name: Infinity's Wrath
+- code: 1492011
+  name: The Peacemaker
+- code: 1492012
+  name: Concerto
+- code: 1492013
+  name: Dragonfire Revolver
+- code: 1492014
+  name: Pirate's Pistol
+- code: 1492015
+  name: Cold Mind
+- code: 1492016
+  name: Mr. Rasfelt
+- code: 1492017
+  name: Burning Hell
+- code: 1492018
+  name: Abyss Shooter
+- code: 1492019
+  name: Infinity's Wrath
+- code: 1492020
+  name: Maple Gun
+- code: 1492021
+  name: Maple Storm Pistol
+- code: 1492022
+  name: Maple Canon Shooter
+- code: 1492023
+  name: Timeless Blindness
+- code: 1492024
+  name: Lunar Shooter for transformation
+- code: 1492025
+  name: Reverse Blindness
+- code: 1492026
+  name: Pink Flower Tube
+- code: 1492030
+  name: Seraphim Gun
+- code: 1492032
+  name: Kyrin's Pistol
+- code: 1492035
+  name: Balrog's Infinity
+- code: 1492036
+  name: Balrog's Peacemaker
+- code: 1492037
+  name: Bain Shooter
+- code: 1492038
+  name: King Pepe Shooting Star
+- code: 1492042
+  name: Unused Weapon
+- code: 1492043
+  name: Unused Weapon
+- code: 1492044
+  name: Unused Weapon
+- code: 1492048
+  name: Astaroth Gun
+- code: 1602000
+  name: Basic Skill Effect (warrior)
+- code: 1602001
+  name: Basic Skill Effect (magician)
+- code: 1602002
+  name: Basic Skill Effect (bowman)
+- code: 1602003
+  name: Basic Skill Effect (thief)
+- code: 1602004
+  name: Combo Skill Effect (warrior)
+- code: 1602005
+  name: Combo Skill Effect (magician)
+- code: 1602006
+  name: Combo Skill Effect (bowman)
+- code: 1602007
+  name: Combo Skill Effect (thief)
+- code: 1702000
+  name: Dual Plasma Blade
+- code: 1702001
+  name: Bouquet
+- code: 1702002
+  name: Wooden Slingshot
+- code: 1702003
+  name: Plastic Slingshot
+- code: 1702004
+  name: Angel Wand
+- code: 1702005
+  name: Yellow Candy Cane
+- code: 1702006
+  name: Red Candy Cane
+- code: 1702007
+  name: Green Candy Cane
+- code: 1702008
+  name: Santa Sack
+- code: 1702009
+  name: Tiger Paw
+- code: 1702010
+  name: Orange Toy Hammer
+- code: 1702011
+  name: Pink Toy Hammer
+- code: 1702012
+  name: Yellow Spatula
+- code: 1702013
+  name: Teddy Bear
+- code: 1702014
+  name: Toy Rifle
+- code: 1702015
+  name: Bug Net
+- code: 1702016
+  name: Picnic Basket
+- code: 1702017
+  name: Pink Rabbit Puppet
+- code: 1702018
+  name: Vanilla Ice Cream
+- code: 1702019
+  name: Pillow
+- code: 1702020
+  name: Lollipop
+- code: 1702021
+  name: Black Electric Guitar
+- code: 1702022
+  name: Brown Electric Guitar
+- code: 1702023
+  name: Green Electric Guitar
+- code: 1702024
+  name: Cupid's Bow
+- code: 1702025
+  name: Cherub's Bow
+- code: 1702026
+  name: Cupid's Crossbow
+- code: 1702027
+  name: Blazing Sword
+- code: 1702028
+  name: Donut
+- code: 1702029
+  name: White Rabbit's Foot
+- code: 1702030
+  name: Diao Chan Sword
+- code: 1702031
+  name: Liu Bei Sword
+- code: 1702032
+  name: Zhu-Ge-Liang Wand
+- code: 1702033
+  name: Sun Quan Staff
+- code: 1702034
+  name: Guan Yu Spear
+- code: 1702035
+  name: Cao Cao Bow
+- code: 1702036
+  name: Witch's Broom
+- code: 1702037
+  name: Coffee Pot
+- code: 1702038
+  name: Horoscope Claw
+- code: 1702039
+  name: Horoscope Net
+- code: 1702040
+  name: Horoscope Bow
+- code: 1702041
+  name: Horoscope Sword
+- code: 1702042
+  name: Microphone
+- code: 1702043
+  name: Poo Stick
+- code: 1702044
+  name: Toy Machine Gun
+- code: 1702045
+  name: Sunflower Stalk
+- code: 1702046
+  name: Horoscope Crossbow
+- code: 1702047
+  name: Snowflake Staff
+- code: 1702048
+  name: Rubber Towel
+- code: 1702049
+  name: Snowman Claw
+- code: 1702050
+  name: Cellphone
+- code: 1702051
+  name: Hong Bao
+- code: 1702052
+  name: In-Hand FB Helmet(Home)
+- code: 1702053
+  name: In-Hand FB Helmet(Away)
+- code: 1702054
+  name: Football Claw
+- code: 1702055
+  name: Ancient Korean Bow
+- code: 1702056
+  name: Guitar
+- code: 1702057
+  name: Blue Guitar
+- code: 1702058
+  name: Big Hand
+- code: 1702059
+  name: Cactus
+- code: 1702060
+  name: Shiner
+- code: 1702061
+  name: Red Fist of Fury
+- code: 1702062
+  name: Blue Fist of Fury
+- code: 1702063
+  name: Scissor Stick
+- code: 1702064
+  name: Rock Stick
+- code: 1702065
+  name: Paper Stick
+- code: 1702066
+  name: Canvas Tote Bag
+- code: 1702067
+  name: England Cheer Towel
+- code: 1702068
+  name: France Cheer Towel
+- code: 1702069
+  name: Brazil Cheer Towel
+- code: 1702070
+  name: Sporty Band
+- code: 1702071
+  name: Japan Cheer Towel
+- code: 1702072
+  name: Laser Sword
+- code: 1702073
+  name: Blue Shiner Crossbow
+- code: 1702074
+  name: Pink Shiner Crossbow
+- code: 1702075
+  name: USA Cheer Towel
+- code: 1702076
+  name: Mexico Cheer Towel
+- code: 1702077
+  name: Australia Cheer Towel
+- code: 1702078
+  name: Fairy Fan
+- code: 1702079
+  name: Blue Blazing Sword
+- code: 1702080
+  name: Green Blazing Sword
+- code: 1702081
+  name: Purple Blazing Sword
+- code: 1702082
+  name: Harp
+- code: 1702083
+  name: Foam Hand
+- code: 1702084
+  name: Toy Pinwheel
+- code: 1702085
+  name: Frog Claw
+- code: 1702086
+  name: Chicken Smackaroo
+- code: 1702087
+  name: Red Pencil
+- code: 1702088
+  name: Super Scrubber
+- code: 1702089
+  name: Candy Hammer
+- code: 1702090
+  name: Feather Scimitar
+- code: 1702091
+  name: Tennis Racquet
+- code: 1702092
+  name: Glowing Pumpkin Basket
+- code: 1702093
+  name: Okie Donkie
+- code: 1702094
+  name: Mad Cow
+- code: 1702095
+  name: Frog Glove
+- code: 1702096
+  name: Pizza Pan
+- code: 1702098
+  name: Violin
+- code: 1702099
+  name: Transparent Claw
+- code: 1702100
+  name: Christmas Bell
+- code: 1702102
+  name: Starblade
+- code: 1702103
+  name: Pink Ribbon Umbrella
+- code: 1702104
+  name: Deluxe Cone
+- code: 1702105
+  name: Heart Key
+- code: 1702106
+  name: Melting Chocolate
+- code: 1702107
+  name: Chocolate
+- code: 1702108
+  name: Giant Lollipop
+- code: 1702112
+  name: Celestial Wand
+- code: 1702114
+  name: Wonky's Leaf
+- code: 1702115
+  name: Red rose
+- code: 1702118
+  name: Janus Sword
+- code: 1702119
+  name: Sachiel Sword
+- code: 1702120
+  name: Veamoth Sword
+- code: 1702121
+  name: Seal Pillow
+- code: 1702122
+  name: Dragon's Fury
+- code: 1702123
+  name: Forked Pork
+- code: 1702124
+  name: Kitty
+- code: 1702125
+  name: Heart Cane
+- code: 1702126
+  name: Blue Shiner
+- code: 1702127
+  name: Water Gun
+- code: 1702128
+  name: Green Shiner
+- code: 1702129
+  name: Purple Shiner
+- code: 1702130
+  name: Red Shiner
+- code: 1702131
+  name: Pepe Beak
+- code: 1702132
+  name: Slime Stick
+- code: 1702133
+  name: Smackdown Fist
+- code: 1702134
+  name: Serpent Staff
+- code: 1702135
+  name: Vengence Claw
+- code: 1702136
+  name: Ice snow flower ring
+- code: 1702138
+  name: Spanish Ham
+- code: 1702139
+  name: Hook Hand
+- code: 1702140
+  name: Giant Orchid
+- code: 1702141
+  name: My Buddy Max
+- code: 1702142
+  name: Pink Angel Stick
+- code: 1702143
+  name: Combat Syringe
+- code: 1702144
+  name: Broken Sword
+- code: 1702145
+  name: Bionic Claw
+- code: 1702146
+  name: Skull Staff
+- code: 1702147
+  name: Skull Axe
+- code: 1702148
+  name: Moon Baton
+- code: 1702149
+  name: Tania Sword
+- code: 1702150
+  name: Mercury Sword
+- code: 1702151
+  name: Royal Oaken Staff
+- code: 1702152
+  name: Flame Tongue
+- code: 1702153
+  name: Crissagrim Blade
+- code: 1702154
+  name: Plasma Saber
+- code: 1702155
+  name: Shooting Star
+- code: 1702156
+  name: Forked Turkey
+- code: 1702157
+  name: Burning Marshmellow
+- code: 1702158
+  name: The Jackal
+- code: 1702159
+  name: Blackbeard's Knuckler
+- code: 1702160
+  name: Tiger Paw Knuckler
+- code: 1702161
+  name: Dogged Out
+- code: 1702162
+  name: Koala Doll
+- code: 1702163
+  name: Hot Dog Fork
+- code: 1702164
+  name: Bunny Nunchucks
+- code: 1702165
+  name: My Buddy DJ
+- code: 1702166
+  name: Holiday Candy Cane
+- code: 1702167
+  name: Glow Fingers
+- code: 1702168
+  name: Holiday Tree Ring
+- code: 1702169
+  name: My Buddy Tina
+- code: 1702170
+  name: Electric Knuckle
+- code: 1702171
+  name: Party Popper
+- code: 1702172
+  name: Bluebird
+- code: 1702173
+  name: Hessonite Saber
+- code: 1702174
+  name: Butterfly Staff
+- code: 1702175
+  name: Hot Dog Link
+- code: 1702177
+  name: Power Pesticide
+- code: 1702179
+  name: Cloud 9 Pillow
+- code: 1702180
+  name: Dark Seraphim
+- code: 1702181
+  name: Picky Ducky
+- code: 1702182
+  name: Giant Pop with a Swirl
+- code: 1702183
+  name: Sunset Seraphim
+- code: 1702184
+  name: Aqua Seraphim
+- code: 1702185
+  name: White & Yellow Seraphim
+- code: 1702187
+  name: Patriot Seraphim
+- code: 1702188
+  name: Pink Seraphim
+- code: 1702189
+  name: Oh Crab!
+- code: 1702190
+  name: Transparent Knuckle
+- code: 1702191
+  name: Rainbow Sabre
+- code: 1702193
+  name: Towel Whip
+- code: 1702195
+  name: MapleGirl Wand
+- code: 1702196
+  name: Fly Blue Bird
+- code: 1702201
+  name: Bone Weapon
+- code: 1702202
+  name: Baby Ellie
+- code: 1702203
+  name: Halloween Teddy
+- code: 1702204
+  name: Japanese War Fan
+- code: 1702207
+  name: Musical Violin
+- code: 1702208
+  name: Alligator Tube
+- code: 1702209
+  name: Rudolph Stick
+- code: 1702210
+  name: Santa Buddy
+- code: 1702211
+  name: Blizzard Stick
+- code: 1702212
+  name: Galactic Legend
+- code: 1702213
+  name: Heartbreak Sword
+- code: 1702215
+  name: Boleadoras
+- code: 1702216
+  name: Magic Heart Stick
+- code: 1702217
+  name: Ducky Tube
+- code: 1702218
+  name: Dumbell Weapon
+- code: 1702219
+  name: Knockout Boxing Gloves
+- code: 1702220
+  name: Transparent Wand
+- code: 1702226
+  name: My Buddy Whale
+- code: 1702228
+  name: Choco Banana
+- code: 1702229
+  name: Demon Sickle
+- code: 1702230
+  name: Popsicle Sword
+- code: 1702233
+  name: Rainbow Brush
+- code: 1702235
+  name: Metallic Arm
+- code: 1702238
+  name: Soft Plush Dolphin
+- code: 1702246
+  name: Ghost Weapon
+- code: 1702249
+  name: Gosling Cushion
+- code: 1702250
+  name: Steel Briefcase
+- code: 1702251
+  name: Saw Machine Gun

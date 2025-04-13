@@ -1,0 +1,808 @@
+- code: 1060000
+  name: Black Jangoon Pants
+- code: 1060001
+  name: Black Suit Pants
+- code: 1060002
+  name: Blue Jean Shorts
+- code: 1060003
+  name: Military Shorts
+- code: 1060004
+  name: Grey Thick Sweat Pants
+- code: 1060005
+  name: Warfare Pants
+- code: 1060006
+  name: Brown Cotton Shorts
+- code: 1060007
+  name: Jean Capris
+- code: 1060008
+  name: Brown Lolico Pants
+- code: 1060009
+  name: Steel Corporal Pants
+- code: 1060010
+  name: Steel Sergeant Kilt
+- code: 1060011
+  name: Orihalcon Master Sergeant Kilt
+- code: 1060012
+  name: Blue Training Pants
+- code: 1060013
+  name: Grey / Brown Training Pants
+- code: 1060014
+  name: Black Split Pants
+- code: 1060015
+  name: White Split Pants
+- code: 1060016
+  name: Black Martial Arts Pants
+- code: 1060017
+  name: White Martial Arts Pants
+- code: 1060018
+  name: Red Martial Arts Pants
+- code: 1060019
+  name: Brown Martial Arts Pants
+- code: 1060020
+  name: White Martial Arts Shorts
+- code: 1060021
+  name: Blue Cloth Pants
+- code: 1060022
+  name: Red Cloth Pants
+- code: 1060023
+  name: Black Cloth Pants
+- code: 1060024
+  name: Dark Nightshift Pants
+- code: 1060025
+  name: Blue Nightshift Pants
+- code: 1060026
+  name: Blue-Striped Boxers
+- code: 1060027
+  name: Brown Corporal Pants
+- code: 1060028
+  name: Blue Lolico Pants
+- code: 1060029
+  name: Red Sergeant Kilt
+- code: 1060030
+  name: Dark Master Sergeant Kilt
+- code: 1060031
+  name: Blue Pao Bottom
+- code: 1060032
+  name: Red Pao Bottom
+- code: 1060033
+  name: Black Pao Bottom
+- code: 1060034
+  name: Blue Rider Pants
+- code: 1060035
+  name: Shine Rider Pants
+- code: 1060036
+  name: Dark Rider Pants
+- code: 1060037
+  name: Dark Brown Sneak Pants
+- code: 1060038
+  name: Brown Sneak Pants
+- code: 1060039
+  name: Black Sneak Pants
+- code: 1060040
+  name: Blue Trainer Pants
+- code: 1060041
+  name: Green Trainer Pants
+- code: 1060042
+  name: Orange Trainer Pants
+- code: 1060043
+  name: Dark Brown Stealer Pants
+- code: 1060044
+  name: Dark Silver Stealer Pants
+- code: 1060045
+  name: Red / Gold Stealer Pants
+- code: 1060046
+  name: Silver / Black Stealer Pants
+- code: 1060047
+  name: Original Disco Pants
+- code: 1060048
+  name: Green Disco Pants
+- code: 1060049
+  name: Blue Disco Pants
+- code: 1060050
+  name: Blue Knucklevest Pants
+- code: 1060051
+  name: Red Knucklevest Pants
+- code: 1060052
+  name: Black Knucklevest Pants
+- code: 1060053
+  name: Wild Pants
+- code: 1060054
+  name: Brown Wild Pants
+- code: 1060055
+  name: Red Wild Pants
+- code: 1060056
+  name: Green Hunter's Pants
+- code: 1060057
+  name: Dark Hunter's Pants
+- code: 1060058
+  name: Red Hunter's Pants
+- code: 1060059
+  name: Blue Hunter's Pants
+- code: 1060060
+  name: Silver Master Sergeant Kilt
+- code: 1060061
+  name: Red Legolier Pants
+- code: 1060062
+  name: Blue Legolier Pants
+- code: 1060063
+  name: Green Legolier Pants
+- code: 1060064
+  name: Dark Legolier Pants
+- code: 1060065
+  name: Brown Legolier Pants
+- code: 1060066
+  name: Cowboy Pants
+- code: 1060067
+  name: Preschool Pants
+- code: 1060068
+  name: Dark Piette Pants
+- code: 1060069
+  name: Brown Piette Pants
+- code: 1060070
+  name: Blue Piette Pants
+- code: 1060071
+  name: Khaki Shadow Pants
+- code: 1060072
+  name: Marine Shadow Pants
+- code: 1060073
+  name: Dark Shadow Pants
+- code: 1060074
+  name: White Jangoon Pants
+- code: 1060075
+  name: Brown Jangoon Pants
+- code: 1060076
+  name: Blue Shouldermail Pants
+- code: 1060077
+  name: Oaker Shouldermail Pants
+- code: 1060078
+  name: Umber Shouldermail Pants
+- code: 1060079
+  name: Green Orientican Pants
+- code: 1060080
+  name: Red Orientican Pants
+- code: 1060081
+  name: Blue Orientican Pants
+- code: 1060082
+  name: Dark Orientican Pants
+- code: 1060083
+  name: Red China Pants
+- code: 1060084
+  name: Blue China Pants
+- code: 1060085
+  name: Brown China Pants
+- code: 1060086
+  name: Green China Pants
+- code: 1060087
+  name: Light Scorpio Pants
+- code: 1060088
+  name: Oaker Scorpio Pants
+- code: 1060089
+  name: Dark Scorpio Pants
+- code: 1060090
+  name: Bronze Platine Pants
+- code: 1060091
+  name: Mithril Platine Pants
+- code: 1060092
+  name: Orihalcon Platine Pants
+- code: 1060093
+  name: Brown Studded Pants
+- code: 1060094
+  name: Blue Studded Pants
+- code: 1060095
+  name: Dark Studded Pants
+- code: 1060096
+  name: Old School Uniform Pants
+- code: 1060097
+  name: Green Pirate Pants
+- code: 1060098
+  name: Red Pirate Pants
+- code: 1060099
+  name: Dark Pirate Pants
+- code: 1060100
+  name: Green Commodore Pants
+- code: 1060101
+  name: Blue Commodore Pants
+- code: 1060102
+  name: Dark Commodore Pants
+- code: 1060103
+  name: Hawaiian Skirt
+- code: 1060104
+  name: Green Osfa Pants
+- code: 1060105
+  name: Brown Osfa Pants
+- code: 1060106
+  name: Purple Osfa Pants
+- code: 1060107
+  name: Red Osfa Pants
+- code: 1060108
+  name: Torn-up Jeans
+- code: 1060109
+  name: Green Neos Pants
+- code: 1060110
+  name: Blue Neos Pants
+- code: 1060111
+  name: Black Neos Pants
+- code: 1060112
+  name: Prep School Uniform Pants
+- code: 1060113
+  name: Blue Leggings
+- code: 1060114
+  name: Washed Jeans
+- code: 1060116
+  name: Military Cargo Shorts
+- code: 1060117
+  name: Tropical Shorts
+- code: 1060118
+  name: Orange Puffy Pants
+- code: 1060119
+  name: Denim Wrinkled skirt
+- code: 1060120
+  name: Tania Tartan Pants
+- code: 1060121
+  name: Mercury Washed Jeans
+- code: 1060122
+  name: Pink Miniskirt
+- code: 1060123
+  name: Blue Sailor Skirt
+- code: 1060125
+  name: Blue Skirt (m)
+- code: 1060126
+  name: Black Wakeboard Pants
+- code: 1060127
+  name: Stirgeman's Utility Pants
+- code: 1060128
+  name: Stirgeman Utility Pants Mk II
+- code: 1060129
+  name: Stirgeman Utility Pants Mk III
+- code: 1060130
+  name: Stirgeman Utility Pants Mk IV
+- code: 1060131
+  name: Stirgeman Utility Pants Mk V
+- code: 1060132
+  name: Stirgeman Power Pants
+- code: 1060133
+  name: Stirgeman Power Pants Mk II
+- code: 1060134
+  name: King Pepe White Martial Arts Shorts
+- code: 1060135
+  name: King Pepe Dark Legolier Pants
+- code: 1060136
+  name: King Pepe Black Knucklevest Pants
+- code: 1061000
+  name: Blue Bell Dress
+- code: 1061001
+  name: Blue Sailor Skirt
+- code: 1061002
+  name: Red Miniskirt
+- code: 1061003
+  name: Red Qi Pao Pants
+- code: 1061004
+  name: Pink Miniskirt
+- code: 1061005
+  name: Roll-up Jean
+- code: 1061006
+  name: Green Able Armor Skirt
+- code: 1061007
+  name: Red Sailor Skirt
+- code: 1061008
+  name: Indigo Miniskirt
+- code: 1061009
+  name: Green Avelin Skirt
+- code: 1061010
+  name: Black Armine Skirt
+- code: 1061011
+  name: Green Armine Skirt
+- code: 1061012
+  name: Purple Arianne Skirt
+- code: 1061013
+  name: Green Arianne Skirt
+- code: 1061014
+  name: Rookie Pants
+- code: 1061015
+  name: Blue Shark Skirt
+- code: 1061016
+  name: Red Ramel Skirt
+- code: 1061017
+  name: Green Ramel Skirt
+- code: 1061018
+  name: Brown Ramel Skirt
+- code: 1061019
+  name: Sky Shark Skirt
+- code: 1061020
+  name: Red Shark Skirt
+- code: 1061021
+  name: Pink Arianne Skirt
+- code: 1061022
+  name: Yellow Arianne Skirt
+- code: 1061023
+  name: Sophia Pants
+- code: 1061024
+  name: Green Shivermail Skirt
+- code: 1061025
+  name: Red Shivermail Skirt
+- code: 1061026
+  name: Purple Shivermail Skirt
+- code: 1061027
+  name: Black Split Skirt
+- code: 1061028
+  name: White Split Skirt
+- code: 1061029
+  name: Red Cloth Pants
+- code: 1061030
+  name: Blue Cloth Pants
+- code: 1061031
+  name: Black Cloth Pants
+- code: 1061032
+  name: Purple Qi Pao Pants
+- code: 1061033
+  name: Blue Qi Pao Pants
+- code: 1061034
+  name: Purple Fairy Skirt
+- code: 1061035
+  name: Green Fairy Skirt
+- code: 1061036
+  name: Blue Fairy Skirt
+- code: 1061037
+  name: Red Nightshift Pants
+- code: 1061038
+  name: Brown Nightshift Pants
+- code: 1061039
+  name: Pink Cotton Boxers
+- code: 1061040
+  name: Red Qi Pao Skirt
+- code: 1061041
+  name: Purple Qi Pao Skirt
+- code: 1061042
+  name: Blue Qi Pao Skirt
+- code: 1061043
+  name: Red Steal Pants
+- code: 1061044
+  name: Black Steal Pants
+- code: 1061045
+  name: Blue Steal Pants
+- code: 1061046
+  name: Purple Steal Pants
+- code: 1061047
+  name: Red Amoria Skirt
+- code: 1061048
+  name: Blue Amoria Skirt
+- code: 1061049
+  name: Black Amoria Skirt
+- code: 1061050
+  name: Green Huntress Pants
+- code: 1061051
+  name: Black Huntress Pants
+- code: 1061052
+  name: Red Huntress Pants
+- code: 1061053
+  name: Dark Sneak Pants
+- code: 1061054
+  name: Blood Sneak Pants
+- code: 1061055
+  name: Sky Sneak Pants
+- code: 1061056
+  name: Gold Sneak Pants
+- code: 1061057
+  name: Yellow Avelin Skirt
+- code: 1061058
+  name: Brown Able Skirt
+- code: 1061059
+  name: Grey Able Skirt
+- code: 1061060
+  name: Red Legolia Pants
+- code: 1061061
+  name: Blue Legolia Pants
+- code: 1061062
+  name: Green Legolia Pants
+- code: 1061063
+  name: Dark Legolia Pants
+- code: 1061064
+  name: Brown Legolia Pants
+- code: 1061065
+  name: Sky Blue Miniskirt
+- code: 1061066
+  name: Yellow Mimi Skirt
+- code: 1061067
+  name: Cowboy Shorts
+- code: 1061068
+  name: Pre-School Uniform Skirt
+- code: 1061069
+  name: Purple Shadow Pants
+- code: 1061070
+  name: Red Shadow Pants
+- code: 1061071
+  name: Dark Shadow Pants
+- code: 1061072
+  name: Red Trainer Pants
+- code: 1061073
+  name: Sky Blue Trainer Pants
+- code: 1061074
+  name: Pink Trainer Pants
+- code: 1061075
+  name: Black Trainer Pants
+- code: 1061076
+  name: Maroon Moon Pants
+- code: 1061077
+  name: Blue Moon Pants
+- code: 1061078
+  name: Brown Moon Pants
+- code: 1061079
+  name: Red Moon Pants
+- code: 1061080
+  name: White Piettra Skirt
+- code: 1061081
+  name: Brown Piettra Skirt
+- code: 1061082
+  name: Dark Piettra Skirt
+- code: 1061083
+  name: Red Jangoon Skirt
+- code: 1061084
+  name: Brown Jangoon Skirt
+- code: 1061085
+  name: Black Jangoon Skirt
+- code: 1061086
+  name: Red Shouldermail Pants
+- code: 1061087
+  name: Ivory Shouldermail Pants
+- code: 1061088
+  name: Dark Shouldermail Pants
+- code: 1061089
+  name: Blue Skirt
+- code: 1061090
+  name: Green Ice Queen Skirt
+- code: 1061091
+  name: Red Ice Queen Skirt
+- code: 1061092
+  name: Blue Ice Queen Skirt
+- code: 1061093
+  name: Light Mantis Pants
+- code: 1061094
+  name: Bloody Mantis Pants
+- code: 1061095
+  name: Umber Mantis Pants
+- code: 1061096
+  name: Aqua Platina Pants
+- code: 1061097
+  name: Violet Platina Pants
+- code: 1061098
+  name: Blood Platina Pants
+- code: 1061099
+  name: Purple Mystique Pants
+- code: 1061100
+  name: Blue Mystique Pants
+- code: 1061101
+  name: Pink Mystique Pants
+- code: 1061102
+  name: Red Mystique Pants
+- code: 1061103
+  name: Old School Uniform (Skirt)
+- code: 1061104
+  name: Green Pirate Skirt
+- code: 1061105
+  name: Red Pirate Skirt
+- code: 1061106
+  name: Dark Pirate Skirt
+- code: 1061107
+  name: SF Ninja Pants
+- code: 1061108
+  name: Red Training Shorts
+- code: 1061109
+  name: Sky Blue Training Shorts
+- code: 1061110
+  name: Pink Training Shorts
+- code: 1061111
+  name: Black Training Shorts
+- code: 1061112
+  name: Pink Frill Pajama Bottom
+- code: 1061113
+  name: Hawaiian Skirt
+- code: 1061114
+  name: Green Osfa Pants
+- code: 1061115
+  name: Brown Osfa Pants
+- code: 1061116
+  name: Purple Osfa Pants
+- code: 1061117
+  name: Red Osfa Pants
+- code: 1061118
+  name: Green Valkyrie Skirt
+- code: 1061119
+  name: Purple Valkyrie Skirt
+- code: 1061120
+  name: Blood Valkyrie Skirt
+- code: 1061121
+  name: Green Lucida Skirt
+- code: 1061122
+  name: Purple Lucida Skirt
+- code: 1061123
+  name: Dark Lucida Skirt
+- code: 1061124
+  name: Red Leggings
+- code: 1061126
+  name: Plitz Skirt
+- code: 1061127
+  name: Blue Diamond Bootcuts
+- code: 1061128
+  name: Pink Diamond Bootcuts
+- code: 1061129
+  name: Butterfly Skirt
+- code: 1061130
+  name: Green Long Skirt
+- code: 1061131
+  name: Blue Slit Skirt
+- code: 1061132
+  name: Skirt Tights
+- code: 1061133
+  name: Orange Long Skirt
+- code: 1061134
+  name: Denim Miniskirt
+- code: 1061135
+  name: Pink Layered Skirt
+- code: 1061136
+  name: Long Khaki Skirt
+- code: 1061137
+  name: Dark Denim Skirt
+- code: 1061138
+  name: Pink-Hearted Hot Pants
+- code: 1061139
+  name: Military Cargo Shorts
+- code: 1061140
+  name: Denim Skirt & Striped Sox
+- code: 1061141
+  name: Tania Tartan Skirt
+- code: 1061142
+  name: Mercury Jean Skirt
+- code: 1061143
+  name: Amorian Pink Skirt
+- code: 1061144
+  name: Blue Jeans
+- code: 1061147
+  name: Old School Uniform Pants (F)
+- code: 1061148
+  name: Pink Frill Swim Skirt
+- code: 1061149
+  name: Stirgeman's Utility Skirt
+- code: 1061150
+  name: Stirgeman Utility Skirt Mk II
+- code: 1061151
+  name: Stirgeman Utility Skirt Mk III
+- code: 1061152
+  name: Stirgeman Utility Skirt Mk IV
+- code: 1061153
+  name: Stirgeman Utility Skirt Mk V
+- code: 1061154
+  name: Stirgeman Power Skirt
+- code: 1061155
+  name: Stirgeman Power Skirt Mk II
+- code: 1061156
+  name: King Pepe Red Shark Skirt
+- code: 1061157
+  name: King Pepe Brown Legolia Pants
+- code: 1061158
+  name: King Pepe Purple Steal Pants
+- code: 1062000
+  name: Ice Jeans
+- code: 1062001
+  name: Sandblasted Jeans
+- code: 1062002
+  name: Brown Hard Leather Pants
+- code: 1062003
+  name: Red Hip-Hop Pants
+- code: 1062004
+  name: Archer Pants
+- code: 1062005
+  name: Lined Hip-Hop Pants
+- code: 1062006
+  name: Bennis Chainpants
+- code: 1062007
+  name: Wizet Plain Suit Pants
+- code: 1062008
+  name: Pink Camping Shorts
+- code: 1062009
+  name: Green Camping Shorts
+- code: 1062010
+  name: Blue Camping Shorts
+- code: 1062011
+  name: Wildcats Baseball Pants (Basic)
+- code: 1062012
+  name: Wildcats Baseball Pants (Home)
+- code: 1062013
+  name: Wildcats Baseball Pants (Away)
+- code: 1062014
+  name: Wildcats Baseball Pants (Alternate)
+- code: 1062015
+  name: Ripped Jeans
+- code: 1062016
+  name: Yellow Snowboard Pants
+- code: 1062017
+  name: Green Snowboard Pants
+- code: 1062018
+  name: Bell-Bottomed Faded Jeans
+- code: 1062019
+  name: Pink Snowboard Pants
+- code: 1062020
+  name: Sky Blue Snowboard Pants
+- code: 1062021
+  name: Jean Shorts
+- code: 1062022
+  name: Old Army Pants
+- code: 1062023
+  name: Baggy Jeans
+- code: 1062024
+  name: Camouflaged Army Pants
+- code: 1062025
+  name: Blue Polka-Dot Pajama Pants
+- code: 1062026
+  name: Red Polka-Dot Pajama Pants
+- code: 1062027
+  name: Prisoner Pants
+- code: 1062028
+  name: Picnic Jean Shorts
+- code: 1062029
+  name: Blue B-Ball Shorts
+- code: 1062030
+  name: Orange B-Ball Shorts
+- code: 1062031
+  name: Checkered Shorts
+- code: 1062032
+  name: Cargo Pants
+- code: 1062033
+  name: Red Checkered Pants
+- code: 1062034
+  name: White Checkered Pants
+- code: 1062035
+  name: Bone Buckled Slack
+- code: 1062038
+  name: Hip Hop Jeans
+- code: 1062039
+  name: White Jeans
+- code: 1062040
+  name: Washed Denim Cargos
+- code: 1062041
+  name: Denim Cargos
+- code: 1062042
+  name: Jeans Chain
+- code: 1062043
+  name: Black Leather Pants
+- code: 1062044
+  name: Red Leather Pants
+- code: 1062045
+  name: Patched Denim Jeans
+- code: 1062046
+  name: Vintage Pocket Pants
+- code: 1062047
+  name: Brisk
+- code: 1062048
+  name: Brown Checkered Pants
+- code: 1062049
+  name: Football Bottom(Home)
+- code: 1062050
+  name: Football Bottom(Away)
+- code: 1062051
+  name: All-Star Blue Jeans
+- code: 1062052
+  name: White Faded Jeans
+- code: 1062053
+  name: Pink-Lined Shorts
+- code: 1062054
+  name: Busy Bee Shorts
+- code: 1062055
+  name: Jailbird Shorts
+- code: 1062056
+  name: Military Cargo Pants
+- code: 1062057
+  name: Scottish Pants
+- code: 1062058
+  name: Inferno Jeans
+- code: 1062059
+  name: Vintage Black Jeans
+- code: 1062060
+  name: Blue Skinny Jeans
+- code: 1062061
+  name: Olive Skinny Jeans
+- code: 1062062
+  name: Red Wine Skinny Jeans
+- code: 1062063
+  name: Dark Rocker Jeans
+- code: 1062064
+  name: Checks Point Pants
+- code: 1062065
+  name: White-Striped Trainer Shorts
+- code: 1062066
+  name: Vintage Sky Blue Jeans
+- code: 1062067
+  name: Summer Capris
+- code: 1062068
+  name: Rainbow Shorts
+- code: 1062069
+  name: Brown Chained Pants
+- code: 1062070
+  name: Painted Blue Jeans
+- code: 1062071
+  name: Low-rise Ripped Jeans
+- code: 1062072
+  name: Relaxed Fit Jeans
+- code: 1062073
+  name: Olive Pumpkin Pants
+- code: 1062074
+  name: Brown Pumpkin Pants
+- code: 1062075
+  name: Vintage Black Pants
+- code: 1062076
+  name: Light Blue Ripped Jeans
+- code: 1062077
+  name: Brown Bubble Jeans
+- code: 1062080
+  name: Amorian Pink Skirt
+- code: 1062081
+  name: Bunny-Padded Snowboard Pants
+- code: 1062082
+  name: Red and Black Warm-ups
+- code: 1062083
+  name: Brown Pocket Shorts
+- code: 1062084
+  name: Jewel Chain Jeans
+- code: 1062085
+  name: '"Black Tie Affair" Dress Pants'
+- code: 1062086
+  name: Dark Master Sergeant Skirt for Transformation
+- code: 1062087
+  name: Red Legollesse Pants for Transformation
+- code: 1062088
+  name: Dark Night Pants for Transformation
+- code: 1062089
+  name: Purple Heart Boxers
+- code: 1062091
+  name: Black Checkered Shorts
+- code: 1062092
+  name: Pink 80s Slacks
+- code: 1062093
+  name: Moss Green Pants
+- code: 1062094
+  name: Ruby-Buckled Shorts
+- code: 1062095
+  name: Milan Jeans
+- code: 1062096
+  name: Practical Linen Trousers
+- code: 1062097
+  name: Ella Blue Denim
+- code: 1062098
+  name: Aqua Jeans
+- code: 1062100
+  name: Rolled-up Baggy Jeans
+- code: 1062101
+  name: Rolled-up Skinny Jeans
+- code: 1062102
+  name: Twinkle Star Blue Jeans
+- code: 1062103
+  name: Baggy Glow-in-the-dark Pants
+- code: 1062104
+  name: Dark Purple Jeans
+- code: 1062105
+  name: Plaid Roll-Up Jeans
+- code: 1062106
+  name: Bunny Frill Pants
+- code: 1062107
+  name: Shooting Star Jeans
+- code: 1062108
+  name: Vintage Jeans
+- code: 1062109
+  name: Neon Skinny Jeans
+- code: 1062110
+  name: Baby Pink Pants
+- code: 1062111
+  name: Blue Ribbon Shorts
+- code: 1062112
+  name: Underpants
+- code: 1062113
+  name: Crayon Shorts
+- code: 1062114
+  name: Pink Heart Shorts
+- code: 1062115
+  name: Simple Warrior Pants
+- code: 1062116
+  name: Star Beach Shorts
+- code: 1062118
+  name: Stone Washed Jeans
+- code: 1062119
+  name: Technicolour Funky Pants

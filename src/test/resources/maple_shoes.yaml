@@ -1,0 +1,834 @@
+- code: 1070000
+  name: Blue Gomushin
+- code: 1070001
+  name: Black Santa Boots
+- code: 1070002
+  name: Kimono Shoes
+- code: 1070003
+  name: Black Shoes of Death
+- code: 1070004
+  name: Blue Western Walkers
+- code: 1070005
+  name: Santa Boy Boots
+- code: 1070006
+  name: Royal Costume Shoes
+- code: 1070007
+  name: Lunar Celebration Shoes
+- code: 1070009
+  name: Paris Wingtips
+- code: 1070014
+  name: Veras Heels [m]
+- code: 1070015
+  name: Bunny Boots [m]
+- code: 1070016
+  name: Dandy Silver Sneaks
+- code: 1071000
+  name: Blue Loose Sox
+- code: 1071001
+  name: Red Loose Sox
+- code: 1071002
+  name: Red Gomushin
+- code: 1071003
+  name: Red Santa Boots
+- code: 1071004
+  name: Pink Nurse Shoes
+- code: 1071005
+  name: White Nurse Shoes
+- code: 1071006
+  name: SF Ninja Shoes
+- code: 1071007
+  name: Bunny Boots
+- code: 1071008
+  name: Kimono Sandals
+- code: 1071009
+  name: Red Western Walkers
+- code: 1071010
+  name: Sea Queen Sandals
+- code: 1071011
+  name: Race Queen Boots
+- code: 1071012
+  name: Diao Chan Shoes
+- code: 1071013
+  name: White Cat Shoes
+- code: 1071014
+  name: Black Cat Shoes
+- code: 1071015
+  name: Maid Shoes
+- code: 1071016
+  name: Santa Girl Boots
+- code: 1071017
+  name: Leopard Print Shoes
+- code: 1071018
+  name: Brown Leather Boots
+- code: 1071019
+  name: Lunar Celebration Pumps
+- code: 1071020
+  name: Veras Heels
+- code: 1071021
+  name: Gothic Boots
+- code: 1071024
+  name: Black Dress Shoes [f]
+- code: 1071025
+  name: Paris Wingtips [f]
+- code: 1071026
+  name: White High Top
+- code: 1072000
+  name: Brown Jangoon Shoes
+- code: 1072001
+  name: Red Rubber Boots
+- code: 1072002
+  name: Steel Trigger
+- code: 1072003
+  name: Emerald Battle Grieves
+- code: 1072004
+  name: White Gomushin
+- code: 1072005
+  name: Leather Sandals
+- code: 1072006
+  name: Brown Basic Boots
+- code: 1072007
+  name: Brown High Boots
+- code: 1072008
+  name: Bronze Aroa Boots
+- code: 1072009
+  name: Steel Grieves
+- code: 1072010
+  name: Black Dress Shoes
+- code: 1072011
+  name: Mithril War Boots
+- code: 1072012
+  name: Red Whitebottom Boots
+- code: 1072013
+  name: Red Air H's
+- code: 1072014
+  name: Camping Boots
+- code: 1072015
+  name: Brown Hard Leather Boots
+- code: 1072016
+  name: Green Woodsman Boots
+- code: 1072017
+  name: Blue Ankle-strap Sandals
+- code: 1072018
+  name: Blue Sneakers
+- code: 1072019
+  name: Blue Jewelry Boots
+- code: 1072020
+  name: Purple Jewelry Boots
+- code: 1072021
+  name: Red Jewelry Boots
+- code: 1072022
+  name: Black Enamel Boots
+- code: 1072023
+  name: Beige Nitty
+- code: 1072024
+  name: Black Nitty
+- code: 1072025
+  name: Deer Huntertop
+- code: 1072026
+  name: Rabbit Huntertop
+- code: 1072027
+  name: Brown Jack Boots
+- code: 1072028
+  name: White Ninja Sandals
+- code: 1072029
+  name: Yellow Ninja Sandals
+- code: 1072030
+  name: Blue Ninja Sandals
+- code: 1072031
+  name: Red Ninja Sandals
+- code: 1072032
+  name: Bronze Chain Boots
+- code: 1072033
+  name: Iron Chain Boots
+- code: 1072034
+  name: Green Jack Boots
+- code: 1072035
+  name: Silver Chain Boots
+- code: 1072036
+  name: Gold Chain Boots
+- code: 1072037
+  name: Yellow Rubber Boots
+- code: 1072038
+  name: Blue Rubber Boots
+- code: 1072039
+  name: Mithril Battle Grieves
+- code: 1072040
+  name: Silver Battle Grieves
+- code: 1072041
+  name: Blood Battle Grieves
+- code: 1072042
+  name: Black Gomushin
+- code: 1072043
+  name: Smelly Gomushin
+- code: 1072044
+  name: Yellow Basic Boots
+- code: 1072045
+  name: Blue Basic Boots
+- code: 1072046
+  name: Orange High Boots
+- code: 1072047
+  name: Blue High Boots
+- code: 1072048
+  name: Brown Aroa Boots
+- code: 1072049
+  name: Green Aroa Boots
+- code: 1072050
+  name: Bronze Grieves
+- code: 1072051
+  name: Silver War Boots
+- code: 1072052
+  name: Dark War Boots
+- code: 1072053
+  name: Gold War Boots
+- code: 1072054
+  name: Orange Whitebottom Boots
+- code: 1072055
+  name: Pink Whitebottom Boots
+- code: 1072056
+  name: Blue Whitebottom Boots
+- code: 1072057
+  name: Blue Air H's
+- code: 1072058
+  name: Black Air H's
+- code: 1072059
+  name: Green Hard Leather Boots
+- code: 1072060
+  name: Brown Woodsman Boots
+- code: 1072061
+  name: Blue Woodsman Boots
+- code: 1072062
+  name: Red Ankle-strap Sandals
+- code: 1072063
+  name: Brown Ankle-strap Sandals
+- code: 1072064
+  name: Red Sneakers
+- code: 1072065
+  name: Red Enamel Boots
+- code: 1072066
+  name: Blue Enamel Boots
+- code: 1072067
+  name: Bear Huntertop
+- code: 1072068
+  name: Lion Huntertop
+- code: 1072069
+  name: Red Jack Boots
+- code: 1072070
+  name: Blue Gidder Shoes
+- code: 1072071
+  name: Brown Gidder Shoes
+- code: 1072072
+  name: Silver Windshoes
+- code: 1072073
+  name: Yellow Windshoes
+- code: 1072074
+  name: Black Windshoes
+- code: 1072075
+  name: Red Magicshoes
+- code: 1072076
+  name: Blue Magicshoes
+- code: 1072077
+  name: White Magicshoes
+- code: 1072078
+  name: Black Magicshoes
+- code: 1072079
+  name: Red Hunter Boots
+- code: 1072080
+  name: Blue Hunter Boots
+- code: 1072081
+  name: Green Hunter Boots
+- code: 1072082
+  name: Black Hunter Boots
+- code: 1072083
+  name: Brown Hunter Boots
+- code: 1072084
+  name: Blue Lappy Boots
+- code: 1072085
+  name: Red Lappy Boots
+- code: 1072086
+  name: Green Lappy Boots
+- code: 1072087
+  name: Black Lappy Boots
+- code: 1072088
+  name: Cowboy Boots
+- code: 1072089
+  name: Purple Salt Shoes
+- code: 1072090
+  name: Red Salt Shoes
+- code: 1072091
+  name: Black Salt Shoes
+- code: 1072092
+  name: Yellow Flippers
+- code: 1072093
+  name: Blue Flippers
+- code: 1072094
+  name: Yellow Rain Boots
+- code: 1072095
+  name: Sky Blue Rain Boots
+- code: 1072096
+  name: Red Rain Boots
+- code: 1072097
+  name: Green Rain Boots
+- code: 1072098
+  name: Blue Baseball Cleats
+- code: 1072099
+  name: Red Baseball Cleats
+- code: 1072100
+  name: Black Baseball Cleats
+- code: 1072101
+  name: Blue Silky Boots
+- code: 1072102
+  name: Green Silky Boots
+- code: 1072103
+  name: Red Silky Boots
+- code: 1072104
+  name: Red White-Lined Boots
+- code: 1072105
+  name: Green White-Lined Boots
+- code: 1072106
+  name: Blue White-Lined Boots
+- code: 1072107
+  name: Black Red-Lined Shoes
+- code: 1072108
+  name: Black Green-Lined Shoes
+- code: 1072109
+  name: Black Yellow-Lined Shoes
+- code: 1072110
+  name: Black Blue-Lines Shoes
+- code: 1072111
+  name: Black Leather Boots
+- code: 1072112
+  name: Mithril Trigger
+- code: 1072113
+  name: Dark Trigger
+- code: 1072114
+  name: Red Moon Shoes
+- code: 1072115
+  name: Blue Moon Shoes
+- code: 1072116
+  name: Gold Moon Shoes
+- code: 1072117
+  name: Dark Moon Shoes
+- code: 1072118
+  name: Red Pierre Shoes
+- code: 1072119
+  name: Yellow Pierre Shoes
+- code: 1072120
+  name: Brown Pierre Shoes
+- code: 1072121
+  name: Blue Pierre Shoes
+- code: 1072122
+  name: Brown Steel-Tip Boots
+- code: 1072123
+  name: Green Steel-Tip Boots
+- code: 1072124
+  name: Blue Steel-Tip Boots
+- code: 1072125
+  name: Purple Steel-Tip Boots
+- code: 1072126
+  name: Maroon Jangoon Shoes
+- code: 1072127
+  name: Blue Jangoon Shoes
+- code: 1072128
+  name: Blue Goni Shoes
+- code: 1072129
+  name: Green Goni Shoes
+- code: 1072130
+  name: Red Goni Shoes
+- code: 1072131
+  name: Purple Goni Shoes
+- code: 1072132
+  name: Emerald Hildon Boots
+- code: 1072133
+  name: Mithril Hildon Boots
+- code: 1072134
+  name: Orihalcon Hildon Boots
+- code: 1072135
+  name: Gold Hildon Boots
+- code: 1072136
+  name: Pink Goldrunners
+- code: 1072137
+  name: Green Goldrunners
+- code: 1072138
+  name: Orange Goldrunners
+- code: 1072139
+  name: Blue Goldrunners
+- code: 1072140
+  name: Pink Goldwind Shoes
+- code: 1072141
+  name: Blue Goldwind Shoes
+- code: 1072142
+  name: Purple Goldwind Shoes
+- code: 1072143
+  name: Green Goldwind Shoes
+- code: 1072144
+  name: Red Gore Boots
+- code: 1072145
+  name: Blue Gore Boots
+- code: 1072146
+  name: Green Gore Boots
+- code: 1072147
+  name: Sapphire Camel Boots
+- code: 1072148
+  name: Orihalcon Camel Boots
+- code: 1072149
+  name: Blood Camel Boots
+- code: 1072150
+  name: Blood Moss Boots
+- code: 1072151
+  name: Gold Moss Boots
+- code: 1072152
+  name: Dark Moss Boots
+- code: 1072153
+  name: Transparent Shoes
+- code: 1072154
+  name: Blue Carzen Boots
+- code: 1072155
+  name: Purple Carzen Boots
+- code: 1072156
+  name: Dark Carzen Boots
+- code: 1072157
+  name: Blue Lapiz Sandals
+- code: 1072158
+  name: Red Lapiz Sandals
+- code: 1072159
+  name: Brown Lapiz Sandals
+- code: 1072160
+  name: Gold Lapiz Sandals
+- code: 1072161
+  name: Purple Mystique Shoes
+- code: 1072162
+  name: Blue Mystique Shoes
+- code: 1072163
+  name: Red Mystique Shoes
+- code: 1072164
+  name: Blue Elf Shoes
+- code: 1072165
+  name: Baige Elf Shoes
+- code: 1072166
+  name: Green Elf Shoes
+- code: 1072167
+  name: Dark Elf Shoes
+- code: 1072168
+  name: Red Snowshoes
+- code: 1072169
+  name: Blue Snowshoes
+- code: 1072170
+  name: Green Snowshoes
+- code: 1072171
+  name: Black Snowshoes
+- code: 1072172
+  name: Green Pirate Boots
+- code: 1072173
+  name: Red Pirate Boots
+- code: 1072174
+  name: Dark Pirate Boots
+- code: 1072175
+  name: Ninja Shoes
+- code: 1072176
+  name: Military Boots
+- code: 1072177
+  name: Green Enigma Shoes
+- code: 1072178
+  name: Purple Enigma Shoes
+- code: 1072179
+  name: Dark Enigma Shoes
+- code: 1072180
+  name: Flipper Boots
+- code: 1072181
+  name: Green Ting Slippers
+- code: 1072182
+  name: Blue Wing Boots
+- code: 1072183
+  name: Red Wing Boots
+- code: 1072184
+  name: Green Wing Boots
+- code: 1072185
+  name: Dark Wing Boots
+- code: 1072186
+  name: Kitty Slipper
+- code: 1072187
+  name: Blue Marble Slippers
+- code: 1072188
+  name: Red Marble Slippers
+- code: 1072189
+  name: Bunny Slippers
+- code: 1072190
+  name: Blue B-ball Sneakers
+- code: 1072191
+  name: Orange B-ball Sneakers
+- code: 1072192
+  name: Green Osfa Boots
+- code: 1072193
+  name: Brown Osfa Boots
+- code: 1072194
+  name: Purple Osfa Boots
+- code: 1072195
+  name: Red Osfa Boots
+- code: 1072196
+  name: Emerald War Greave
+- code: 1072197
+  name: Orihalcon War Greave
+- code: 1072198
+  name: Dark War Greave
+- code: 1072199
+  name: Ragged Korean Rubber Shoes
+- code: 1072200
+  name: Brown Dress Shoes
+- code: 1072201
+  name: Red Leather Boots
+- code: 1072202
+  name: Mesoranger Boots
+- code: 1072203
+  name: Red Ades Shoes
+- code: 1072204
+  name: Green Ades Shoes
+- code: 1072205
+  name: Dark Ades Shoes
+- code: 1072206
+  name: Blue Neli Shoes
+- code: 1072207
+  name: Green Neli Shoes
+- code: 1072208
+  name: Red Neli Shoes
+- code: 1072209
+  name: Dark Neli Shoes
+- code: 1072210
+  name: Red Rivers Boots
+- code: 1072211
+  name: Blue Rivers Boots
+- code: 1072212
+  name: Dark Rivers Boots
+- code: 1072213
+  name: Green Katina Boots
+- code: 1072214
+  name: Blue Katina Boots
+- code: 1072215
+  name: Red Katina Boots
+- code: 1072216
+  name: Dark Katina Boots
+- code: 1072217
+  name: Beige Golashes
+- code: 1072218
+  name: Sky Blue Golashes
+- code: 1072219
+  name: Pink Golashes
+- code: 1072220
+  name: Green Crescent Boots
+- code: 1072221
+  name: Blue Crescent Boots
+- code: 1072222
+  name: Dark Crescent Boots
+- code: 1072223
+  name: Green Varr Shoes
+- code: 1072224
+  name: Blue Varr Shoes
+- code: 1072225
+  name: Red Varr Shoes
+- code: 1072226
+  name: Dark Varr Shoes
+- code: 1072227
+  name: Red Arnah Shoes
+- code: 1072228
+  name: Blue Arnah Shoes
+- code: 1072229
+  name: Green Arnah Shoes
+- code: 1072230
+  name: Black Boxing Shoes
+- code: 1072231
+  name: Blue Boxing Shoes
+- code: 1072232
+  name: Red Boxing Shoes
+- code: 1072233
+  name: Bear Shoes
+- code: 1072234
+  name: Bubbling Slippers
+- code: 1072235
+  name: Slime Slippers
+- code: 1072236
+  name: Guan Yu Shoes
+- code: 1072237
+  name: Zhu-Ge-Liang Shoes
+- code: 1072238
+  name: Violet Snowshoes
+- code: 1072239
+  name: Yellow Snowshoes
+- code: 1072240
+  name: Big Rabbit Feet
+- code: 1072241
+  name: Liu Bei Shoes
+- code: 1072242
+  name: Cao Cao Shoes
+- code: 1072243
+  name: Sun Quan Shoes
+- code: 1072244
+  name: Red Enamel Shoes
+- code: 1072245
+  name: Blue Enamel Shoes
+- code: 1072246
+  name: Pink Sneakers
+- code: 1072247
+  name: Hunting Boots
+- code: 1072250
+  name: Horoscope Shoes
+- code: 1072251
+  name: Pro-Cat Sticker
+- code: 1072252
+  name: Snowboard Boots
+- code: 1072253
+  name: Snowman Shoes
+- code: 1072254
+  name: Football Cleats(Home)
+- code: 1072255
+  name: Football Cleats(Away)
+- code: 1072256
+  name: Teddy Bear Shoes
+- code: 1072257
+  name: Puppy Slippers
+- code: 1072258
+  name: Kitty Slippers
+- code: 1072259
+  name: Chick Slippers
+- code: 1072260
+  name: Penguin Slippers
+- code: 1072261
+  name: Yellow Strap Shoes
+- code: 1072262
+  name: Black Strap Shoes
+- code: 1072263
+  name: Green Strap Shoes
+- code: 1072264
+  name: Silver Strap Shoes
+- code: 1072265
+  name: Blue Soccer Cleats
+- code: 1072266
+  name: Black Soccer Cleats
+- code: 1072267
+  name: Red Soccer Cleats
+- code: 1072268
+  name: Blue Elemental Shoes
+- code: 1072269
+  name: Red Hunter Shoes
+- code: 1072272
+  name: Black Garina Shoes
+- code: 1072273
+  name: Blue Dragon Boots
+- code: 1072274
+  name: Moon Bunny Paws
+- code: 1072275
+  name: Fonla's Slippers
+- code: 1072276
+  name: Booster Shoes
+- code: 1072277
+  name: Red Elf shoes
+- code: 1072278
+  name: Rudolph Slippers
+- code: 1072279
+  name: Super Booster Shoes
+- code: 1072280
+  name: Golden Shoes
+- code: 1072281
+  name: Sachiel Shoes
+- code: 1072282
+  name: Veamoth Shoes
+- code: 1072283
+  name: Janus Shoes
+- code: 1072284
+  name: Zhu Ba Jie Shoes
+- code: 1072285
+  name: Brown Lagger Slipper
+- code: 1072288
+  name: Brown Skeedy Sandals
+- code: 1072291
+  name: Brown Wooden Krag
+- code: 1072294
+  name: Brown Paulie Boots
+- code: 1072297
+  name: Brown Locote Shoes
+- code: 1072300
+  name: Brown Leather Krag
+- code: 1072303
+  name: Brown Double Boots
+- code: 1072306
+  name: Black Basile Boots
+- code: 1072309
+  name: Black Voyson Shoes
+- code: 1072312
+  name: Blue Pageant
+- code: 1072315
+  name: Black Markintz
+- code: 1072318
+  name: Black Duke Barkin Shoes
+- code: 1072321
+  name: Canopus Boots
+- code: 1072322
+  name: Rollerskates
+- code: 1072323
+  name: Starry Slippers
+- code: 1072324
+  name: Piggy Slippers
+- code: 1072325
+  name: Red Slime Slippers
+- code: 1072326
+  name: Yellow Slime Slippers
+- code: 1072327
+  name: Tania En Fuego
+- code: 1072328
+  name: Mercury Lighning
+- code: 1072329
+  name: Flipped Blue High Top
+- code: 1072330
+  name: Checkered Sneakers
+- code: 1072331
+  name: Velcro Vivid High Shoes
+- code: 1072332
+  name: Black Enamel Shoes
+- code: 1072333
+  name: Green Checkered Sneakers
+- code: 1072334
+  name: Red Checkered Sneakers
+- code: 1072335
+  name: Natural Golashes
+- code: 1072336
+  name: Soccer Cleats
+- code: 1072337
+  name: Fluffy Slippers
+- code: 1072338
+  name: Purple Snowshoes
+- code: 1072341
+  name: Orange Checkered Sneakz
+- code: 1072342
+  name: Bosshunter Greaves
+- code: 1072343
+  name: Bosshunter Boots
+- code: 1072344
+  name: Facestompers
+- code: 1072345
+  name: Bosshunter Greaves
+- code: 1072346
+  name: Bosshunter Boots
+- code: 1072347
+  name: Olive Green Kicks
+- code: 1072348
+  name: Elephant Slippers
+- code: 1072349
+  name: Green Checkered Sneakz
+- code: 1072350
+  name: Black High Tops
+- code: 1072351
+  name: Green Ankle Boots for Transformation
+- code: 1072352
+  name: Red Silky Boots for Transformation
+- code: 1072353
+  name: White Ninja Sandals for Transformation
+- code: 1072354
+  name: Black Voyson Shoes for Transformation
+- code: 1072355
+  name: Timeless Grabbe
+- code: 1072356
+  name: Timeless Cabatina
+- code: 1072357
+  name: Timeless Rontano
+- code: 1072358
+  name: Timeless Moonsteed
+- code: 1072359
+  name: Timeless Faraon
+- code: 1072360
+  name: White & Blue Sandals
+- code: 1072361
+  name: Reverse Grabbe
+- code: 1072362
+  name: Reverse Cabatina
+- code: 1072363
+  name: Reverse Rontano
+- code: 1072364
+  name: Reverse Moonsteed
+- code: 1072365
+  name: Reverse Faraon
+- code: 1072366
+  name: Parachute Agent Shoes
+- code: 1072367
+  name: Puffy Ram Shoes
+- code: 1072368
+  name: Ultimate Agent Shoes
+- code: 1072369
+  name: Squishy Shoes
+- code: 1072370
+  name: Gaga Shoes
+- code: 1072371
+  name: Custom Blue High Tops
+- code: 1072373
+  name: Purple Rainbow Sneaks
+- code: 1072374
+  name: Lace Long Boots
+- code: 1072375
+  name: Balrog's Leather Shoes
+- code: 1072376
+  name: Balrog's Fur Shoes
+- code: 1072377
+  name: Treacherous Wolf Shoes
+- code: 1072379
+  name: Yellow Rainbow Sneaks
+- code: 1072380
+  name: White & Blue Sandals
+- code: 1072381
+  name: Aran Combat Shoes
+- code: 1072382
+  name: Brave Soldier Shoes
+- code: 1072383
+  name: Average Musashi Shoes
+- code: 1072384
+  name: Bling Bling Shoes
+- code: 1072388
+  name: Stripe Knee Socks
+- code: 1072392
+  name: Red Ankle-Strap Shoes
+- code: 1072394
+  name: Pink Polka-Dotted Boots
+- code: 1072395
+  name: Mix-n-Match Sneakers
+- code: 1072399
+  name: King Pepe Dark Walker
+- code: 1072400
+  name: King Pepe Black Salt Shoes
+- code: 1072401
+  name: King Pepe Red Silky Boots
+- code: 1072402
+  name: King Pepe Blue Lined Boots
+- code: 1072403
+  name: King Pepe Brown Pirate Shoes
+- code: 1072404
+  name: Alchemist Shoes
+- code: 1072405
+  name: Ninja Shoes
+- code: 1072406
+  name: Chaos Metallic Shoes
+- code: 1072407
+  name: Kawaii Kitty Shoes
+- code: 1072408
+  name: Maple Racing Shoes
+- code: 1072417
+  name: Clown Shoes
+- code: 1072419
+  name: Andras Shoes
+- code: 1072420
+  name: Marbas Shoes
+- code: 1072421
+  name: Valefor Shoes
+- code: 1072422
+  name: Amdusias Shoes
+- code: 1072423
+  name: Crocell Shoes
+- code: 1072427
+  name: Red Christmas Sock
+- code: 1072428
+  name: Green Christmas Sock
+- code: 1072429
+  name: Navy Christmas Sock
+- code: 1072430
+  name: White Christmas Sock
+- code: 1072431
+  name: Yellow Christmas Sock
+- code: 1072432
+  name: Purple Christmas Sock
+- code: 1072437
+  name: Pink Bean Shoes

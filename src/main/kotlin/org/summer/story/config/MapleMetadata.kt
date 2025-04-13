@@ -5,6 +5,10 @@ import kotlinx.serialization.Serializable
 class MapleMetadata {
     val faces: MapleCodeAndNameMetadata = MapleCodeAndNameMetadata("Faces", "/maple_faces.yaml")
     val hairs: MapleCodeAndNameMetadata = MapleCodeAndNameMetadata("Hairs", "/maple_hairs.yaml")
+    val coats: MapleCodeAndNameMetadata = MapleCodeAndNameMetadata("Coats", "/maple_coats.yaml")
+    val pants: MapleCodeAndNameMetadata = MapleCodeAndNameMetadata("Pants", "/maple_pants.yaml")
+    val shoes: MapleCodeAndNameMetadata = MapleCodeAndNameMetadata("Shoes", "/maple_shoes.yaml")
+    val weapons: MapleCodeAndNameMetadata = MapleCodeAndNameMetadata("Weapons", "/maple_weapons.yaml")
 }
 
 class MapleCodeAndNameMetadata(private val type: String, path: String) {
@@ -33,6 +37,59 @@ enum class MapleJobCategory(val code: Int) {
 
         fun fromCode(code: Int): MapleJobCategory {
             return map[code]?: throw IllegalArgumentException("No MapleJob found for code: $code")
+        }
+    }
+}
+
+enum class MapleGender(val code: Byte) {
+    MALE(0),
+    FEMALE(1);
+
+    companion object {
+        private val map = MapleGender.entries.associateBy(MapleGender::code)
+
+        fun fromCode(code: Byte): MapleGender {
+            return map[code]?: throw IllegalArgumentException("No MapleGender found for code: $code")
+        }
+    }
+}
+
+enum class MapleSkinColor(val code: Int) {
+    NORMAL(0),
+    DARK(1),
+    BLACK(2),
+    PALE(3),
+    BLUE(4),
+    GREEN(5),
+    WHITE(9),
+    PINK(10);
+
+    companion object {
+        private val map = MapleSkinColor.entries.associateBy(MapleSkinColor::code)
+
+        fun fromCode(code: Int): MapleSkinColor {
+            return map[code]?: throw IllegalArgumentException("No MapleSkinColor found for code: $code")
+        }
+    }
+}
+
+enum class MapleHairColor(val code: Int) {
+    BLACK(0),
+    RED(1),
+    ORANGE(2),
+    BLONDE(3),
+    GREEN(4),
+    BLUE(5),
+    PURPLE(6),
+    BROWN(7),
+    MISSING_NAME_BLACK(8),
+    MISSING_NAME_RED(9);
+
+    companion object {
+        private val map = MapleHairColor.entries.associateBy(MapleHairColor::code)
+
+        fun fromCode(code: Int): MapleHairColor {
+            return map[code]?: throw IllegalArgumentException("No MapleHairColor found for code: $code")
         }
     }
 }
