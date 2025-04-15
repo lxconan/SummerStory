@@ -1,4 +1,4 @@
-package org.summer.story.server.game
+package org.summer.story.server.login.game
 
 import io.mockk.every
 import io.mockk.mockk
@@ -7,7 +7,6 @@ import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import org.summer.story.net.packet.InPacket
 import org.summer.story.server.login.LoginReceiveOpcode
-import org.summer.story.server.login.game.KeepAliveProcessor
 import org.summer.story.server.players.Player
 import kotlin.test.*
 

@@ -1,4 +1,4 @@
-package org.summer.story.server.game
+package org.summer.story.server.login.game
 
 import io.mockk.every
 import io.mockk.mockk
@@ -12,7 +12,6 @@ import org.summer.story.server.login.dtos.WorldInformationOutDto
 import org.summer.story.server.login.dtos.WorldInformationCompleteOutDto
 import org.summer.story.server.login.dtos.RecommendedWorldOutDto
 import org.summer.story.server.login.dtos.LastConnectedWorldOutDto
-import org.summer.story.server.login.game.ServerListRequestProcessor
 import org.summer.story.server.players.PlayerImpl
 import org.summer.story.server.worlds.WorldDefinitions
 import java.net.Inet4Address

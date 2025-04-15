@@ -1,11 +1,9 @@
-package org.summer.story.server.game
+package org.summer.story.server.login.game
 
 import io.mockk.every
 import io.mockk.mockk
 import org.junit.jupiter.api.Test
 import org.summer.story.server.login.LoginReceiveOpcode
-import org.summer.story.server.login.game.LoginGameProcessorFactory
-import org.summer.story.server.login.game.LoginServerGameProcessor
 import kotlin.test.*
 
 class LoginServerLoginGameProcessorFactoryTest {

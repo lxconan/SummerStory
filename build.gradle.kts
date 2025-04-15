@@ -41,6 +41,7 @@ dependencies {
     testImplementation(kotlin("test"))
     testImplementation("io.mockk:mockk:1.13.17")
     testImplementation("com.h2database:h2:2.3.232")
+    testImplementation("org.junit.jupiter:junit-jupiter-params")
 }
 
 tasks.test {

@@ -4,6 +4,8 @@ import org.summer.story.net.packet.ByteBufOutPacket
 import org.summer.story.server.login.LoginSendOpcode
 
 class LoginFailedOutDto(val reason: Byte) : OutDto() {
+
+    @Suppress("unused")
     enum class WellKnownLoginFailedReason(val reason: Byte) {
         PLAYER_DELETED_OR_BLOCKED(3),
         INCORRECT_PASSWORD(4),

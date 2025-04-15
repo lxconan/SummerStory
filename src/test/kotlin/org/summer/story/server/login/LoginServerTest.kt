@@ -1,11 +1,10 @@
-package org.summer.story.server
+package org.summer.story.server.login
 
 import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import org.summer.story.DatabaseEnabledTest
 import org.summer.story.net.packet.PacketValidator
-import org.summer.story.server.login.LoginServer
 import java.net.Socket
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue

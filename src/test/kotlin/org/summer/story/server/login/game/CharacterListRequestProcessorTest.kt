@@ -1,4 +1,4 @@
-package org.summer.story.server.game
+package org.summer.story.server.login.game
 
 import io.mockk.every
 import io.mockk.mockk
@@ -13,8 +13,6 @@ import org.summer.story.server.NetworkContext
 import org.summer.story.server.login.LoginReceiveOpcode
 import org.summer.story.server.login.dtos.CharacterListOutDto
 import org.summer.story.server.login.dtos.ServerStatusOutDto
-import org.summer.story.server.login.game.CharacterListRequestProcessor
-import org.summer.story.server.login.game.WorldServerStatus
 import org.summer.story.server.players.PlayerImpl
 import org.summer.story.server.worlds.GameChannelImpl
 import org.summer.story.server.worlds.World

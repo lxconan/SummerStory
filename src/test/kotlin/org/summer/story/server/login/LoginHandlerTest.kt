@@ -1,4 +1,4 @@
-package org.summer.story.server
+package org.summer.story.server.login
 
 import io.mockk.every
 import io.mockk.mockk
@@ -8,10 +8,9 @@ import io.netty.channel.ChannelHandlerContext
 import io.netty.channel.socket.SocketChannel
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
+import org.summer.story.server.*
 import org.summer.story.server.login.dtos.OutDto
 import org.summer.story.server.login.game.LoginGameProcessorFactory
-import org.summer.story.server.login.LoginHandler
-import org.summer.story.server.login.LoginSendOpcode
 import java.net.InetSocketAddress
 
 class LoginHandlerTest {

@@ -46,7 +46,7 @@ class CreateCharacterInDto(
 
     init {
         name = msg.readString(charset)
-        if (characterNameValidationService.canCreateCharacter(name)) {
+        if (characterNameValidationService.canCreateCharacter(name).not()) {
             throw IllegalArgumentException("Invalid character name: $name")
         }
 

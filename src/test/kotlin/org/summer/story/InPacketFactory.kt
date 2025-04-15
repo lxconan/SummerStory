@@ -43,4 +43,34 @@ object InPacketFactory {
         }.getBytes()
         return ByteBufInPacket(Unpooled.wrappedBuffer(bytes))
     }
+
+    fun createCreateCharacterRequestWithoutOpCode(
+        name: String,
+        job: Int,
+        face: Int,
+        hair: Int,
+        hairColor: Int,
+        skinColor: Int,
+        top: Int,
+        bottom: Int,
+        shoes: Int,
+        weapon: Int,
+        gender: Byte,
+        charset: Charset
+    ): InPacket {
+        val bytes = ByteBufOutPacket().apply {
+            writeString(name, charset)
+            writeInt(job)
+            writeInt(face)
+            writeInt(hair)
+            writeInt(hairColor)
+            writeInt(skinColor)
+            writeInt(top)
+            writeInt(bottom)
+            writeInt(shoes)
+            writeInt(weapon)
+            writeByte(gender)
+        }.getBytes()
+        return ByteBufInPacket(Unpooled.wrappedBuffer(bytes))
+    }
 }
