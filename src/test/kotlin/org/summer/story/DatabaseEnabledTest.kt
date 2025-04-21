@@ -54,7 +54,7 @@ abstract class DatabaseEnabledTest {
         } as Int
     }
 
-    protected open fun updateKoinModules(koinApplication: KoinApplication) { }
+    protected open fun updateKoinModules(koinApplication: KoinApplication) { /* do nothing by default */ }
 
     @AfterEach
     fun databaseTearDown() {

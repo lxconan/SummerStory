@@ -2,7 +2,6 @@ package org.summer.story.server.login.game
 
 import org.slf4j.LoggerFactory
 import org.summer.story.config.*
-import org.summer.story.data.CharacterRepository
 import org.summer.story.net.packet.InPacket
 import org.summer.story.server.login.LoginReceiveOpcode
 import org.summer.story.server.login.game.service.CharacterNameValidationService
