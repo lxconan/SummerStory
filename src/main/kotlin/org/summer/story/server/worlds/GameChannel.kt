@@ -5,4 +5,5 @@ interface GameChannel {
     val maxPlayers: Int
     val playerCapacity: Int
     val onlinePlayers: Int
+    val world: World
 }

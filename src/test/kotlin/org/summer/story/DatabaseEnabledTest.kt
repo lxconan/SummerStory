@@ -10,7 +10,7 @@ import org.ktorm.database.Database
 import org.ktorm.dsl.insertAndGenerateKey
 import org.summer.story.config.GlobalConfiguration
 import org.summer.story.data.MapleDataSource
-import org.summer.story.data.models.Account
+import org.summer.story.data.models.Accounts
 import org.summer.story.net.encryption.HashAlgorithm
 
 abstract class DatabaseEnabledTest {
@@ -47,7 +47,7 @@ abstract class DatabaseEnabledTest {
 
     protected fun givenAccount(accountName: String, password: String, hardwareId: String = "00010203"): Int {
         val algorithm = koin.get<HashAlgorithm>()
-        return database.insertAndGenerateKey(Account) {
+        return database.insertAndGenerateKey(Accounts) {
             set(it.name, accountName)
             set(it.password, algorithm.sha256(password))
             set(it.hardwareId, hardwareId)

@@ -1,7 +1,7 @@
 package org.summer.story.server.players
 
 import org.summer.story.config.GlobalConfiguration
-import org.summer.story.data.AccountEntity
+import org.summer.story.data.models.AccountEntity
 import org.summer.story.server.login.game.WorldServerStatus
 import org.summer.story.server.login.dtos.*
 import org.summer.story.server.worlds.World

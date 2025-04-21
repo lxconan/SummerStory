@@ -3,7 +3,7 @@ package org.summer.story.server.worlds
 import java.util.concurrent.atomic.AtomicInteger
 
 class GameChannelImpl(
-    private val world: World,
+    override val world: World,
     override val id: Int,
     override val maxPlayers: Int = 100,
 ) : GameChannel {
